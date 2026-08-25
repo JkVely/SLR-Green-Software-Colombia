@@ -1,0 +1,47 @@
+---
+citationKey: piaggesiGreenTransferAdaptation2019
+title: "Green transfer & adaptation program: A korean-colombian digital government project"
+itemType: conferencePaper
+creators:
+  - D. Piaggesi
+  - H. Landazuri
+  - Kaya T.
+publication: Academic Conferences Limited
+date: "2019"
+year: 2019
+url: https://www.scopus.com/pages/publications/85075277528?origin=resultslist
+doi: 10.34190/ECDG.19.032
+tags:
+  - "#Carbon"
+  - "#Environmentally-friendly_technology"
+  - "#Gas_emissions"
+  - "#Green_ICT"
+  - "#Green_computing"
+  - "#Greenhouse_gases"
+  - "#Information_and_Communication_Technologies"
+  - "#Information_and_Communication_Technology_sectors"
+  - "#Information_and_communication_technology_ICT"
+  - "#Information_use"
+  - "#International_development"
+  - "#Knowledge_economy"
+  - "#Ministry_of_environments"
+  - "#Public_and_private_sector"
+  - "#South-south_cooperation"
+  - "#Sustainable_development"
+  - Colombia
+zotflow-locked: true
+zotero-key: KBRSUZJX
+item-version: 330
+library-id: 20202832
+fuente: SCOPUS
+---
+# Green transfer & adaptation program: A korean-colombian digital government project
+## Abstract
+> The Republic of Korea, through its Ministry of Knowledge Economy (MKE) is fostering the adoption of “green technologies” both in public and private sector operations, having established ambitious goals for the development and dissemination of green technology in different production areas. Given Korea’s strong performance in the information and communication technology (ICT) sector, and in line with its green technology drive, Korea is a growing leader in the development of “green ICTs”, a novel and promising application aimed at “encompassing environmentally sustainable information technology and the use of information technology to contribute to environment preservation”1. Korea’s Green ICT policy derives from Korea’s Prime Minister Lee Myung-bak issuance of a “Basic Law on Low-Carbon Green Growth” (2009) which sets an ambitious goal to cut greenhouse gas emissions by 30% below “business-as-usual” projections through 2020 through a low-carbon green-growth policy. The Korean International Development Agency (KOICA), which has representation in Colombia, is in a position to fund pilot projects to facilitate development and transfer of Korean-originated and jointly developed ICT innovations, upon request from Colombia’s sector leader institutions, in this case, the Ministry of Environment and Sustainable Development. The proposed project is aimed at identifying and transferring those Green ICT developed by the Republic of Korea which can be of direct use to a host of Colombian industries volunteering for a pilot attempt at improving production technology through environmentally friendly technology. Besides benefiting these Colombian industries, the project would offer Korean technology innovators the opportunity to show-case their products in the Colombian and Latin American markets. © The Authors, 2019. All Rights Reserved.
+
+## Notes
+<!-- ZF_NOTE_BEG_H6QTK4VY -->
+Export Date: 25 August 2026; Cited By: 0; Conference name: 19th European Conference on Digital Government, ECDG 2019; Conference date: 24 October 2019 through 25 October 2019; Conference code: 154126
+
+<!-- ZF_NOTE_END_H6QTK4VY -->
+
