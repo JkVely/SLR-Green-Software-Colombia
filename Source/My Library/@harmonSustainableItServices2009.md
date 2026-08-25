@@ -39,6 +39,13 @@ fuente: SCOPUS
 ## Abstract
 > Green computing refers to the practice of using computing resources more efficiently while maintaining or increasing overall performance. Sustainable IT services require the integration of green computing practices such as power management, virtualization, improving cooling technology, recycling, electronic waste disposal, and optimization of the IT infrastructure to meet sustainability requirements. Recent studies have shown that costs of power utilized by IT departments can approach 50% of the overall energy costs for an organization. While there is an expectation that green IT should lower costs and the firm's impact on the environment, there has been far less attention directed at understanding the strategic benefits of sustainable IT services in terms of the creation of customer value, business value and societal value. This paper provides a review of the literature on sustainable IT, key areas of focus, and identifies a core set of principles to guide sustainable IT service design. © 2009 PICMET.
 
+## Notas clave
+- Referencia clásica y fundacional del área (146 citas): define computación verde como el uso más eficiente de los recursos de cómputo manteniendo o aumentando el desempeño general.
+- Dato citable: los costos de energía de los departamentos de TI pueden acercarse al 50 por ciento del costo energético total de una organización.
+- Prácticas de green computing que integran servicios TI sostenibles: gestión de energía, virtualización, mejora de tecnologías de refrigeración, reciclaje, disposición de residuos electrónicos y optimización de la infraestructura TI.
+- Aporte conceptual clave: valor estratégico de la TI sostenible en tres dimensiones: valor para el cliente, valor empresarial y valor societal; señala que se ha prestado poca atención a estos beneficios estratégicos frente al ahorro de costos.
+- Uso sugerido: marco teórico e introducción del artículo SLR (definiciones y principios base de green computing y servicios TI sostenibles).
+
 ## Notes
 <!-- ZF_NOTE_BEG_ESX6759P -->
 Export Date: 25 August 2026; Cited By: 146; Conference name: PICMET 2009 - 2009 Portland International Conference on Management of Engineering and Technology; Conference date: 2 August 2009 through 6 August 2009; Conference code: 78443

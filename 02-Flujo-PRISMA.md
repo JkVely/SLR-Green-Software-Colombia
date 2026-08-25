@@ -20,3 +20,9 @@ Cuadro de contadores PRISMA 2020. Actualizar al cerrar cada ronda de búsqueda.
 
 ## Identificados:
 
+Ronda 1 (Scopus, importación inicial a Zotero, corte 2026-08-25): 9 registros.
+
+Notas de la ronda:
+- Duplicado detectado: @demiccoLiteratureReviewEmbedded2019 y @demiccoLiteratureReviewEmbedded2020 (mismos autores, título y revista; DOI distinto). Conservar la versión 2020.
+- Cobertura actual: 3 con vínculo directo a Colombia (picoCFDModellingAir2022 Uniandes, piaggesiGreenTransferAdaptation2019 transferencia Corea, corderoModelIntentAdopt2022 muestra LAC), 2 comparativos regionales (Chile, México/HPC LatAm), 1 clásico foundational (harmon2009), 2 contexto embebido LatAm (demicco, conservar solo uno), 1 educación IST (candidato a exclusión en elegibilidad).
+

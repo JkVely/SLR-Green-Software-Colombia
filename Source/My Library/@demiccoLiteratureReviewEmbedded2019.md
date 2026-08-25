@@ -48,6 +48,12 @@ fuente: SCOPUS
 ## Abstract
 > Embedded system design is crucial for the development of industry, technology, and science, and it is an area that has significantly grown in recent years throughout Latin America, both in academia and in industry. Embedded System (ES) refers to electronic equipment with a computing core which, unlike a personal computer, is designed to meet a specific function and is usually optimized to satisfy strict requirements of processing time, reliability, power consumption, size, and cost. With the advancement of research on the domains of Internet of Things (IoT), Computing Edge (CE) and Cloud Computing (CC) and their endless application possibilities, ESs have gained new roles and assumed unquestionable importance in our daily lives. In this article, we make a brief review of the relevant literature in the area of embedded systems in the Latin America region during recent years. © 2003-2012 IEEE.
 
+## Notas clave
+- ATENCION PRISMA: registro duplicado con @demiccoLiteratureReviewEmbedded2020 (mismos autores, titulo y revista; DOI distinto). Candidato a eliminacion en la etapa de cribado por duplicados. Se recomienda conservar la version 2020 (18 citas frente a 5).
+- Revisión de literatura sobre sistemas embebidos en América Latina (academia e industria); mención tangencial de computación verde como requisito de diseño: consumo energético optimizado junto con tiempo de procesamiento, confiabilidad, tamaño y costo.
+- Contextualiza el crecimiento regional de IoT, Edge y Cloud Computing y su impacto en el diseño de hardware embebido.
+- Uso sugerido: solo contexto regional LatAm; relevancia marginal para green cloud/devops/software engineering.
+
 ## Notes
 <!-- ZF_NOTE_BEG_KVV7QI95 -->
 Export Date: 25 August 2026; Cited By: 5; Correspondence Address: L. De Micco; Instituto de Investigaciones Cientificas y Tecnologicas en Electronica Facultad de Ingenieria, Univ. Nac. de Mar Del Plata Consejo Nacional de Investigaciones Cientificas y Tecnicas Mar Del Plata, Buenos Aires, Argentina; email: ldemicco\@fi.mdp.edu.ar
