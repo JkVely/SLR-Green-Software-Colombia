@@ -12,9 +12,8 @@ doi: 10.4018/978-1-7998-3016-0.ch092
 tags: []
 zotflow-locked: true
 zotero-key: X9UBCPVU
-item-version: 328
+item-version: 370
 library-id: 20202832
-fuente: SCOPUS
 ---
 # The Context of IST for Solid Information Retrieval and Infrastructure Building: Study of Developing Country
 ## Abstract
@@ -22,10 +21,10 @@ fuente: SCOPUS
 
 ## Notas clave
 - Ubica a Colombia junto a China, India, Brasil, Malasia, Mauricio y Sudáfrica como países en desarrollo dependientes de la difusión de conocimiento en Ciencias de la Información y Tecnología (IST).
-- Menciona Cloud Computing, Green Computing y Green Systems entre las áreas emergentes prioritarias para programas académicos de pregrado, maestría y doctorado; incluye análisis FODA de estos programas.
+- Menciona Cloud Computing, Green Computing y Green Systems entre las áreas emergentes prioritarias para programas académicos de pregrado, maestría y doctorado; incluye análisis FODA.
 - Citable para el ángulo de brecha educativa: necesidad urgente de formación formal en áreas green en países en desarrollo incluido Colombia.
 - Debilidades para el SLR: capítulo de libro generalista sobre educación IST (no específico green), 0 citas, sin palabras clave Scopus relevantes. Candidato a EXCLUIR en elegibilidad o usar solo como apoyo contextual en la discusión.
-- Uso sugerido: discusión (brecha de formación) con cita secundaria; no como evidencia principal.
+- Uso sugerido: discusión (brecha de formación) con cita secundaria; no como evidencia técnica principal.
 
 ## Notes
 <!-- ZF_NOTE_BEG_DME7KCSK -->

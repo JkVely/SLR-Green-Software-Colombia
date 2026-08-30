@@ -52,6 +52,14 @@ fuente: SCOPUS
 - Oportunidad de investigación abierta que puedes señalar en el artículo: Bogotá y otras ciudades andinas tienen condiciones naturales favorables para free-cooling, sin estudios publicados equivalentes.
 - Uso sugerido: resultados (cifras regionales de consumo) y discusión comparativa Colombia vs Chile.
 
+## Notas clave
+- Datos citables sobre consumo energético de centros de datos en LatAm: demanda estimada de 3,85 GW en 2016 (fuente DatacenterDynamics); la industria chilena de DCs creció 14% entre 2009-2010, y su consumo energético aumentó 21,4% entre 2012-2013.
+- Análisis termodinámico del potencial de free-cooling (enfriamiento gratuito por aire exterior) para centros de datos chilenos: mediciones de temperatura y humedad relativa en 29 estaciones meteorológicas durante tres años, evaluadas contra los requisitos térmicos ASHRAE.
+- Hallazgos: Chile es un país relativamente húmedo, por lo que el aire debe deshumidificarse la mayor parte del tiempo; se evaluaron ubicaciones con alta disponibilidad de fibra óptica, posición estratégica empresarial y bajas temperaturas anuales.
+- Citable como caso comparativo (Chile) de eficiencia energética en centros de datos impulsada desde la ingeniería local; contraste útil con la ausencia de estudios equivalentes para el clima colombiano.
+- Oportunidad de investigación abierta: Bogotá y otras ciudades andinas tienen condiciones naturales favorables para free-cooling, sin estudios publicados equivalentes.
+- Uso sugerido: resultados (cifras regionales de consumo) y discusión comparativa Colombia vs Chile.
+
 ## Notes
 <!-- ZF_NOTE_BEG_IGLDJQUY -->
 Export Date: 25 August 2026; Cited By: 2; Funding details: CONICYT-Chile; Fondo Nacional de Desarrollo Científico y Tecnológico, FONDECYT, (11160172); Conference name: 16th IEEE InterSociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems, ITherm 2017; Conference date: 30 May 2017 through 2 June 2017; Conference code: 129570

@@ -46,6 +46,13 @@ fuente: SCOPUS
 - Aporte conceptual clave: valor estratégico de la TI sostenible en tres dimensiones: valor para el cliente, valor empresarial y valor societal; señala que se ha prestado poca atención a estos beneficios estratégicos frente al ahorro de costos.
 - Uso sugerido: marco teórico e introducción del artículo SLR (definiciones y principios base de green computing y servicios TI sostenibles).
 
+## Notas clave
+- Referencia clásica y fundacional del área (146 citas): define computación verde como el uso más eficiente de los recursos de cómputo manteniendo o aumentando el desempeño general.
+- Dato citable: los costos de energía de los departamentos de TI pueden acercarse al 50% del costo energético total de una organización.
+- Prácticas de green computing que integran servicios TI sostenibles: gestión de energía, virtualización, mejora de tecnologías de refrigeración, reciclaje, disposición de residuos electrónicos y optimización de la infraestructura TI.
+- Aporte conceptual clave: valor estratégico de la TI sostenible en tres dimensiones: valor para el cliente, valor empresarial y valor societal; señala que se ha prestado poca atención a estos beneficios estratégicos frente al ahorro de costos.
+- Uso sugerido: marco teórico e introducción del artículo SLR (definiciones y principios base de green computing y servicios TI sostenibles).
+
 ## Notes
 <!-- ZF_NOTE_BEG_ESX6759P -->
 Export Date: 25 August 2026; Cited By: 146; Conference name: PICMET 2009 - 2009 Portland International Conference on Management of Engineering and Technology; Conference date: 2 August 2009 through 6 August 2009; Conference code: 78443

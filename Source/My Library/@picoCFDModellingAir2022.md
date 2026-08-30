@@ -52,6 +52,14 @@ fuente: SCOPUS
 - Autores de Universidad de los Andes (Bogotá); 1 cita reportada al momento de la consulta.
 - Uso sugerido: resultados (desarrollos green en Colombia) y discusión (existencia de capacidad técnica aislada frente a ausencia de agenda nacional).
 
+## Notas clave
+- EL trabajo técnico colombiano de la colección: análisis con dinámica de fluidos computacional (CFD) del sistema de aire acondicionado de un centro de datos Tier 2 de la Universidad de los Andes (Bogotá, Colombia).
+- Metodología: mediciones in situ de humedad y temperatura para desarrollar y validar el modelo CFD; evaluación de dos escenarios operativos (24 horas a plena capacidad; análisis no estacionario por turnos de 12 horas).
+- Hallazgos: la disposición del centro de datos y de los corredores presenta fallas de diseño y operación que el sistema actual de aire acondicionado no logra superar; el análisis CFD aporta información accionable sobre eficiencia de refrigeración y flujos de aire.
+- Citable como evidencia de capacidad técnica local: ingeniería colombiana publicando en revista internacional de eficiencia energética (Advances in Building Energy Research), aunque aplicada a un DC institucional puntual, sin marco de política pública ni escalabilidad nacional.
+- Autores de Universidad de los Andes (Bogotá); 1 cita reportada.
+- Uso sugerido: resultados (desarrollos green en Colombia) y discusión (existencia de capacidad técnica aislada frente a ausencia de agenda nacional).
+
 ## Notes
 <!-- ZF_NOTE_BEG_L8NTX7Y8 -->
 Export Date: 25 August 2026; Cited By: 1; Correspondence Address: J.P. Valdés; Department of Chemical Engineering, Universidad de los Andes, Bogotá, Carrera 1 # 18a-12, Colombia; email: jp.valdes10\@uniandes.edu.co
