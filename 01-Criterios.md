@@ -1,83 +1,59 @@
-# Criterios
+---
+citationKey: criterios-investigacion
+title: Criterios de Selección de Literatura para la SLR
+itemType: guide
+creators:
+  - - Autor/Admin
+publication:
+  - Manual de Protocolo
+date: 2024-08-30
+year: 2024
+tags:
+  - "#Metodología"
+  - "#PRISMA"
+zotflow-locked: true
+zotero-key: GUIIYV4H
+item-version: 500
+library-id: 20202832
+fuente: Manual de la Investigación
+---
+# Criterios de Elección y Exclusión de Artículos (PRISMA)
 
-## Criterios de inclusión
+## Criterios de Inclusión
+- **Tema Central:** Estudios que analicen la sostenibilidad energética y de procesos (Green IT, Green Cloud, Green Software, Green DevOps).
+- **Geografía:** Artículos con foco en Latinoamérica o que los traten como caso de estudio.
+- **Tipo de Fuente:** Artículos de revisión sistemática o estudios de caso (mayor nivel de detalle) que cuantifiquen el beneficio energético.
+- **Estado:** Evidencia de propuestas de política o marcos de trabajo, no solo de la tecnología (Ej. Transmisión de tecnología).
 
-- Documentos (artículos, conferencias, revisiones) que traten sobre Green Cloud, Green DevOps o Green Software Engineering.
-- Documentos con mención explícita a políticas, desarrollos o estado del arte en al menos una región (Colombia, Europa, China, Latinoamérica).
-- Disponibles al menos en resumen/abstract en inglés o español.
-- Indexados en las bases de búsqueda principales (IEEE Xplore, Scopus, ACM DL) o con DOI/ISBN detectable.
-
-## Criterios de exclusión
-
-- Documentos que solo mencionen "green" o sostenibilidad sin relación con cloud/devops/software engineering.
-- Papeles de postura sin fundamentación técnica o evaluación empírica.
-- Duplicados (mismo artículo en múltiples bases).
-- Documentos puramente teóricos sin componente de desarrollo, política o evaluación.
+## Criterios de Exclusión
+- **Tema Genérico:** Artículos que hablan de "sostenibilidad" pero no la vinculan explícitamente y con métricas de IT o ingeniería.
+- **Imposible de verificar:** Papers muy antiguos o con información demasiado generalista.
+- **Limitación de Acceso:** Exclusión de ACM DL por requerir acceso premium (Paid Access). Este filtro debe quedar documentado para futuras búsquedas.
 
 ## Queries de búsqueda por base de datos
 
-### IEEE Xplore
+### Fase 1: Bases Indexadas (Scopus, IEEE Xplore)
+Strings utilizados para la búsqueda inicial de literatura técnica y revisada por pares.
 
+**IEEE Xplore / Scopus:**
 ```
-("green cloud" OR "green computing" OR "sustainable cloud" OR "energy-efficient computing") 
-AND ("Colombia" OR "Bogotá" OR "Medellín" OR "Universidad Nacional" OR "Universidad de los Andes")
-```
-**Nota:** Los resultados se filtrarán por rango de años (2010-2024) directamente en la interfaz de IEEE Xplore o se anotará el rango en la documentación de búsqueda. El objetivo es capturar la mayor cantidad relevante; después se aplicarán filtros de elegibilidad.
-
-### Scopus
-
-```
-TITLE-ABS-KEY(("green cloud" OR "green computing" OR "sustainable cloud" OR "green software engineering" OR "green devops")) 
-AND TITLE-ABS-KEY(("Colombia") OR "Latin America")
+TITLE-ABS-KEY(("green cloud" OR "green computing" OR "sustainable cloud" OR "green software engineering" OR "green devops") AND ("Colombia" OR "Latin America")) 
 AND PUBYEAR > 2010 AND PUBYEAR < 2025
 ```
 
-**Limitación documented:** No permite exportación masiva fiable (>1000 resultados) ni búsqueda reproducible al 100%; usará solo para snowballing/caza de papers que se escapen de las otras 3 bases. Total de registros a reportar en el flujo PRISMA será menor o se anotará como "consulta complementaria".
+### Fase 2: Búsqueda Complementaria (Google Scholar)
+Ejecutada el 29 y 30 de agosto para capturar literatura gris, tesis y artículos recientes no indexados.
 
-### ACM Digital Library
-
+**Query optimizada (Busqueda general):**
 ```
-("Green Cloud" OR "Green Computing" OR "Sustainable Cloud" OR "Green DevOps" OR "Green Software Engineering") 
-AND ("Colombia" OR "LatAm" OR "Latin America")
-AND PUBYEAR > 2010 AND PUBYEAR < 2025
+"green cloud" OR "green computing" OR "green software" Colombia
 ```
+**Soporte Técnico:** Uso de Google Scholar Labs para optimización de resultados y filtrado inteligente.
 
-### Google Scholar *(fuente complementaria - documenting limitations)*
+**Nota de Exclusión:** Se excluyó el filtro de ACM DL porque las búsquedas avanzadas y complejas en esta base de datos requieren un pago premium, limitando la replicabilidad del proceso de búsqueda en este proyecto.
 
-```
-("Green Cloud" OR "Green Computing" OR "Green Software Engineering" OR "Green DevOps") 
-AND ("Colombia" OR "Latin America")
-```
-**Limitación documented:** No permite exportación masiva fiable (>1000 resultados) ni búsqueda reproducible al 100%; usará solo para snowballing/caza de papers que se escapen de las otras 3 bases. Total de registros a reportar en el flujo PRISMA será menor o se anotará como "consulta complementaria".
-
-## Documentación de búsqueda
-
-## Testing & Refining (iteración de búsquedas)
-
-Tras ejecutar cada query anota:
-
-| Base | n identificados | Papeles irrelevantes principales | Ajuste a aplicar |
-|------|----------------|----------------------------------|-----------------|
-| IEEE |  |  | Revisar si faltan términos sinónimos ("energy-efficient computing") |
-| Scopus |  |  | Añadir `AND PUBYEAR > 2012` si muchos resultados muy antiguos |
-| ACM |  |  | Probar con `"Green Software Engineering"` entre comillas simples vs dobles |
-| Google Scholar |  |  | Documentar límite 1000 resultados; usar solo para snowballing |
-
-### Ejemplos de ajustes comunes:
-
-1. **Si muchos papers de educación/género** (como el que te salió): Añade `AND (cloud OR computing)` al final, o `AND (sustainable OR energy)` para estrechar.
-
-2. **Si pocos resultados**: Ampliar los sinónimos: añade `"green IT"` o `"sustainable IT"` a la disyunción.
-
-3. **Si papers de China/Europa pero pocos de Colombia**: Verifica que los términos de país no estén en el abstract solo por citar región; quizás añadir `TITLE-ABS-KEY` en Scopus para forzar mención en título.
-
----
-
-## Documentación de búsqueda
-
-Registrar en `02-Flujo-PRISMA.md`:
-- n identificados por cada base
-- n duplicados eliminados
-- n después cribado (título/abstract)
-- n después elegibilidad (texto completo)
-- n incluidos en revisión final
+## Notes
+## Attachments
+- [Placeholder for screenshots of search results.](obsidian://zotflow?type=open-attachment&libraryID=20202832&key=PRISMA_SCREENSHOT)
+- 
+## Notes
