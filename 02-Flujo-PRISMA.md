@@ -7,7 +7,7 @@ Cuadro de contadores PRISMA 2020. Actualizar al cerrar cada ronda de búsqueda.
 | **1. Identificados** (registros localizados en todas las fuentes)      | `135`  |
 | **2. Duplicados** (eliminados)                                         | `7`    |
 | **3. Después cribado** (título y abstract)                             | `36`   |
-| **4. Después elegibilidad** (texto completo evaluado contra criterios) | `24`   |
+| **4. Después elegibilidad** (texto completo evaluado contra criterios) | `27`   |
 | **5. Incluidos** (estudios finales incluidos en la revisión)           | `24`   |
 
 > **Notas para llenar:**

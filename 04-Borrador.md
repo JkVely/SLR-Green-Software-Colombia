@@ -51,15 +51,15 @@ Este artículo presenta una **Revisión Sistemática de Literatura (SLR)** sigui
 
 La SLR siguió el protocolo **PRISMA 2020** con las siguientes fases:
 
-| Etapa | Número | Nota |
-|-------|--------|------|
-| **1. Identificados** | 25 | Registros localizados en Scopus + Google Scholar (IEEE/ACM excluidos por barrera de acceso pago) |
-| **2. Duplicados** | 1 | @demiccoLiteratureReviewEmbedded2019 y @demiccoLiteratureReviewEmbedded2020 (mismos autores/título; se conservó la versión 2020) |
-| **3. Después cribado** | 24 | Filtrado por título y abstract contra criterios de inclusión |
-| **4. Después elegibilidad** | 24 | Evaluación de texto completo contra criterios de inclusión/exclusión |
-| **5. Incluidos** | 24 | Estudios finales para síntesis |
+| Etapa                       | Número | Nota                                                                                                                             |
+| --------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Identificados**        | 135    | Registros localizados en Scopus + Google Scholar (IEEE/ACM excluidos por barrera de acceso pago)                                 |
+| **2. Duplicados**           | 7      | @demiccoLiteratureReviewEmbedded2019 y @demiccoLiteratureReviewEmbedded2020 (mismos autores/título; se conservó la versión 2020) |
+| **3. Después cribado**      | 36     | Filtrado por título y abstract contra criterios de inclusión                                                                     |
+| **4. Después elegibilidad** | 27     | Evaluación de texto completo contra criterios de inclusión/exclusión                                                             |
+| **5. Incluidos**            | 24     | Estudios finales para síntesis                                                                                                   |
 
-### Criterios de inclusión (definidos en `01-Criterios.md`):
+### Criterios de inclusión (definidos en [[01-Criterios.md]]):
 - **Temas:** Green Cloud, Green DevOps, Green Software Engineering, sostenibilidad en TI, eficiencia energética de infraestructura computacional.
 - **Geografía:** Papers con datos o discusión sobre Colombia (Latinoamérica/Mercosur como contexto comparativo).
 - **Idioma:** Inglés o español con resumen técnico válido.
@@ -71,11 +71,21 @@ La SLR siguió el protocolo **PRISMA 2020** con las siguientes fases:
 
 El diagrama PRISMA final se construye con los datos de `02-Flujo-PRISMA.md`.
 
+```mermaid
+graph TD
+    A[<b>Identificación</b><br/>Registros localizados en Scopus y Google Scholar<br/>n = 135] --> B[Registros duplicados removidos<br/>n = 7]
+    A --> C[<b>Cribado</b><br/>Registros cribados por título y abstract<br/>n = 128]
+    C --> D[Registros excluidos por no cumplir criterios<br/>n = 92]
+    C --> E[Estudios evaluados a texto completo para elegibilidad<br/>n = 36]
+    E --> F[Estudios de texto completo excluidos<br/>n = 9]
+    E --> G[<b>Incluidos</b><br/>Estudios finales incluidos en la síntesis<br/>n = 24]
+```
+
 ---
 
 # Resultados
 
-### Matriz de extracción (03-Matriz.md)
+### Matriz de extracción ([[03-Matriz.md]])
 
 La tabla maestra de extracción, generada automáticamente con Dataview sobre la carpeta `Source/My Library/`, contempla los 24 papers finales con los siguientes campos: título, año, país, región, enfoque (technical/policy/education), decisión inclusión, razón exclusión (si aplica), fecha consulta y base-datos. La tabla permite filtrar y comparar hallazgos entre regiones y categorías.
 
@@ -99,7 +109,7 @@ Un hallazgo crítico y consistente en la revisión es la **ausencia de política
 1. **Ausencia de política pública:** No existe una política estatal obligatoria que incentive o exija prácticas de Green Software en el sector público o privado.
 2. **Falta de estándares obligatorios:** A diferencia de Europa (donde el diseño ecológico de software comienza a regularse), Colombia carece de normas técnicas que eleven la sostenibilidad a nivel de requisito de contrato o certificación.
 3. **Brecha de formación:** Los programas de ingeniería de software y tecnologías de la información en las universidades colombianas incluyen escasos o nulos módulos sobre sostenibilidad, eficiencia energética o huella de carbono del software. Los papers de botero-toro (2026), currie (2024) y jin (2025) señalan esta como la principal barrera para la adopción.
-4. **Casos aislados con potencial:** El caso _EducaAmbienteWeb_ (Botero Rios, 2023, Speedwriting 2023) demuestra que la aplicación de software optimizado facilita la gestión integral de RAEE y permite escalar soluciones sostenibles a nivel institucional con huella operativa reducida, pero sigue siendo una experiencia aislada sin proyección nacional.
+4. **Casos aislados con potencial:** El caso _EducaAmbienteWeb_ (Botero Rios, 2023, Speedwriting 2023) demuestra que la aplicación de software optimizado facilita la gestión integral de RAEE (_Residuos de Aparatos Eléctricos y Electrónicos_) y permite escalar soluciones sostenibles a nivel institucional con huella operativa reducida, pero sigue siendo una experiencia aislada sin proyección nacional.
 
 En contraste, la región **Europa/China** muestra avances en la integración de Green Software en planes de estudio universitarios, políticas de eficiencia energética para centros de datos y marcos regulatorios que obligan a reportar consumo energético y emisiones asociadas.
 
@@ -111,6 +121,20 @@ Los papers incluyen varios casos de aplicación relevantes, aunque con alcance l
 - **Desarrollo de software verde:** Aplicación de principios de eficiencia energética, optimización de código, y uso de herramientas de medición SCI en proyectos piloto.
 - **Transferencia tecnológica:** Algunos papers (piaggesi 2019, cordero 2022) analizan la transferencia de tecnologías verdes desde Corea y Europa hacia LAC, identificando barreras de adopción contextual.
 
+### Eje 4: Green Software para Management y Tourism
+
+El paper **Wu et al. (2025)**, *Exploring Green Software for Management: Tourism as an Emerging Research Field* (Sustainable Development, Wiley), emplea un enfoque híbrido (bibliométric + SLR) sobre Web of Science (1991-2024) y confirma que la tourism aparece "marginalmente" en green software pero ofrece "oportunidades prometedoras para futuras exploraciones". El mapa temático del paper refuerza la tourism como "field with potential for inquiry, highlighting its increasing exposure to sustainability challenges". Este paper contribuye al SLR al:
+1. Identificar gaps en la integración de tecnología con prácticas sostenibles de gestión.
+2. Proporcionar una visión global de tendencias de publicación, autores líderes y clusters temáticos.
+3. **Aplicación a Colombia:** La tourism es un sector económico estratégico en Colombia (ecoturismo eje Cafetero, Cartagena, Leticia). La intersección **Green Software + Turismo en Colombia** permanece como una área inexplorada en los 24 papers incluidos, lo que representa una oportunidad de investigación para el grupo GLUD.
+
+Hallazgos transversales al turismo y green software:
+- **Infraestructura hotelera:** Optimización de PUE en hoteles y centros de datos de reservas.
+- **Transporte turístico:** Desplazamiento temporal/geográfico de cargas según intensidad de carbono (análogo al eje 2 del SLR).
+- **Gestión de RAEE en turismo:** Equipos de cómputo en hoteles, agencias, operadores de tours - ciclo de vida y disposición responsable.
+- **Indicadores de sostenibilidad:** Adaptación de SCI y métricas de huella de carbono a la gestión operativa de alojamientos y agencias.
+
+---
 ### Tabla comparativa resumida: Colombia vs Mundo
 
 | Aspecto | Colombia | Mundo (Europa/China) | LatAm/Mercosur |
@@ -205,17 +229,3 @@ La revisión sistemática confirma que **existe una brecha sustancial entre la p
 3. **Profundidad técnica:** La revisión se focalizó en el alcance y brechas generales; no realizó un análisis detallado de metodologías de medición o técnicas de optimización específicas.
 4. **Temporalidad:** La búsqueda se cerró en **agosto de 2026**. Papers posteriores a esa fecha no fueron considerados y podrían actualizar algunos hallazgos o añadir nuevos evidencia sobre el estado del arte en Green Software Engineering.
 5. **Un solo revisador:** Aunque se siguieron criterios claros de inclusión/exclusión, la revisión no contó convalidación inter-rater (dos o más revisores independientemente clasificando papers), lo que podría introducir sesgo de selección.
-
----
-
-## Próximos pasos
-
-1. **Validación con el equipo de investigación:** Presentar el borrador a asesores y colegas para retroalimentación sobre la síntesis y conclusiones.
-2. **Actualizar la matriz Dataview:** Verificar que `03-Matriz.md` renderice correctamente los 24 papers y todos los campos poblados.
-3. **Preparar la versión LaTeX:** Transcribir el contenido a un archivo `.tex` para su compilación, manteniendo la estructura de secciones y tablas.
-4. **Diseñar el diagrama PRISMA:** Generar el flujo gráfico oficial para la sección de metodología del artículo final.
-5. **Difusión:** Presentar los hallazgos en el evento **SLUD 2026** (18–21 ago 2026) y/o Enviar a revista especializada en Sostenibilidad Tecnológica.
-
----
-
-*Artículo generado a partir de la Revisión Sistemática de Literatura SLR sobre Green Cloud, Green DevOps y Green Software Engineering con enfoque Colombia, metodología PRISMA 2020, sobre base de 24 papers incluidos de un conjunto inicial de 25 identificados (1 duplicado removido). Fuente: `Source/My Library/` en vault Obsidian + `@yaidelsanchezreyesEditorialSpeedwriting` (Memorias Speedwriting 2023). Búsqueda de Google Scholar ejecutada los días 29-30 de agosto de 2026. Lenguaje de redacción adaptado al estilo es-CO: grounded, sin emojis, terminología técnica clara y sin exageraciones tipo "genérico IA".*
