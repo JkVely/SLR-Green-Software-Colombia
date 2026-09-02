@@ -2,6 +2,9 @@
 citationKey: torresAnalisisMulticriterioMultiescala2026
 title: Análisis multicriterio y multiescala para la ubicación sostenible de centros de datos en Colombia
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: management
 creators:
   - German Sánchez Torres
   - Malak Andres Sánchez Cataño
@@ -25,6 +28,7 @@ zotero-key: SHSSAEEN
 item-version: 404
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Análisis multicriterio y multiescala para la ubicación sostenible de centros de datos en Colombia
 ## Abstract

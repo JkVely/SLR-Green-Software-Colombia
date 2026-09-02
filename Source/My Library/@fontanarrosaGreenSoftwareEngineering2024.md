@@ -2,6 +2,9 @@
 citationKey: fontanarrosaGreenSoftwareEngineering2024
 title: Green Software Engineering
 itemType: book
+pais: Global
+region: Global
+enfoque: technical
 creators:
   - Santiago Fontanarrosa
 publication: Packt Publishing Ltd
@@ -14,6 +17,7 @@ zotflow-locked: true
 zotero-key: SHF6ADMW
 item-version: 408
 library-id: 20202832
+decision: incluido
 ---
 # Green Software Engineering
 ## Abstract

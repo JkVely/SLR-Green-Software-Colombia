@@ -2,6 +2,9 @@
 citationKey: rodriguezSurveyVirtualizationTechnologies2022
 title: "A Survey of Virtualization Technologies: Towards a New Taxonomic Proposal"
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: technical
 creators:
   - Luis Eduardo Sepúlveda Rodríguez
   - Julio C. Chavarro-Porras
@@ -30,6 +33,7 @@ zotero-key: 8ESRKCNX
 item-version: 379
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # A Survey of Virtualization Technologies: Towards a New Taxonomic Proposal
 ## Abstract

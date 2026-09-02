@@ -2,6 +2,9 @@
 citationKey: bossa-benavidezSostenibilidadColombiaFrente
 title: La sostenibilidad en Colombia frente al desarrollo sostenible en el mundo. Una revisión bibliométrica para el análisis del entorno
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: management
 creators:
   - Jarol Bossa-Benavidez
   - Jesús David Meza
@@ -24,6 +27,7 @@ zotero-key: NRRT9QGG
 item-version: 352
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # La sostenibilidad en Colombia frente al desarrollo sostenible en el mundo. Una revisión bibliométrica para el análisis del entorno
 

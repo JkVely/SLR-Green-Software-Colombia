@@ -44,6 +44,7 @@ zotero-key: N2XZ6Y8R
 item-version: 336
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # CFD modelling of the air conditioning system for a Tier 2 Data Centre
 ## Abstract

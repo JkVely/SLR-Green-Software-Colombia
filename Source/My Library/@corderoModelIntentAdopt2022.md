@@ -47,6 +47,7 @@ zotero-key: FHJB89CM
 item-version: 332
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # Model for the Intent to Adopt Green IT in the Context of Organizations
 ## Abstract

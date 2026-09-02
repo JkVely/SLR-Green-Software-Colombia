@@ -32,6 +32,7 @@ zotero-key: MDTHZ3DF
 item-version: 448
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Editorial Speedwriting
 ## Abstract

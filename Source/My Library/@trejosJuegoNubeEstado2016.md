@@ -2,6 +2,10 @@
 citationKey: trejosJuegoNubeEstado2016
 title: "Juego en la nube: un estado del arte."
 itemType: journalArticle
+decision: excluido
+pais: Colombia
+region: Colombia
+enfoque: technical
 creators:
   - F. D. Trejos
   - N. Alzate

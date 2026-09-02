@@ -27,6 +27,7 @@ fuente: Google Scholar
 library-id: 20202832
 item-version: 394
 zotero-key: LMJC46P2
+decision: incluido
 ---
 # Adopción de la computación en la nube: un estudio bibliométrico
 ## Abstract
@@ -42,3 +43,5 @@ zotero-key: LMJC46P2
 - Uso sugerido: Sección de Discusión y Justificación (identificación de gaps en la literatura actual).
 
 ## Notes
+
+Buscar estos autores que mas han hecho

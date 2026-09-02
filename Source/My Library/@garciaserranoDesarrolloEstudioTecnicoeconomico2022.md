@@ -2,6 +2,9 @@
 citationKey: garciaserranoDesarrolloEstudioTecnicoeconomico2022
 title: Desarrollo de estudio técnico-económico para mejorar la eficiencia energética aplicada a centros de datos TIER II en Colombia
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: technical
 creators:
   - Jonathan Fernando García Serrano
   - Germán Esteban Alfonso Rativa
@@ -15,6 +18,7 @@ zotflow-locked: true
 zotero-key: 4QPLENGB
 item-version: 399
 library-id: 20202832
+decision: incluido
 ---
 # Desarrollo de estudio técnico-económico para mejorar la eficiencia energética aplicada a centros de datos TIER II en Colombia
 ## Abstract

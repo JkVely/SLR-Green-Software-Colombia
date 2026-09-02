@@ -2,6 +2,9 @@
 citationKey: mirandaExplorandoPerspectivasTecnicas2025
 title: Explorando perspectivas técnicas, metodológicas y organizativas recientes sobre prácticas de green software
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: technical
 creators:
   - Carlos Henríquez Miranda
   - German Sánchez Torres
@@ -22,6 +25,7 @@ zotero-key: I8IUJBP5
 item-version: 422
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Explorando perspectivas técnicas, metodológicas y organizativas recientes sobre prácticas de green software
 ## Abstract

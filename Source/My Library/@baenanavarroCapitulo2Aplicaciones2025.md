@@ -2,6 +2,9 @@
 citationKey: baenanavarroCapitulo2Aplicaciones2025
 title: "Capítulo 2: Aplicaciones del Internet de las Cosas _IoT_ y la computación en la nube en el monitoreo ambiental: Revisión sistemática y análisis de datos"
 itemType: book
+pais: Colombia
+region: Colombia
+enfoque: technical
 creators:
   - Rubén Enrique Baena Navarro
   - Yulieth Carriazo Regino
@@ -27,6 +30,7 @@ zotero-key: FXT5GE4F
 item-version: 369
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Capítulo 2: Aplicaciones del Internet de las Cosas _IoT_ y la computación en la nube en el monitoreo ambiental: Revisión sistemática y análisis de datos
 ## Abstract

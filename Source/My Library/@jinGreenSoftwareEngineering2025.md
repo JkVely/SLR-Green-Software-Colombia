@@ -2,6 +2,9 @@
 citationKey: jinGreenSoftwareEngineering2025
 title: "Green Software Engineering: A Study on Energy-Efficient Design and Deployment in Cloud Infrastructure"
 itemType: journalArticle
+pais: China
+region: China
+enfoque: technical
 creators:
   - Jianian Jin
   - Enkai Ji
@@ -16,6 +19,7 @@ zotflow-locked: true
 zotero-key: CLLMQHVB
 item-version: 414
 library-id: 20202832
+decision: incluido
 ---
 # Green Software Engineering: A Study on Energy-Efficient Design and Deployment in Cloud Infrastructure
 ## Abstract

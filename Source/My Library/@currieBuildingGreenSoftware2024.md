@@ -29,6 +29,7 @@ tags:
   - Nature
 zotflow-locked: true
 fuente: Google Scholar
+decision: incluido
 ---
 # Building Green Software: A Sustainable Approach to Software Development and Operations
 ## Abstract

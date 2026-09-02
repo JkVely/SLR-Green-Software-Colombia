@@ -2,6 +2,9 @@
 citationKey: petrocelliPlataformaColaborativaDistribuida2021
 title: Plataforma colaborativa, distribuida, escalable y de bajo costo basada en microservicios, contenedores, dispositivos móviles y servicios en la Nube para tareas de cómputo intensivo
 itemType: thesis
+pais: Argentina
+region: LAC
+enfoque: technical
 creators:
   - David Marcelo Petrocelli
 publication:
@@ -14,6 +17,7 @@ zotflow-locked: true
 zotero-key: LZ9P9G28
 item-version: 410
 library-id: 20202832
+decision: incluido
 ---
 # Plataforma colaborativa, distribuida, escalable y de bajo costo basada en microservicios, contenedores, dispositivos móviles y servicios en la Nube para tareas de cómputo intensivo
 ## Abstract

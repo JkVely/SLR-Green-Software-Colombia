@@ -2,6 +2,9 @@
 citationKey: diazMeteorologicalAssessmentImplementation2017
 title: Meteorological assessment and implementation of an air-side free-cooling system for data centers in Chile
 itemType: conferencePaper
+pais: Chile
+region: LAC
+enfoque: technical
 creators:
   - A.J. Diaz
   - G. Neves
@@ -39,6 +42,7 @@ zotero-key: 52DXB7KS
 item-version: 340
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # Meteorological assessment and implementation of an air-side free-cooling system for data centers in Chile
 ## Abstract

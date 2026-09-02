@@ -2,6 +2,9 @@
 citationKey: lozoyaarandiaGreenEnergyHPC2022
 title: Green Energy HPC Data Centers to Improve Processing Cost Efficiency
 itemType: conferencePaper
+pais: Mexico
+region: LAC
+enfoque: technical
 creators:
   - J. Lozoya Arandia
   - C.J. Vega Gómez
@@ -38,6 +41,7 @@ zotero-key: D66XGGRF
 item-version: 326
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # Green Energy HPC Data Centers to Improve Processing Cost Efficiency
 ## Abstract

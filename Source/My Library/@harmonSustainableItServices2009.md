@@ -2,6 +2,9 @@
 citationKey: harmonSustainableItServices2009
 title: "Sustainable it services: Assessing the impact of green computing practices"
 itemType: conferencePaper
+pais: USA
+region: Global
+enfoque: management
 creators:
   - R.R. Harmon
   - N. Auseklis
@@ -34,6 +37,7 @@ zotero-key: 9FFD8QN9
 item-version: 343
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # Sustainable it services: Assessing the impact of green computing practices
 ## Abstract

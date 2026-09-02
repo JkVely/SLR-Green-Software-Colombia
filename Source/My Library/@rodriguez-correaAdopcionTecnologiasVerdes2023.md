@@ -2,6 +2,9 @@
 citationKey: rodriguez-correaAdopcionTecnologiasVerdes2023
 title: "Adopción de Tecnologías Verdes en el Sector Industrial: una Revisión Sistemática de la Literatura."
 itemType: journalArticle
+pais: Venezuela
+region: LAC
+enfoque: management
 creators:
   - Paula A. Rodríguez-Correa
   - Jeri Gloria Ramón Ruffner de Vega
@@ -25,6 +28,7 @@ zotero-key: NLWGA54I
 item-version: 358
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Adopción de Tecnologías Verdes en el Sector Industrial: una Revisión Sistemática de la Literatura.
 ## Abstract

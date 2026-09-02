@@ -50,7 +50,7 @@ Ejecutada el 29 y 30 de agosto para capturar literatura gris, tesis y artículos
 ```
 **Soporte Técnico:** Uso de Google Scholar Labs para optimización de resultados y filtrado inteligente.
 
-**Nota de Exclusión:** Se excluyó el filtro de ACM DL porque las búsquedas avanzadas y complejas en esta base de datos requieren un pago premium, limitando la replicabilidad del proceso de búsqueda en este proyecto.
+**Nota de Inclusión:** IEEE Xplore ahora está incluido como base de datos primaria gracias al acceso institucional de la universidad. ACM DL permanece excluido por requerir acceso premium.
 
 ## Notes
 ## Attachments

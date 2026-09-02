@@ -29,6 +29,7 @@ zotero-key: XKXU3NA2
 item-version: 461
 library-id: 20202832
 fuente: Web of Science
+decision: incluido
 ---
 # Exploring Green Software for Management: Tourism as an Emerging Research Field
 ## Abstract

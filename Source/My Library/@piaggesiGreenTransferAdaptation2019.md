@@ -39,6 +39,7 @@ zotero-key: KBRSUZJX
 item-version: 330
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # Green transfer & adaptation program: A korean-colombian digital government project
 ## Abstract

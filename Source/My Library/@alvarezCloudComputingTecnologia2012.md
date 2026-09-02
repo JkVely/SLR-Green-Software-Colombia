@@ -2,6 +2,9 @@
 citationKey: alvarezCloudComputingTecnologia2012
 title: "Cloud Computing: Tecnología Verde Como Estrategia Para La Responsabilidad Social Empresarial"
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: policy
 creators:
   - Amaury Cabarcas Álvarez
   - Plinio Puello Marrugo
@@ -22,6 +25,7 @@ zotero-key: JPEFSMJJ
 item-version: 390
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Cloud Computing: Tecnología Verde Como Estrategia Para La Responsabilidad Social Empresarial
 ## Abstract

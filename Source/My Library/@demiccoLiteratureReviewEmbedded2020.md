@@ -2,6 +2,9 @@
 citationKey: demiccoLiteratureReviewEmbedded2020
 title: A Literature Review on Embedded Systems
 itemType: journalArticle
+pais: Argentina
+region: LAC
+enfoque: technical
 creators:
   - L. De Micco
   - F.L. Vargas
@@ -43,6 +46,7 @@ zotero-key: B7C7FAMA
 item-version: 383
 library-id: 20202832
 fuente: SCOPUS
+decision: incluido
 ---
 # A Literature Review on Embedded Systems
 ## Abstract

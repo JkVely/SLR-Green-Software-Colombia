@@ -2,6 +2,9 @@
 citationKey: palominoGreenComputingICT2019
 title: Green Computing and ICT Integration in the Classroom in Rural Schools without Internet Connection
 itemType: conferencePaper
+pais: Peru
+region: LAC
+enfoque: education
 creators:
   - Carmen Palomino
   - Juan Soto
@@ -32,6 +35,7 @@ zotero-key: 3XUCMAFY
 item-version: 429
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Green Computing and ICT Integration in the Classroom in Rural Schools without Internet Connection
 

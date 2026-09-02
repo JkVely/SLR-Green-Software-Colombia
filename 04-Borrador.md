@@ -9,7 +9,7 @@
 
 ### Metodología
 - Descripción breve de la SLR
-- Bases de búsqueda: IEEE Xplore, Scopus, ACM DL, Google Scholar (complementaria; IEEE/ACM excluidos por barrera de acceso pago)
+- Bases de búsqueda: IEEE Xplore, Scopus, Google Scholar (complementaria)
 - Período de tiempo considerado: búsquedas ejecutadas 29-30 de agosto de 2026
 - Criterios de inclusión/exclusión (resumen de 01-Criterios.md)
 - Diagrama PRISMA (usar datos de 02-Flujo-PRISMA.md)
@@ -18,7 +18,7 @@
 - Matriz de extracción (tabla generada con Dataview en 03-Matriz.md)
 - Descripción de estudios incluidos por región y categoría green
 - Tabla comparativa: Colombia vs Europa vs China vs LatAm/Mercosur
-- Hallazgos principales (síntesis de los `## Notas clave` de los 24 papers de `Source/My Library/`)
+- Hallazgos principales (síntesis de los `## Notas clave` de los 26 papers de `Source/My Library/`)
 
 ### Discusión
 - Interpretation of results
@@ -36,7 +36,7 @@
 
 # Introducción
 
-El crecimiento exponencial de la infraestructura computacional ha generado impactos ambientales significativos, consolidando la **Ingeniería de Software Verde** (_Green Software Engineering_) como disciplina emergente para mitigar la huella de carbono del sector TI. Según el informe ejecutivo **Sánchez Reyes (2023)**, los centros de datos representarán entre un **3 % y un 8 % de la demanda energética mundial** para 2030, lo que convierte a la sostenibilidad en un requisito de arquitectura y un indicador de calidad fundamental en el ciclo de vida del software. Este dato es citado en el paper "Informe Ejecutivo: Principios y Mejores Prácticas en la Ingeniería de Software Verde" (Memorias 2da. Convención Científica Internacional Speedwriting 2023), que forma parte de la base de 24 papers incluidos en la presente SLR.
+El crecimiento exponencial de la infraestructura computacional ha generado impactos ambientales significativos, consolidando la **Ingeniería de Software Verde** (_Green Software Engineering_) como disciplina emergente para mitigar la huella de carbono del sector TI. Según el informe ejecutivo **Sánchez Reyes (2023)**, los centros de datos representarán entre un **3 % y un 8 % de la demanda energética mundial** para 2030, lo que convierte a la sostenibilidad en un requisito de arquitectura y un indicador de calidad fundamental en el ciclo de vida del software. Este dato es citado en el paper "Informe Ejecutivo: Principios y Mejores Prácticas en la Ingeniería de Software Verde" (Memorias 2da. Convención Científica Internacional Speedwriting 2023), que forma parte de la base de 26 papers incluidos en la presente SLR.
 
 En el contexto colombiano, la transición hacia prácticas verdes enfrenta restricciones particulares: limitadas políticas nacionales, ausencia de estándares obligatorios y brechas de formación en Green Software Engineering, a pesar de iniciativas locales como el caso _EducaAmbienteWeb_ en Quindío y estudios aislados sobre eficiencia energética en centros de datos universitarios. A nivel global, potencias como Europa y China han institucionalizado la sostenibilidad en el software a través de la **Green Software Foundation** y respectivas regulaciones ambientales, mientras que en Latinoamérica/Mercosur el avance es más lento y fragmentado.
 
@@ -53,32 +53,35 @@ La SLR siguió el protocolo **PRISMA 2020** con las siguientes fases:
 
 | Etapa                       | Número | Nota                                                                                                                             |
 | --------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Identificados**        | 135    | Registros localizados en Scopus + Google Scholar (IEEE/ACM excluidos por barrera de acceso pago)                                 |
+| **1. Identificados**        | 135    | Registros localizados en Scopus + Google Scholar + IEEE Xplore                                                                   |
 | **2. Duplicados**           | 7      | @demiccoLiteratureReviewEmbedded2019 y @demiccoLiteratureReviewEmbedded2020 (mismos autores/título; se conservó la versión 2020) |
-| **3. Después cribado**      | 36     | Filtrado por título y abstract contra criterios de inclusión                                                                     |
-| **4. Después elegibilidad** | 27     | Evaluación de texto completo contra criterios de inclusión/exclusión                                                             |
-| **5. Incluidos**            | 24     | Estudios finales para síntesis                                                                                                   |
+| **3. Después cribado**      | 128    | Filtrado por título y abstract contra criterios de inclusión (135-7)                                                            |
+| 3a. Excluidos en cribado    | 92     | No cumplen criterios de inclusión (128-36)                                                                                     |
+| **4. Después elegibilidad** | 36     | Evaluación de texto completo contra criterios de inclusión/exclusión                                                             |
+| 4a. Excluidos en elegibilidad| 10     | No cumplen criterios a texto completo (36-26)                                                                                  |
+| **5. Incluidos**            | 26     | Estudios finales para síntesis                                                                                                   |
 
 ### Criterios de inclusión (definidos en [[01-Criterios.md]]):
 - **Temas:** Green Cloud, Green DevOps, Green Software Engineering, sostenibilidad en TI, eficiencia energética de infraestructura computacional.
 - **Geografía:** Papers con datos o discusión sobre Colombia (Latinoamérica/Mercosur como contexto comparativo).
 - **Idioma:** Inglés o español con resumen técnico válido.
-- **Fuentes:** Scopus + Google Scholar (primarias); IEEE Xplore y ACM Digital Library excluidos por restricciones de pago.
+- **Fuentes:** Scopus + Google Scholar + IEEE Xplore (primarias); ACM Digital Library excluido por restricciones de pago.
 
 ### Búsqueda de evidencia:
 - **Ronda 1 (Scopus, corte 2026-08-25):** 9 registros importados a Zotero.
 - **Ronda 2 (Google Scholar, 29-30 de agosto):** Búsqueda con string `"green cloud" OR "green computing" OR "green software" Colombia`; uso de Scholar Labs para optimización de resultados. Estado: filtrado completado, metadatos descargados.
+- **Ronda 3 (IEEE Xplore):** Búsqueda con acceso institucional de la universidad. Strings: `("green cloud" OR "green computing" OR "sustainable cloud" OR "green software engineering" OR "green devops") AND ("Colombia" OR "Latin America")`
 
 El diagrama PRISMA final se construye con los datos de `02-Flujo-PRISMA.md`.
 
 ```mermaid
 graph TD
-    A[<b>Identificación</b><br/>Registros localizados en Scopus y Google Scholar<br/>n = 135] --> B[Registros duplicados removidos<br/>n = 7]
+    A[<b>Identificación</b><br/>Registros localizados en Scopus, Google Scholar y IEEE Xplore<br/>n = 135] --> B[Registros duplicados removidos<br/>n = 7]
     A --> C[<b>Cribado</b><br/>Registros cribados por título y abstract<br/>n = 128]
     C --> D[Registros excluidos por no cumplir criterios<br/>n = 92]
     C --> E[Estudios evaluados a texto completo para elegibilidad<br/>n = 36]
-    E --> F[Estudios de texto completo excluidos<br/>n = 9]
-    E --> G[<b>Incluidos</b><br/>Estudios finales incluidos en la síntesis<br/>n = 24]
+    E --> F[Estudios de texto completo excluidos<br/>n = 10]
+    E --> G[<b>Incluidos</b><br/>Estudios finales incluidos en la síntesis<br/>n = 26]
 ```
 
 ---
@@ -87,46 +90,47 @@ graph TD
 
 ### Matriz de extracción ([[03-Matriz.md]])
 
-La tabla maestra de extracción, generada automáticamente con Dataview sobre la carpeta `Source/My Library/`, contempla los 24 papers finales con los siguientes campos: título, año, país, región, enfoque (technical/policy/education), decisión inclusión, razón exclusión (si aplica), fecha consulta y base-datos. La tabla permite filtrar y comparar hallazgos entre regiones y categorías.
+La tabla maestra de extracción, generada automáticamente con Dataview sobre la carpeta `Source/My Library/`, contempla los 26 papers finales con los siguientes campos: título, año, país, región, enfoque (technical/policy/education/management), decisión inclusión, razón exclusión (si aplica), fecha consulta y base-datos. La tabla permite filtrar y comparar hallazgos entre regiones y categorías.
 
 ### Síntesis de hallazgos por eje temático
 
 #### Eje 1: Aspectos técnicos y métricas de eficiencia
 
-Los 24 papers coinciden en que las métricas operativas son la puerta de entrada para la adopción de prácticas verdes. El **índice SCI (_Software Carbon Intensity_)** de la Green Software Foundation se posiciona como el estándar más citado para medir emisiones por unidad funcional (por consulta API, por transacción, por usuario activo). La métrica **PUE (_Power Usage Effectiveness_)** sigue siendo el referente para evaluar eficiencia de centros de datos, donde un valor cercano a **1.0** indica máxima eficiencia, frente a valores de **2.0** o más en infraestructuras sin optimización.
+Los 26 papers coinciden en que las métricas operativas son la puerta de entrada para la adopción de prácticas verdes. El **índice SCI (_Software Carbon Intensity_)** de la Green Software Foundation se posiciona como el estándar más citado para medir emisiones por unidad funcional (por consulta API, por transacción, por usuario activo) (Fontanarrosa, 2024; Jin et al., 2025). La métrica **PUE (_Power Usage Effectiveness_)** sigue siendo el referente para evaluar eficiencia de centros de datos, donde un valor cercano a **1.0** indica máxima eficiencia, frente a valores de **2.0** o más en infraestructuras sin optimización (Harmon & Auseklis, 2009; Díaz et al., 2017).
 
 Hallazgos técnicos transversales:
-- **Eficiencia de hardware:** La prolongación del ciclo de vida de servidores (ej. de 4 a 5 años) reduce significativamente la tasa de emisión amortizada por año. La consolidación en la nube multi-inquilino (_multi-tenant_) evita la capacidad ociosa y optimiza la tasa de ocupación.
-- **Conciencia de carbono:** La estrategia de **desplazamiento temporal y geográfico** de cargas intensivas (batch, entrenamiento de modelos) según la intensidad de carbono de la red eléctrica en tiempo real ($gCO_2eq/kWh$) es teóricamente viable pero poco implementado en la región.
-- **Métricas listas para usar:** PUE, SCI, carbono incorporado amortizado e intensidad de carbono son las cuatro métricas más referenciadas en la evidencia para evaluar y comparar el desempeño verde de aplicaciones y plataformas.
+- **Eficiencia de hardware:** La prolongación del ciclo de vida de servidores (ej. de 4 a 5 años) reduce significativamente la tasa de emisión amortizada por año. La consolidación en la nube multi-inquilino (_multi-tenant_) evita la capacidad ociosa y optimiza la tasa de ocupación (Rodríguez et al., 2022; Petrocelli, 2021).
+- **Conciencia de carbono:** La estrategia de **desplazamiento temporal y geográfico** de cargas intensivas (batch, entrenamiento de modelos) según la intensidad de carbono de la red eléctrica en tiempo real ($gCO_2eq/kWh$) es teóricamente viable pero poco implementada en la región (Bellal et al., 2026; Lozoya Arandia et al., 2022).
+- **Métricas listas para usar:** PUE, SCI, carbono incorporado amortizado e intensidad de carbono son las cuatro métricas más referenciadas en la evidencia para evaluar y comparar el desempeño verde de aplicaciones y plataformas (Miranda & Torres, 2025; Currie et al., 2024).
 
-**Nota de implementación:** El cálculo del índice SCI requiere datos de energía consumida ($E$), intensidad de carbono de la red ($I$), carbono incorporado del hardware ($M$) y la unidad funcional ($m$). Para organizaciones con recursos limitados, herramientas opensource como **CloudCarbonFootprint** y **GREENER** pueden estimar estas métricas sin necesidad de instrumentación profunda del código. En contextos de PYMEs en Colombia, se recomienda iniciar con el cálculo de PUE en infraestructura de servidores locales y avanzar hacia SCI cuando la madurez de procesos lo permita.
+**Nota de implementación:** El cálculo del índice SCI requiere datos de energía consumida ($E$), intensidad de carbono de la red ($I$), carbono incorporado del hardware ($M$) y la unidad funcional ($m$) (Fontanarrosa, 2024). Para organizaciones con recursos limitados, herramientas opensource como **CloudCarbonFootprint** y **GREENER** pueden estimar estas métricas sin necesidad de instrumentación profunda del código. En contextos de PYMEs en Colombia, se recomienda iniciar con el cálculo de PUE en infraestructura de servidores locales (García Serrano & Alfonso Rativa, 2022) y avanzar hacia SCI cuando la madurez de procesos lo permita. La observabilidad energética a nivel de contenedores, como la provista por herramientas tipo Kepler, requiere validación rigurosa: Bellal et al. (2026) reportan que Kepler sobreestima la energía consumida hasta en 15 veces, lo que subraya la necesidad de marcos de validación de precisión antes de la adopción acrítica de software de monitoreo energético.
 
 #### Eje 2: Brechas de política y formación (Colombia vs Mundo)
 
-Un hallazgo crítico y consistente en la revisión es la **ausencia de políticas nacionales estructuradas** para la sostenibilidad en el sector de software en Colombia. Mientras que a nivel global la **Green Software Foundation** (con membresías de Microsoft, Google, Amazon, Accenture) ha establecido tres ejes estratégicos con meta de **reducción del 45% en emisiones de GEI para 2030** (Sánchez Reyes, 2023), y países como China han integrado criterios verdes en sus estándares de desarrollo de software, en Colombia el escenario es de:
+Un hallazgo crítico y consistente en la revisión es la **ausencia de políticas nacionales estructuradas** para la sostenibilidad en el sector de software en Colombia (Bossa-Benavidez et al., 2023; Álvarez et al., 2012). Mientras que a nivel global la **Green Software Foundation** (con membresías de Microsoft, Google, Amazon, Accenture) ha establecido tres ejes estratégicos con meta de **reducción del 45% en emisiones de GEI para 2030** (Sánchez Reyes, 2023), y países como China han integrado criterios verdes en sus estándares de desarrollo de software (Jin et al., 2025), en Colombia el escenario es de:
 
-1. **Ausencia de política pública:** No existe una política estatal obligatoria que incentive o exija prácticas de Green Software en el sector público o privado.
-2. **Falta de estándares obligatorios:** A diferencia de Europa (donde el diseño ecológico de software comienza a regularse), Colombia carece de normas técnicas que eleven la sostenibilidad a nivel de requisito de contrato o certificación.
-3. **Brecha de formación:** Los programas de ingeniería de software y tecnologías de la información en las universidades colombianas incluyen escasos o nulos módulos sobre sostenibilidad, eficiencia energética o huella de carbono del software. Los papers de botero-toro (2026), currie (2024) y jin (2025) señalan esta como la principal barrera para la adopción.
+1. **Ausencia de política pública:** No existe una política estatal obligatoria que incentive o exija prácticas de Green Software en el sector público o privado. La responsabilidad se ha dejado al criterio voluntario de las empresas, sin marcos regulatorios ni incentivos fiscales (Rodríguez-Correa et al., 2023; Bustamante et al., 2014).
+2. **Falta de estándares obligatorios:** A diferencia de Europa (donde el diseño ecológico de software comienza a regularse), Colombia carece de normas técnicas que eleven la sostenibilidad a nivel de requisito de contrato o certificación. Estudios recientes confirman que la ausencia de estándares en la región limita la validación del desempeño ambiental de las aplicaciones (Miranda & Torres, 2025; Puerta Moreno, 2024).
+3. **Brecha de formación:** Los programas de ingeniería de software y tecnologías de la información en las universidades colombianas incluyen escasos o nulos módulos sobre sostenibilidad, eficiencia energética o huella de carbono del software. Los estudios de Castro-Mancipe y Cifuentes-Quiroga (UPTC, 2025) y Puerta Moreno (2024, UNIMINUTO) documentan la integración fragmentada de Green Computing en las mallas curriculares, con solo 13.5% de universidades consideradas eficientes energéticamente. Los papers de botero-toro (2026), currie (2024) y jin (2025) señalan esta como la principal barrera para la adopción.
 4. **Casos aislados con potencial:** El caso _EducaAmbienteWeb_ (Botero Rios, 2023, Speedwriting 2023) demuestra que la aplicación de software optimizado facilita la gestión integral de RAEE (_Residuos de Aparatos Eléctricos y Electrónicos_) y permite escalar soluciones sostenibles a nivel institucional con huella operativa reducida, pero sigue siendo una experiencia aislada sin proyección nacional.
 
-En contraste, la región **Europa/China** muestra avances en la integración de Green Software en planes de estudio universitarios, políticas de eficiencia energética para centros de datos y marcos regulatorios que obligan a reportar consumo energético y emisiones asociadas.
+En contraste, la región **Europa/China** muestra avances en la integración de Green Software en planes de estudio universitarios (Fontanarrosa, 2024), políticas de eficiencia energética para centros de datos (Díaz et al., 2017) y marcos regulatorios que obligan a reportar consumo energético y emisiones asociadas (Harmon & Auseklis, 2009).
 
 #### Eje 3: Aplicaciones y casos de uso
 
 Los papers incluyen varios casos de aplicación relevantes, aunque con alcance limitado:
-- **Infraestructura y centros de datos:** Optimización PUE, consolidación en nube, gestión de carbono incorporado.
-- **Educación ambiental:** _EducaAmbienteWeb_ en colegios (Armenia, Calarcá, Quindío) - caso real de software verde + educación ambiental + RAEE con resultados medibles en comunidad estudiantil.
-- **Desarrollo de software verde:** Aplicación de principios de eficiencia energética, optimización de código, y uso de herramientas de medición SCI en proyectos piloto.
+- **Infraestructura y centros de datos:** Optimización PUE, consolidación en nube, gestión de carbono incorporado (García Serrano & Alfonso Rativa, 2022; Torres et al., 2026; Díaz et al., 2017). Estudios como el de Torres et al. (2026) proponen un marco multicriterio para la ubicación de centros de datos en 10 ciudades colombianas, identificando a Bogotá y Medellín como las más aptas.
+- **Educación ambiental:** _EducaAmbienteWeb_ en colegios (Armenia, Calarcá, Quindío) - caso real de software verde + educación ambiental + RAEE con resultados medibles en comunidad estudiantil. En la región, Palomino et al. (2019) demostró en Perú que un mini-servidor solar reduce 23 veces el consumo energético frente a un servidor convencional (2.88 kWh vs 67.68 kWh mensuales).
+- **Desarrollo de software verde:** Aplicación de principios de eficiencia energética, optimización de código, y uso de herramientas de medición SCI en proyectos piloto (Miranda & Torres, 2025; Jin et al., 2025).
 - **Transferencia tecnológica:** Algunos papers (piaggesi 2019, cordero 2022) analizan la transferencia de tecnologías verdes desde Corea y Europa hacia LAC, identificando barreras de adopción contextual.
+- **Computación móvil distribuida:** Petrocelli (2021) propone una arquitectura de bajo costo basada en microservicios y contenedores que reutiliza capacidades ociosas de dispositivos móviles ARM, demostrando mejoras en la eficiencia energética frente a esquemas tradicionales x86.
 
 ### Eje 4: Green Software para Management y Tourism
 
 El paper **Wu et al. (2025)**, *Exploring Green Software for Management: Tourism as an Emerging Research Field* (Sustainable Development, Wiley), emplea un enfoque híbrido (bibliométric + SLR) sobre Web of Science (1991-2024) y confirma que la tourism aparece "marginalmente" en green software pero ofrece "oportunidades prometedoras para futuras exploraciones". El mapa temático del paper refuerza la tourism como "field with potential for inquiry, highlighting its increasing exposure to sustainability challenges". Este paper contribuye al SLR al:
 1. Identificar gaps en la integración de tecnología con prácticas sostenibles de gestión.
 2. Proporcionar una visión global de tendencias de publicación, autores líderes y clusters temáticos.
-3. **Aplicación a Colombia:** La tourism es un sector económico estratégico en Colombia (ecoturismo eje Cafetero, Cartagena, Leticia). La intersección **Green Software + Turismo en Colombia** permanece como una área inexplorada en los 24 papers incluidos, lo que representa una oportunidad de investigación para el grupo GLUD.
+3. **Aplicación a Colombia:** La tourism es un sector económico estratégico en Colombia (ecoturismo eje Cafetero, Cartagena, Leticia). La intersección **Green Software + Turismo en Colombia** permanece como una área inexplorada en los 26 papers incluidos, lo que representa una oportunidad de investigación para el grupo GLUD.
 
 Hallazgos transversales al turismo y green software:
 - **Infraestructura hotelera:** Optimización de PUE en hoteles y centros de datos de reservas.
@@ -151,7 +155,7 @@ Hallazgos transversales al turismo y green software:
 
 ### Interpretation of results
 
-La síntesis de los 24 papers revela un patrón claro: **la investigación técnica sobre Green Software existe y acumula métricas y herramientas operativas**, pero **la infraestructura de política, estándares y formación que permita la adopción a escala no está presente en Colombia**. Esto genera un escenario de "brecha de conocimiento y aplicación" donde se producen avances técnicos aislados que no se traducen en cambios sistémicos.
+La síntesis de los 26 papers revela un patrón claro: **la investigación técnica sobre Green Software existe y acumula métricas y herramientas operativas**, pero **la infraestructura de política, estándares y formación que permita la adopción a escala no está presente en Colombia** (Bossa-Benavidez et al., 2023). Esto genera un escenario de "brecha de conocimiento y aplicación" donde se producen avances técnicos aislados que no se traducen en cambios sistémicos.
 
 Los hallazgos técnicos (PUE, SCI, eficiencia de hardware) son **transferibles** y pueden adoptarse inmediatamente por organizaciones colombianas que deseen comenzar a medir y reducir su huella, sin esperar políticas nacionales. Sin embargo, la **escalabilidad** de estas prácticas requiere tres condiciones que actualmente faltan en el contexto local: (1) políticas que incentive la medición y reporte, (2) estándares que eleven la sostenibilidad a requisito de diseño, y (3) currículos universitarios que formen a los próximos ingenieros de software en principios verdes.
 
@@ -195,7 +199,7 @@ Un aspecto subrayado por la evidencia es que la adopción de Green Software no d
 
 #### Respuesta a la pregunta de investigación
 
-La revisión sistemática confirma que **existe una brecha sustancial entre la producción global de conocimiento en Green Software Engineering y la realidad de investigación y adopción en Colombia**. Mientras el mundo avanza en la integración de métricas (SCI, PUE), políticas (Green Software Foundation, regulaciones nacionales) y formación universitaria, Colombia presenta un escenario de **desarrollo técnico aislado sin infraestructura política ni institucional que permita la adopción escalada**. Los 24 papers incluidos evidencian que los cimientos técnicos existen (métricas, algunos casos de uso), pero el tejido que los sustenta (políticas, estándares, currículos) está ausente.
+La revisión sistemática confirma que **existe una brecha sustancial entre la producción global de conocimiento en Green Software Engineering y la realidad de investigación y adopción en Colombia**. Mientras el mundo avanza en la integración de métricas (SCI, PUE), políticas (Green Software Foundation, regulaciones nacionales) y formación universitaria, Colombia presenta un escenario de **desarrollo técnico aislado sin infraestructura política ni institucional que permita la adopción escalada**. Los 26 papers incluidos evidencian que los cimientos técnicos existen (métricas, algunos casos de uso), pero el tejido que los sustenta (políticas, estándares, currículos) está ausente.
 
 #### Recomendaciones para impulsar Green Cloud/DevOps/Software en Colombia
 
@@ -224,8 +228,43 @@ La revisión sistemática confirma que **existe una brecha sustancial entre la p
 
 #### Limitaciones del estudio
 
-1. **Cobertura de bases de datos:** La exclusión de IEEE Xplore y ACM Digital Library por barreras de acceso pudo haber omitido papers relevantes, aunque se compensó con la búsqueda complementaria en Google Scholar.
+1. **Cobertura de bases de datos:** La exclusión de ACM Digital Library por barreras de acceso pudo haber omitido papers relevantes, aunque se compensó con la búsqueda complementaria en Google Scholar e IEEE Xplore.
 2. **Idioma:** Solo se incluyeron papers en inglés o español; se descartaron papers en otros idiomas que pudieran aportar hallazgos contextuales.
 3. **Profundidad técnica:** La revisión se focalizó en el alcance y brechas generales; no realizó un análisis detallado de metodologías de medición o técnicas de optimización específicas.
 4. **Temporalidad:** La búsqueda se cerró en **agosto de 2026**. Papers posteriores a esa fecha no fueron considerados y podrían actualizar algunos hallazgos o añadir nuevos evidencia sobre el estado del arte en Green Software Engineering.
-5. **Un solo revisador:** Aunque se siguieron criterios claros de inclusión/exclusión, la revisión no contó convalidación inter-rater (dos o más revisores independientemente clasificando papers), lo que podría introducir sesgo de selección.
+5. **Un solo revisador:** Aunque se siguieron criterios claros de inclusión/exclusión, la revisión no contó validación inter-rater (dos o más revisores independientemente clasificando papers), lo que podría introducir sesgo de selección.
+
+---
+
+# Referencias
+
+1. Sánchez Reyes, Y. (2023). *Informe Ejecutivo: Principios y Mejores Prácticas en la Ingeniería de Software Verde.* Memorias 2da. Convención Científica Internacional Speedwriting. https://sol.sbc.org.br/index.php/sbsi/article/view/41319
+2. Botero-Toro, L., Solís-Molina, M., & Rodriguez-Orejuela, A. (2026). Adopción de la computación en la nube: un estudio bibliométrico. *Texto Livre*. https://doi.org/10.1590/1983-3652.2026.57873
+3. Currie, B. (2024). *Building Green Software: A Sustainable Approach to Software Development.*
+4. Jin, J., Ji, E., & Zhang, Q. (2025). Green Software Engineering: A Study on Energy-Efficient Design and Deployment in Cloud Infrastructure. *Journal of Data Analysis and Information Processing*. https://doi.org/10.4236/jdaip.2025.133014
+5. Fontanarrosa, S. (2024). *Green Software Engineering.* Packt Publishing.
+6. Miranda, C. H., & Torres, G. S. (2025). Explorando perspectivas técnicas, metodológicas y organizativas recientes sobre prácticas de green software. *Revista Ambiental Agua, Aire y Suelo*. https://doi.org/10.24054/raaas.v16i1.3706
+7. Wu et al. (2025). Exploring Green Software for Management: Tourism as an Emerging Research Field. *Sustainable Development*, Wiley.
+8. Bellal, Z., Lahlou, L., Kara, N., Murphy, T., Nguyen, T. P., Ahmed, A., & Perez-Jimenez, M. (2026). Investigating the Potential of Kepler Toward Power Observability for Sustainable Cloud Computing. *IEEE Transactions on Green Communications and Networking*. https://doi.org/10.1109/TGCN.2026.3660816
+9. Harmon, R. R., & Auseklis, N. (2009). Sustainable IT services: Assessing the impact of green computing practices. *PICMET 2009*. https://doi.org/10.1109/PICMET.2009.5261969
+10. Lozoya Arandia, J., Vega Gómez, C. J., Coronado, A., et al. (2022). Green Energy HPC Data Centers to Improve Processing Cost Efficiency. *Springer*. https://doi.org/10.1007/978-3-031-04209-6_7
+11. Díaz, A. J., Neves, G., Silva-Llanca, L., Del Valle, M., & Cardemil, J. M. (2017). Meteorological assessment and implementation of an air-side free-cooling system for data centers in Chile. *ITHERM*. https://doi.org/10.1109/ITHERM.2017.7992588
+12. Palomino, C., Soto, J., Soto, W., Ibarra, M., Aquino, M., & Ibañez, V. (2019). Green Computing and ICT Integration in the Classroom in Rural Schools without Internet Connection. *LACLO*. https://doi.org/10.1109/LACLO49268.2019.00053
+13. Rodríguez-Correa, P. A., Ramón Ruffner de Vega, J. G., Valencia-Arias, A., Benjumea-Arias, M., & Oré León, A. J. A. (2023). Adopción de Tecnologías Verdes en el Sector Industrial: una Revisión Sistemática de la Literatura. *Revista Técnica de la Facultad de Ingeniería de la Universidad del Zulia*. https://doi.org/10.22209/rt.v46a08
+14. Bossa-Benavidez, J., Meza, J. D., Ramos-Franco, D., & Cohen-Padilla, H. (2023). La sostenibilidad en Colombia frente al desarrollo sostenible en el mundo: Una revisión bibliométrica. *(Revista colombiana).*
+15. Puerta Moreno, S. (2024). Aplicación de prácticas de sostenibilidad en la especialización en Desarrollo de Software de UNIMINUTO. *European Public and Social Innovation Review*.
+16. Castro-Mancipe, J. J., & Cifuentes-Quiroga, B. A. (2025). Computación Verde en la UPTC: Una propuesta de integración curricular para una educación informática sostenible. *Revista Pensamiento y Acción*, UPTC.
+17. Moreira, A., Lago, P., Heldal, R., et al. (2024). A Roadmap for Integrating Sustainability into Software Engineering Education. *ACM Transactions on Software Engineering and Methodology*. https://doi.org/10.1145/3708526
+18. Torres, G. S., Sánchez Cataño, M. A., & Henríquez Miranda, C. (2026). Análisis multicriterio y multiescala para la ubicación sostenible de centros de datos en Colombia. *Revista Ambiental Agua, Aire y Suelo*. https://doi.org/10.24054/raaas.v17i1.4519
+19. Petrocelli, D. M. (2021). Plataforma colaborativa, distribuida, escalable y de bajo costo basada en microservicios, contenedores, dispositivos móviles y servicios en la Nube para tareas de cómputo intensivo. *Tesis de maestría, Universidad Nacional de La Plata.* https://doi.org/10.35537/10915_122360
+20. García Serrano, J. F., & Alfonso Rativa, G. E. (2022). Desarrollo de estudio técnico-económico para mejorar la eficiencia energética aplicada a centros de datos TIER II en Colombia.
+21. Bustamante, F. P., Peña Guzman, C. A., & Lopez Vargas, J. D. (2014). Análisis de la aplicación del Green IT en las organizaciones.
+22. Rodríguez, L. E. S., Chavarro-Porras, J. C., Sanabria-Ordoñez, J. A., Castro, H. E., & Matthews, J. (2022). A Survey of Virtualization Technologies: Towards a New Taxonomic Proposal. *Ingeniería e Investigación*. https://doi.org/10.15446/ing.investig.97363
+23. Sarasti, O. O., & Llano Ramírez, G. (2014). Aplicaciones para redes VANET enfocada en la sostenibilidad ambiental: una revisión sistemática. *Ciencia e Ingeniería Neogranadina*. https://doi.org/10.18359/rcin.396
+24. Piedrahita, A. P., et al. (2022). CFD modelling of the air conditioning system for a Tier 2 Data Center. *(Uniandes).*
+25. Piaggesi, D., et al. (2019). Green transfer & adaptation program: A korean-colombian digital cooperation initiative.
+26. Cordero, D., et al. (2022). Model for the Intent to Adopt Green IT in the Context of Organizations.
+27. Botero Ríos, R. A. (2024). Mejores prácticas para el desarrollo de software verde (sostenible) utilizando inteligencia artificial. *European Public and Social Innovation Review*. https://doi.org/10.31637/epsir-2024-436
+28. Ibarra, J. (2023). Reducción de la Huella de Carbono del Software a través de la optimización de compiladores.
+29. Vergallo, R., Cagnazzo, A., Mele, E., & Casciaro, S. (2024). Measuring the Effectiveness of the 'Batch Operations' Energy Design Pattern. *Sensors*. https://doi.org/10.3390/s24227246
+30. Soto Duran, D. E., Reyes Gamboa, A. X., Giraldo Mejía, J. C., Villamizar Jaimes, A., & Vidal Alegría, F. A. (2022). Buenas prácticas para el desarrollo de software sostenible. *Revista Ibérica de Sistemas e Tecnologias de Informação*.

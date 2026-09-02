@@ -2,6 +2,9 @@
 citationKey: sarastiAplicacionesParaRedes2014
 title: Aplicaciones para redes VANET enfocada en la sostenibilidad ambiental, una revisión sistemática
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: technical
 creators:
   - Oscar Orozco Sarasti
   - Gonzalo Llano Ramírez
@@ -24,6 +27,7 @@ zotero-key: TLV6H56C
 item-version: 362
 library-id: 20202832
 fuente: Google Scholar
+decision: incluido
 ---
 # Aplicaciones para redes VANET enfocada en la sostenibilidad ambiental, una revisión sistemática
 

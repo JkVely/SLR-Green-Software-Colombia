@@ -2,6 +2,9 @@
 citationKey: bustamanteANALISISAPLICACIONGREEN2014
 title: ANALISIS DE LA APLICACIÓN DEL GREEN IT EN LAS ORGANIZACIONES
 itemType: journalArticle
+pais: Colombia
+region: Colombia
+enfoque: management
 creators:
   - Fernando Prieto Bustamante
   - Carlos Andrés Peña Guzman
@@ -16,6 +19,7 @@ zotflow-locked: true
 zotero-key: 9AGKN5HB
 item-version: 433
 library-id: 20202832
+decision: incluido
 ---
 # ANALISIS DE LA APLICACIÓN DEL GREEN IT EN LAS ORGANIZACIONES
 ## Abstract
