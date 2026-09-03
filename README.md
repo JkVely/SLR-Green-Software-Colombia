@@ -1,24 +1,39 @@
-# Green Software Engineering en Colombia
-
-### Revisión Sistemática de Literatura (SLR) con Metodología PRISMA 2020
-
 <div align="center">
 
-![Revisión Sistemática](https://img.shields.io/badge/SLR-PRISMA%202020-033048?style=flat-square)
-![Estado](https://img.shields.io/badge/Estado-En%20progreso-ED1C24?style=flat-square)
-![Colombia](https://img.shields.io/badge/Colombia-Comparativo-083da6?style=flat-square)
+# Green Software Engineering en Colombia
 
-*"El software sostenible no es una opción, es una necesidad para el futuro del sector TI en Latinoamérica."*
+### Revisión Sistemática de Literatura (SLR) · PRISMA 2020
+
+<!-- CAPSULE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7aa2f7:bb9af7&height=120&section=header&text=SLR%20Green%20Software&fontSize=28&fontColor=fff&animation=twinkling" width="100%"/>
+
+<!-- TYPING -->
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=7AA2F7&center=true&vCenter=true&width=560&lines=Software+sostenible+para+un+TI+colombiano+con+futuro;Mapeando+brechas+Colombia+vs+Mundo;PRISMA+2020+%7C+Scopus+%2B+Google+Scholar+%2B+IEEE;28+papers+incluidos+%7C+2009-2026)
+
+<!-- BADGES -->
+![metodologia](https://img.shields.io/badge/metodologia-PRISMA%202020-7aa2f7?style=for-the-badge&logo=bookstack&logoColor=fff)
+![estado](https://img.shields.io/badge/estado-En%20progreso-f7768e?style=for-the-badge&logo=git&logoColor=fff)
+![68](https://img.shields.io/badge/base-Scopus%20%2B%20Google%20Scholar%20%2B%20IEEE-9ece6a?style=for-the-badge&logo=bookstack&logoColor=fff)
+![colombia](https://img.shields.io/badge/colombia-Comparativo-73daca?style=for-the-badge&logo=earth&logoColor=fff)
+
+*El software sostenible no es una opción: es requisito de arquitectura y de agenda.*
 
 </div>
 
 ---
 
-## Resumen Ejecutivo
+> **Resumen**
+> Revisión sistemática de literatura sobre **Green Cloud, Green DevOps y Green Software Engineering** en Colombia, comparado con Europa, China y Latinoamérica. Metodología **PRISMA 2020**, 135 registros identificados, 28 incluidos para síntesis. El hallazgo central: la capacidad técnica local existe, pero falta el tejido de políticas, estándares y formación que la vuelva sistémica.
 
-Esta revisión sistemática de literatura analiza el estado actual de **Green Cloud, Green DevOps y Green Software Engineering** en Colombia, comparándolo con Europa, China y otros países de Latinoamérica. Utilizando la metodología **PRISMA 2020**, el estudio identifica brechas críticas en políticas públicas, formación universitaria y estándares técnicos que limitan la adopción de prácticas sostenibles en el sector de software colombiano.
+---
 
-### Hallazgos Clave
+## Pregunta de investigación
+
+> ¿Cuál es el estado actual de las políticas y desarrollos en Green Cloud, Green DevOps y Green Software Engineering en Colombia, comparado con Europa, China y otros países de Latinoamérica?
+
+---
+
+## Hallazgos clave
 
 | Dimensión | Colombia | Europa/China | LatAm/Mercosur |
 |-----------|----------|--------------|----------------|
@@ -30,133 +45,113 @@ Esta revisión sistemática de literatura analiza el estado actual de **Green Cl
 
 ---
 
-## Pregunta de Investigación
+> **Metodología**
+> Diseño SLR con protocolo PRISMA 2020. Búsqueda en Scopus, Google Scholar e IEEE Xplore (acceso institucional). Cierre de búsqueda: agosto 2026. Idioma: inglés y español.
 
-> ¿Cuál es el estado actual de las políticas y desarrollos en Green Cloud, Green DevOps y Green Software Engineering en Colombia, comparado con Europa, China y otros países de Latinoamérica?
+## Flujo PRISMA (n = 28)
 
----
+1. **Identificados** — 135 registros localizados en todas las fuentes.
+2. **Duplicados** — 7 registros removidos por duplicación.
+3. **Después de cribado** — 128 registros pasan el filtro de título y abstract (92 excluidos).
+4. **Después de elegibilidad** — 36 estudios evaluados a texto completo (8 excluidos).
+5. **Incluidos** — 28 estudios finales para la síntesis.
 
-## Metodología
+> **Nota:** El flujo se documenta como lista numerada por legibilidad. Los contadores se generan de forma automática con `scripts/update_prisma.py`.
 
-### Diseño del Estudio
+### Strings de búsqueda
 
-- **Tipo:** Revisión Sistemática de Literatura (SLR)
-- **Metodología:** PRISMA 2020 (Preferred Reporting Items for Systematic Reviews and Meta-Analyses)
-- **Período de búsqueda:** Agosto 2026
-- **Bases de datos:** Scopus, Google Scholar
-- **Idiomas:** Inglés, Español
-
-### Flujo PRISMA
-
-```mermaid
-graph TD
-    A[Identificación<br/>n = 135] --> B[Duplicados removidos<br/>n = 7]
-    B --> C[Registros cribados por título y abstract<br/>n = 128]
-    C --> D[Excluidos en cribado<br/>n = 92]
-    C --> E[Estudios evaluados a texto completo para elegibilidad<br/>n = 36]
-    E --> F[Excluidos en elegibilidad<br/>n = 10]
-    E --> G[Estudios incluidos<br/>n = 26]
-    G --> H[Síntesis final<br/>n = 26]
-    
-    style A fill:#033048,stroke:#033048,color:#fff
-    style G fill:#083da6,stroke:#083da6,color:#fff
-    style H fill:#ED1C24,stroke:#ED1C24,color:#fff
 ```
-
-### Criterios de Búsqueda
-
-**Strings de búsqueda:**
-```
-("green cloud" OR "green computing" OR "green software engineering" OR "green devops") 
+("green cloud" OR "green computing" OR "green software engineering" OR "green devops")
 AND ("Colombia" OR "Latin America")
 ```
 
-**Fuentes excluidas:** ACM Digital Library (barreras de acceso pago). IEEE Xplore ahora incluido gracias al acceso institucional de la universidad.
+**Fuentes:** Scopus, Google Scholar, IEEE Xplore (acceso institucional). ACM Digital Library excluida por barrera de acceso pago.
 
 ---
 
-## Brechas Críticas Identificadas
+## Brechas críticas identificadas
 
-### 1. Gap de Políticas
-No existe política pública que obligue o incentive la sostenibilidad en el desarrollo de software. Este es el gap más crítico, ya que sin políticas, los actores privados carecen de incentivos económicos o regulatorios para invertir en prácticas verdes.
+1. **Gap de políticas** — No existe política pública que obligue o incentive la sostenibilidad en el desarrollo de software. El gap más crítico: sin políticas, el sector privado carece de incentivos económicos o regulatorios para invertir en prácticas verdes.
 
-### 2. Gap de Estándares
-A diferencia de Europa donde el diseño ecológico comienza a ser un requisito de contrato, en Colombia no hay estándares técnicos de Green Software ni mecanismos de certificación que validen el desempeño ambiental de aplicaciones.
+2. **Gap de estándares** — A diferencia de Europa (donde el diseño ecológico comienza a ser requisito de contrato), Colombia no tiene estándares técnicos de Green Software ni mecanismos de certificación.
 
-### 3. Gap de Formación
-Los programas de ingeniería de software y tecnologías de la información en Colombia incluyen casi nulos contenidos sobre sostenibilidad, eficiencia energética o huella de carbono. Los egresados carecen de competencias verdes necesarias.
+3. **Gap de formación** — Los programas de ingeniería de software en Colombia incluyen casi nulos contenidos sobre sostenibilidad. Los egresados carecen de competencias verdes.
 
-### 4. Gap de Investigación Aplicada
-La mayoría de los papers colombianos son de carácter teórico o basados en casos de estudio aislados. No hay investigación longitudinal ni estudios de impacto que midan efectos reales de adopción.
+4. **Gap de investigación aplicada** — Predominan papers teóricos o casos de estudio aislados; no hay investigación longitudinal ni estudios de impacto.
 
-### 5. Gap de Infraestructura
-Pocos papers abordan la optimización de infraestructura propia (centros de datos, servidores locales). La mayoría cita datos globales sin analizar la situación específica colombiana.
+5. **Gap de infraestructura** — Poca investigación sobre optimización de infraestructura propia (centros de datos, servidores locales); se citan datos globales sin analizar el contexto colombiano.
 
 ---
 
-## Recomendaciones Estratégicas
+> **Recomendaciones**
+> Acciones prioritarias para cerrar la brecha Colombia versus el mundo. Cada una con factor de éxito definido.
 
-### 7 Prioridades para Colombia
+## Recomendaciones estratégicas (7 prioridades)
 
-| # | Recomendación | Acción Específica |
-|---|---------------|-------------------|
-| 1 | **Política nacional de sostenibilidad en TI** | MTIC debe definir política que obligue medición y reporte de huella de carbono |
-| 2 | **Estándares técnicos colombianos** | Colaboración con Green Software Foundation y actores académicos |
-| 3 | **Integrar Green Software en universidades** | Mínimo 40 horas transversales a mallas curriculares |
-| 4 | **Centros de excelencia regionales** | Articular universidades, sector privado y MTIC |
-| 5 | **Medición y reporte obligatorio** | PUE en centros de datos, SCI en aplicaciones |
-| 6 | **Incentivos económicos** | Exenciones fiscales o certificaciones verdes |
-| 7 | **Casos de uso locales documentados** | Proyectos como EducaAmbienteWeb con impacto medido |
+1. **Política nacional de sostenibilidad en TI** — El MTIC debe definir política que obligue la medición y reporte de huella de carbono. *Factor de éxito:* metas medibles y plan faseado (piloto → expansión).
 
----
+2. **Estándares técnicos colombianos** — Colaboración con la Green Software Foundation y actores académicos. *Factor de éxito:* vincular gremios y facultades desde la adopción voluntaria inicial.
 
-## Oportunidades de Investigación
+3. **Integrar Green Software en universidades** — Mínimo 40 horas transversales a las mallas curriculares de ingeniería de software. *Factor de éxito:* proyectos prácticos de medición y reducción de huella.
 
-- **Green Software + Turismo:** Sector estratégico colombiano (ecoturismo eje Cafetero, Cartagena, Leticia) con poca investigación
-- **Modelos de difusión:** Llevar prácticas verdes desde grandes empresas hacia PyMEs tecnológicas
-- **Intensidad de carbono de la nube colombiana:** Análisis en relación con la matriz energética nacional
-- **Herramientas de medición adaptadas:** Bajo costo, fáciles de implementar, compatibles con pilas tecnológicas locales
+4. **Centros de excelencia regionales** — Articular universidades, sector privado y MTIC. *Factor de éxito:* primera reunión multisectorial antes de fin de 2026.
+
+5. **Medición y reporte obligatorio** — PUE en centros de datos, SCI en aplicaciones, como condición de licitaciones públicas. *Factor de éxito:* empezar por el sector público y expandir con incentivos.
+
+6. **Incentivos económicos** — Exenciones fiscales o certificaciones verdes. *Factor de éxito:* esquema concertado con la DIAN y gremios tecnológicos.
+
+7. **Casos de uso locales con impacto medido** — Proyectos como EducaAmbienteWeb. *Factor de éxito:* indicadores de seguimiento (kWh, CO2 evitado, usuarios) publicados anualmente.
 
 ---
 
-## Estructura del Repositorio
+## Oportunidades de investigación
+
+- **Green Software + Turismo** — Sector estratégico colombiano (ecoturismo eje Cafetero, Cartagena, Leticia) con escasa investigación.
+- **Modelos de difusión** — Llevar prácticas verdes de las grandes empresas hacia las PyMEs tecnológicas.
+- **Intensidad de carbono de la nube colombiana** — Análisis frente a la matriz energética nacional.
+- **Herramientas de medición adaptadas** — Bajo costo, fáciles de implementar, compatibles con pilas tecnológicas locales.
+
+---
+
+> **Estructura**
+> Documentación en Markdown + Obsidian con Dataview. Referencias gestionadas con Zotero + Better BibTeX.
+
+## Estructura del repositorio
 
 ```
 /
-├── README.md                    ← Este archivo
-├── 00-Protocolo.md              Pregunta de investigación, objetivo, alcance
+├── README.md                    Este archivo
+├── 00-Protocolo.md              Pregunta, objetivo, alcance
 ├── 01-Criterios.md              Criterios de inclusión/exclusión + queries
 ├── 02-Flujo-PRISMA.md           Contadores PRISMA (auto-generado)
 ├── 03-Matriz.md                 Tabla Dataview (auto-generada)
 ├── 04-Borrador.md               Artículo: Intro, Método, Resultados, Discusión
-├── Reunion-1-09.md              Notas de reunión del 1 de septiembre
+├── Reunion 1-09.md              Notas de reunión del 1 de septiembre
 ├── referencias.bib              BibTeX (Zotero + Better BibTeX)
 ├── scripts/
-│   └── update_prisma.py         ← Automatización PRISMA
+│   └── update_prisma.py         Automatización de contadores PRISMA
 └── Source/
-    └── My Library/              Papers leídos con plantilla
+    └── My Library/              Papers leídos con plantilla y notas clave
 ```
 
 ---
 
-## Automatización
+## Automatización: `scripts/update_prisma.py`
 
-### Script de Actualización PRISMA
-
-Ejecuta el siguiente comando para actualizar automáticamente los contadores:
+Actualiza de forma automática los contadores del flujo PRISMA:
 
 ```bash
 python3 scripts/update_prisma.py
 ```
 
-**Qué hace:**
-- Lee todos los papers en `Source/My Library/`
-- Filtra los que tienen campos `pais`, `region`, `enfoque` en frontmatter
-- Actualiza `02-Flujo-PRISMA.md` con los contadores correctos
-- Actualiza `03-Matriz.md` con código Dataview optimizado
-- Muestra resumen de papers incluidos/excluidos
+1. Lee todos los papers en `Source/My Library/`.
+2. Filtra los que tienen `pais`, `region` y `enfoque` en el frontmatter.
+3. Actualiza `02-Flujo-PRISMA.md` con los contadores correctos.
+4. Actualiza `03-Matriz.md` con el código Dataview optimizado.
+5. Muestra un resumen de papers incluidos y excluidos.
 
-**Campos requeridos en frontmatter:**
+> **Campos requeridos en frontmatter**
+
 ```yaml
 ---
 pais: Colombia      # o Global, etc.
@@ -167,11 +162,11 @@ enfoque: policy     # o technical, education, management
 
 ---
 
-## Tecnologías y Herramientas
+## Tecnologías y herramientas
 
 | Herramienta | Uso |
 |-------------|-----|
-| **Obsidian** | Editor de markdown y gestión de conocimiento |
+| **Obsidian** | Editor Markdown y gestión de conocimiento |
 | **Dataview** | Generación automática de tablas |
 | **Zotero + Better BibTeX** | Gestión de referencias y exportación BibTeX |
 | **PRISMA 2020** | Metodología de revisión sistemática |
@@ -179,27 +174,33 @@ enfoque: policy     # o technical, education, management
 
 ---
 
-## Limitaciones del Estudio
+> **Limitaciones**
+> Transparencia metodológica de la revisión.
 
-1. **Cobertura de bases de datos:** Exclusión de IEEE Xplore y ACM Digital Library pudo omitir papers relevantes
-2. **Idioma:** Solo papers en inglés o español
-3. **Temporalidad:** Búsqueda cerrada en agosto de 2026
-4. **Un solo revisador:** Posible sesgo de selección (sin validación inter-rater)
-5. **Profundidad técnica:** Focalizado en alcance y brechas generales, no en metodologías específicas
+## Limitaciones del estudio
+
+1. **Cobertura de bases de datos** — La búsqueda se limitó a Scopus, Google Scholar e IEEE Xplore; ACM Digital Library excluida por barrera de acceso pago.
+2. **Idioma** — Solo papers en inglés o español.
+3. **Temporalidad** — Búsqueda cerrada en agosto de 2026.
+4. **Un solo revisador** — Sin validación inter-rater, posible sesgo de selección.
+5. **Profundidad técnica** — Focalizado en alcance y brechas generales, no en metodologías específicas.
 
 ---
 
-## Contacto y Referencias
+## Referencias
 
-**Protocolo fuente:** [Sánchez Reyes (2023)](https://sol.sbc.org.br/index.php/sbsi/article/view/41319) - "Principios y Mejores Prácticas en la Ingeniería de Software Verde"
+**Protocolo fuente:** [Sánchez Reyes (2023)](https://sol.sbc.org.br/index.php/sbsi/article/view/41319) - "Principios y Mejores Prácticas en la Ingeniería de Software Verde".
 
-**Base de evidencia:** 26 papers incluidos en la revisión sistemática, cubriendo período 2009-2026
+**Base de evidencia:** 28 papers incluidos, período 2009-2026.
 
 ---
 
 <div align="center">
 
-**Proyecto de Revisión Sistemática** | Universidad Nacional de Colombia  
-*Última actualización: Septiembre 2026*
+**Proyecto de Revisión Sistemática** · Universidad Nacional de Colombia
+*Última actualización: septiembre 2026*
+
+<!-- WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7aa2f7:bb9af7&height=80&section=footer" width="100%"/>
 
 </div>
