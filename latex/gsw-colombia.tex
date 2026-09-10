@@ -9,6 +9,10 @@
 \usepackage{array}
 \usepackage{colortbl}
 \usepackage{pgfplots}
+\usepackage{float}
+\usepackage{dblfloatfix}
+\usepackage{placeins}
+% \usepackage{stfloats} 
 \pgfplotsset{compat=1.18}
 
 \definecolor{gapgreen}{RGB}{205,230,205}
@@ -32,7 +36,7 @@ jkquinteror@gmail.com}}
 \maketitle
 
 \begin{abstract}
-La industria de las tecnolog\'ias de la informaci\'on representar\'a entre el 3\,\% y el 8\,\% de la demanda energ\'etica mundial para 2030, y los centros de datos por s\'i solos consumen el 1.8\,\% de la electricidad de Estados Unidos y generan cerca del 0.5\,\% de sus emisiones de gases de efecto invernadero, con proyecciones que anticipan un crecimiento de hasta 4.2$\times$ en sus emisiones globales para 2030. En Colombia, este imperativo adquiere un matiz adicional: la matriz el\'ectrica nacional es mayoritariamente hidroel\'ectrica y estructuralmente vulnerable a los ciclos de El Ni\~no--La Ni\~na, que alteran la generaci\'on de m\'as de un tercio de los embalses del mundo, por lo que la eficiencia energ\'etica del software se convierte en un asunto de seguridad energ\'etica. Esta Revisi\'on Sistem\'atica de Literatura (SLR), siguiendo PRISMA 2020 con fase de mapeo sistem\'atico Kitchenham/Petersen, 'sintetiza 36 art\'iculos indexados en Scopus, Google Scholar e IEEE Xplore para responder cu\'al es el estado actual de Green Cloud, Green DevOps y Green Software Engineering en Colombia comparado con Europa, China y Am\'erica Latina. La tesis del trabajo sostiene que Colombia posee capacidades t\'ecnicas aisladas y demostrables, pero carece de la pol\'itica p\'ublica, los est\'andares, la formaci\'on universitaria y la investigaci\'on aplicada longitudinal que permitan escalarlas. Los hallazgos evidencian cinco brechas cr\'iticas (pol\'iticas p\'ublicas, est\'andares t\'ecnicos, formaci\'on universitaria, investigaci\'on aplicada e infraestructura) y proponen siete recomendaciones con factores de \'exito para el contexto colombiano.
+La industria de las tecnolog\'ias de la informaci\'on representar\'a entre el 3\,\% y el 8\,\% de la demanda energ\'etica mundial para 2030, y los centros de datos por s\'i solos consumen el 1.8\,\% de la electricidad de Estados Unidos y generan cerca del 0.5\,\% de sus emisiones de gases de efecto invernadero, con proyecciones que anticipan un crecimiento de hasta 4.2 veces en sus emisiones globales para 2030. En Colombia, este imperativo adquiere un matiz adicional: la matriz el\'ectrica nacional es mayoritariamente hidroel\'ectrica y estructuralmente vulnerable a los ciclos de El Ni\~no--La Ni\~na, que alteran la generaci\'on de m\'as de un tercio de los embalses del mundo, por lo que la eficiencia energ\'etica del software se convierte en un asunto de seguridad energ\'etica. Esta Revisi\'on Sistem\'atica de Literatura (SLR), siguiendo PRISMA 2020 con fase de mapeo sistem\'atico Kitchenham/Petersen, 'sintetiza 35 art\'iculos indexados en Scopus, Google Scholar e IEEE Xplore para responder cu\'al es el estado actual de Green Cloud, Green DevOps y Green Software Engineering en Colombia comparado con Europa, China y Am\'erica Latina. La tesis del trabajo sostiene que Colombia posee capacidades t\'ecnicas aisladas y demostrables, pero carece de la pol\'itica p\'ublica, los est\'andares, la formaci\'on universitaria y la investigaci\'on aplicada longitudinal que permitan escalarlas. Los hallazgos evidencian cinco brechas cr\'iticas (pol\'iticas p\'ublicas, est\'andares t\'ecnicos, formaci\'on universitaria, investigaci\'on aplicada e infraestructura) y proponen siete recomendaciones con factores de \'exito para el contexto colombiano.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -57,12 +61,21 @@ Revisiones previas han abordado la computaci\'on verde~\cite{harmon2009,rodrigue
 La revisi\'on sigue el protocolo PRISMA 2020 complementado con una fase de mapeo sistem\'atico (Kitchenham y Charters~\cite{kitchenham2007}; Petersen et al.~\cite{petersen2015}).
 
 \subsection{Estrategia de b\'usqueda}
-La b\'usqueda se realiz\'o en cuatro fases: Fase 1 Scopus el 29--30 de agosto de 2026; Fase 2 IEEE Xplore la primera semana de septiembre de 2026; Fase 3 Google Scholar con optimizaci\'on Scholar Labs en septiembre de 2026; Fase 4 ACM Digital Library el 9 de septiembre de 2026. Las cadenas combinan Green Cloud, Green Computing, Sustainable Cloud, Green Software Engineering y Green DevOps con Colombia y Am\'erica Latina. Los criterios de inclusi\'on cubrieron Green Cloud, Green DevOps, Green Software Engineering, sostenibilidad en TI y eficiencia energ\'etica de infraestructura computacional, con art\'iculos que aporten datos o discusi\'on sobre Colombia (Am\'erica Latina/Mercosur como contexto comparativo), en ingl\'es o espa\~nol.
+La b\'usqueda se realiz\'o en cuatro fases: Fase 1 Scopus el 29--30 de agosto de 2026; Fase 2 IEEE Xplore la primera semana de septiembre de 2026; Fase 3 Google Scholar con optimizaci\'on Scholar Labs en septiembre de 2026; Fase 4 ACM Digital Library el 9 de septiembre de 2026. Las cadenas de b\'usqueda se definieron para reflejar el estado actual de la investigaci\'on y garantizar reproducibilidad.
+
+Para Scopus e IEEE Xplore se utiliz\'o:
+\texttt{TITLE-ABS-KEY((``green cloud'' OR ``green computing'' OR ``sustainable cloud'' OR ``green software engineering'' OR ``green devops'') AND (``Colombia'' OR ``Latin America''))}
+con filtro de a\~no $PUBYEAR > 2010$.
+
+Para Google Scholar:
+\texttt{``green cloud'' OR ``green computing'' OR ``green software'' Colombia}
+
+Los criterios de inclusi\'on cubrieron Green Cloud, Green DevOps, Green Software Engineering, sostenibilidad en TI y eficiencia energ\'etica de infraestructura computacional, con art\'iculos que aporten datos o discusi\'on sobre Colombia (Am\'erica Latina/Mercosur como contexto comparativo), en ingl\'es o espa\~nol.
 
 \subsection{Flujo de selecci\'on}
 La Tabla~\ref{tab:prisma} resume el flujo de selecci\'on PRISMA 2020. Tras la eliminaci\'on de duplicados, el cribado por t\'itulo y resumen y la evaluaci\'on de elegibilidad a texto completo, 35 estudios se incluyeron en la s\'intesis.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Flujo de selección PRISMA 2020}
 \label{tab:prisma}
 \centering
@@ -72,7 +85,7 @@ La Tabla~\ref{tab:prisma} resume el flujo de selecci\'on PRISMA 2020. Tras la el
 \textbf{Etapa} & \textbf{N} & \textbf{Nota} \\
 \midrule
 Identificados (Scopus + Scholar + IEEE) & 135 & Registros iniciales \\
-Duplicados eliminados & 7 & Demicco 2019/2020 \\
+Duplicados eliminados & 7 & Elementos repetidos entre bases \\
 Tras cribado & 128 & Filtro título/resumen \\
 Excluidos en cribado & 92 & Fuera de criterios \\
 Tras elegibilidad & 35 & Evaluación texto completo \\
@@ -89,7 +102,7 @@ Para el mapa regional se definieron cuatro categor\'ias mutuamente excluyentes. 
 
 La Tabla~\ref{tab:hibrido} resume el mapeo entre las fases PRISMA 2020 y la fase de mapeo sistem\'atico.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Mapeo del protocolo h\'ibrido: fases PRISMA 2020 y fase de mapeo sistem\'atico}
 \label{tab:hibrido}
 \centering
@@ -110,7 +123,7 @@ Reporte y divulgaci\'on & Discusi\'on de brechas y recomendaciones \\
 \section{Resultados}
 El corpus final de 35 estudios se caracteriza por tipo de fuente, regi\'on de procedencia (Colombia, Am\'erica Latina y el Caribe [LAC], Global y China) y enfoque metodol\'ogico (Figuras~\ref{fig:tiposfuente} y~\ref{fig:regiones}); la Tabla~\ref{tab:escenario-tema} cruza los escenarios de aplicaci\'on con los temas abordados por la literatura mapeada.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
@@ -133,7 +146,7 @@ nodes near coords style={font=\scriptsize}
 \label{fig:tiposfuente}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
@@ -159,14 +172,18 @@ legend entries={T\'ecnico,Pol\'itica,Gesti\'on,Educaci\'on}
 \label{fig:regiones}
 \end{figure}
 
-\begin{table*}[htbp]
+\FloatBarrier
+\begin{table}[H]
 \caption{N\'umero de publicaciones por escenario de aplicaci\'on (filas) y tema (columnas), $n=35$}
 \label{tab:escenario-tema}
 \centering
-\footnotesize
-\begin{tabular}{@{}l R{1.5cm} R{1.9cm} R{1.5cm} R{1.5cm} R{1.9cm} R{0.7cm} @{}}
+\scriptsize
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}l R{1cm} R{1cm} R{1cm} R{1cm} R{1cm} R{0.7cm} @{}}
+
+
 \toprule
-\textbf{Escenario} & \textbf{GSE} & \textbf{Green IT/GC} & \textbf{Cloud} & \textbf{DC} & \textbf{Pol\'itica/Gesti\'on} & $\Sigma$ \\
+\textbf{Escenario} & \textbf{GSE} & \textbf{Green IT/GC} & \textbf{Cloud} & \textbf{DC} & \textbf{Pol\'itica/ Gesti\'on} & $\Sigma$ \\
 \midrule
 Empresa y organizaciones & 0 & 3 & 0 & 0 & 4 & 7 \\
 Centros de datos & 0 & 0 & 0 & 6 & 1 & 7 \\
@@ -178,10 +195,11 @@ Otros sectores & 1 & 5 & 1 & 0 & 2 & 9 \\
 $\Sigma$ & 6 & 9 & 6 & 6 & 8 & 35 \\
 \bottomrule
 \end{tabular}
-\end{table*}
+}
+\end{table}
 
 \subsection{Dimensiones t\'ecnicas y m\'etricas}
-Los 36 art\'iculos coinciden en que las m\'etricas operativas son la puerta de entrada para la adopci\'on de pr\'acticas verdes. El \'indice SCI (Software Carbon Intensity) de la Green Software Foundation es el est\'andar m\'as citado para medir emisiones por unidad funcional~\cite{fontanarrosa2024,jin2025}, mientras que la m\'etrica PUE (Power Usage Effectiveness) sigue siendo el referente para evaluar la eficiencia de centros de datos, con valores cercanos a 1.0 que indican m\'axima eficiencia frente a 2.0 o m\'as en infraestructuras sin optimizar~\cite{harmon2009,diaz2017}.
+Los 35 art\'iculos coinciden en que las m\'etricas operativas son la puerta de entrada para la adopci\'on de pr\'acticas verdes. El \'indice SCI (Software Carbon Intensity) de la Green Software Foundation es el est\'andar m\'as citado para medir emisiones por unidad funcional~\cite{fontanarrosa2024,jin2025}, mientras que la m\'etrica PUE (Power Usage Effectiveness) sigue siendo el referente para evaluar la eficiencia de centros de datos, con valores cercanos a 1.0 que indican m\'axima eficiencia frente a 2.0 o m\'as en infraestructuras sin optimizar~\cite{harmon2009,diaz2017}.
 
 La evidencia contextual reciente ampl\'ia el marco m\'etrico en tres dimensiones. Primero, del PUE al carbono total del ciclo de vida: la especializaci\'on de hardware mejora la eficiencia operativa pero incrementa las emisiones incorporadas, motivando m\'etricas unificadas como el Job Sustainability Cost y el Amortized Sustainability Cost~\cite{eilam2024}; para Colombia, la estrategia de adquirir hardware m\'as eficiente debe evaluarse contra la prolongaci\'on del ciclo de vida. Segundo, del Scope 2 al alcance completo de la cadena: entre el 38\,\% y el 69\,\% del carbono total de un centro de datos corresponde a emisiones de Scope 3~\cite{lin2024}, lo que refuerza la necesidad de m\'etricas de ciclo de vida. Tercero, de la energ\'ia al agua como recurso contable: el enfriamiento seco puede reducir el consumo de agua de un centro de datos hasta en 4.34 millones de galones al mes, aunque los trade-offs dependen de la geograf\'ia~\cite{gnibga2024}; en un pa\'is con estr\'es h\'idrico estacional como Colombia, esta dimensi\'on no debe ignorarse en la ubicaci\'on de infraestructura.
 
@@ -196,17 +214,21 @@ Un hallazgo cr\'itico y consistente es la ausencia de pol\'iticas nacionales est
 Las aplicaciones documentadas incluyen: optimizaci\'on de infraestructura de centros de datos (PUE, consolidaci\'on en nube, gesti\'on de carbono incorporado)~\cite{garcia2022,torres2026,diaz2017}; educaci\'on ambiental con mini-servidores solares que reducen el consumo 23$\times$ en Per\'u~\cite{palomino2019}; principios de desarrollo de software verde y herramientas de medici\'on SCI en proyectos piloto~\cite{miranda2025,jin2025}; transferencia de tecnolog\'ias verdes desde Corea y Europa hacia Am\'erica Latina~\cite{piaggesi2019,cordero2022}; y c\'omputo m\'ovil distribuido de bajo costo sobre dispositivos ARM~\cite{petrocelli2021}.
 
 \subsection{Software verde para gesti\'on y turismo}
-Wu et al.~\cite{wu2025}, mediante un enfoque h\'ibrido (bibliom\'etrico + SLR) sobre Web of Science (1991--2024), confirman que el turismo aparece marginalmente en el software verde y ofrece oportunidades prometedoras. Para Colombia, donde el turismo es un sector econ\'omico estrat\'egico (ecoturismo del eje Cafetero, Cartagena, Leticia), la intersecci\'on entre software verde y turismo permanece inexplorada en los 36 art\'iculos incluidos, lo que representa una oportunidad concreta de investigaci\'on.
+Wu et al.~\cite{wu2025}, mediante un enfoque h\'ibrido (bibliom\'etrico + SLR) sobre Web of Science (1991--2024), confirman que el turismo aparece marginalmente en el software verde y ofrece oportunidades prometedoras. Para Colombia, donde el turismo es un sector econ\'omico estrat\'egico (ecoturismo del eje Cafetero, Cartagena, Leticia), la intersecci\'on entre software verde y turismo permanece inexplorada en los 35 art\'iculos incluidos, lo que representa una oportunidad concreta de investigaci\'on.
 
 \subsection{Matriz comparativa regional}
 La Tabla~\ref{tab:comparativa} transpone la comparaci\'on regional en filas de regiones y columnas de dimensiones operativas, seg\'un la clasificaci\'on del mapeo sistem\'atico. La Tabla~\ref{tab:gaps} presenta una matriz de brechas donde el verde indica dimensi\'on presente, el amarillo indica presencia parcial y el rojo indica ausencia.
 
-\begin{table*}[htbp]
+\FloatBarrier
+\begin{table}[H]
 \caption{Comparaci\'on regional: pol\'itica, formaci\'on y m\'etricas}
 \label{tab:comparativa}
 \centering
-\footnotesize
+\scriptsize
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}R{1.9cm} R{4.5cm} R{4.2cm} R{4.7cm} @{}}
+
+
 \toprule
 \textbf{Regi\'on} & \textbf{Pol\'itica y est\'andares} & \textbf{Formaci\'on universitaria} & \textbf{M\'etricas y casos} \\
 \midrule
@@ -216,9 +238,10 @@ La Tabla~\ref{tab:comparativa} transpone la comparaci\'on regional en filas de r
 \textbf{LatAm\slash Mercosur} & Fragmentada, iniciativas aisladas~\cite{bossa2023} & Similar o peor que Colombia~\cite{puerta2024} & Emergente, mayormente investigaci\'on; caso de mini-servidor solar en Per\'u~\cite{palomino2019} \\
 \bottomrule
 \end{tabular}
-\end{table*}
+}
+\end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Matriz de brechas Colombia: capacidad t\'ecnica vs. infraestructura institucional}
 \label{tab:gaps}
 \centering
@@ -239,7 +262,7 @@ La secci\'on IV-A tambi\'en destaca que el c\'alculo del \'indice SCI requiere d
 
 La Tabla~\ref{tab:citas} lista las publicaciones del corpus con mayor impacto citacional verificado.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Publicaciones m\'as citadas relacionadas con la revisi\'on (Google Scholar/ACM DL, septiembre de 2026)}
 \label{tab:citas}
 \centering
@@ -259,12 +282,12 @@ Piaggesi et al. (2019), transferencia Corea--Colombia & corpus & 0 \\
 
 \section{Discusi\'on}
 \subsection{Interpretaci\'on de resultados}
-La s\'intesis de los 36 art\'iculos revela un patr\'on claro: la investigaci\'on t\'ecnica sobre software verde existe y acumula m\'etricas y herramientas operativas, pero la infraestructura de pol\'itica, est\'andares y formaci\'on que permite la adopci\'on a escala est\'a ausente en Colombia~\cite{bossa2023}. Esto genera una brecha de conocimiento y aplicaci\'on donde los avances t\'ecnicos aislados no se traducen en cambios sist\'emicos. Los hallazgos t\'ecnicos son transferibles y adoptables de inmediato por organizaciones colombianas, pero la escalabilidad requiere tres condiciones actualmente ausentes: pol\'iticas que incentiven la medici\'on y el reporte, est\'andares que eleven la sostenibilidad a requisito de dise\~no y curr\'iculos universitarios que formen a los pr\'oximos ingenieros en principios verdes.
+La s\'intesis de los 35 art\'iculos revela un patr\'on claro: la investigaci\'on t\'ecnica sobre software verde existe y acumula m\'etricas y herramientas operativas, pero la infraestructura de pol\'itica, est\'andares y formaci\'on que permite la adopci\'on a escala est\'a ausente en Colombia~\cite{bossa2023}. Esto genera una brecha de conocimiento y aplicaci\'on donde los avances t\'ecnicos aislados no se traducen en cambios sist\'emicos. Los hallazgos t\'ecnicos son transferibles y adoptables de inmediato por organizaciones colombianas, pero la escalabilidad requiere tres condiciones actualmente ausentes: pol\'iticas que incentiven la medici\'on y el reporte, est\'andares que eleven la sostenibilidad a requisito de dise\~no y curr\'iculos universitarios que formen a los pr\'oximos ingenieros en principios verdes.
 
 \subsection{Vulnerabilidad energ\'etica como argumento de urgencia}
 La evidencia clim\'atico-energ\'etica incorporada en esta revisi\'on a\~nade una dimensi\'on propia. Colombia genera m\'as de dos tercios de su electricidad con hidroel\'ectricas. El ENSO altera significativamente la producci\'on anual de m\'as de un tercio de los embalses del mundo, con efectos especialmente pronunciados en Sudam\'erica~\cite{ng2017}; en t\'erminos agregados globales las anomal\'ias se cancelan, pero a escala nacional y de cuenca los efectos son severos. El calentamiento global modifica la estad\'istica del ENSO~\cite{latif2009}, y el r\'ecord de calor de 2023 se ha atribuido en parte a la interacci\'on ENSO--calentamiento~\cite{karnauskas2025,columbia2016}. Para un sistema como el colombiano, cada ciclo de El Ni\~no implica riesgo de sequ\'ia en los embalses, ca\'ida de generaci\'on y presi\'on sobre la demanda por calor, exactamente el patr\'on doble documentado para India con cerca de 18\,TWh de generaci\'on t\'ermica adicional~\cite{crea2026}.
 
-Esta cadena (ENSO $\rightarrow$ hidrolog\'ia $\rightarrow$ mix de generaci\'on $\rightarrow$ intensidad de red $\rightarrow$ demanda de software) se presenta como hip\'otesis contextual externa al corpus de la SLR, con salvedades expl\'icitas: las cifras de Estados Unidos~\cite{siddik2021} no son directamente extrapolables a Am\'erica Latina; la proyecci\'on de 4.2$\times$~\cite{maji2025} es un escenario, no un resultado determinista; y el corpus de 35 art\'iculos limita la fuerza de cualquier generalizaci\'on regional. Si la generaci\'on el\'ectrica es escasa y estresada en los picos de demanda, cada kWh ahorrado por software eficiente es un kWh que no compite con los servicios esenciales, posicionando el software eficiente como amortiguador de demanda en los momentos m\'as cr\'iticos del sistema el\'ectrico. Este argumento eleva el estudio m\'as all\'a del cumplimiento ambiental: lo posiciona como insumo de pol\'itica de resiliencia energ\'etica nacional, un marco ausente en la literatura colombiana mapeada y una contribuci\'on de esta revisi\'on.
+Esta cadena (ENSO $\rightarrow$ hidrolog\'ia $\rightarrow$ mix de generaci\'on $\rightarrow$ intensidad de red $\rightarrow$ demanda de software) se presenta como hip\'otesis contextual externa al corpus de la SLR, con salvedades expl\'icitas: las cifras de Estados Unidos~\cite{siddik2021} no son directamente extrapolables a Am\'erica Latina; la proyecci\'on de 4.2 veces~\cite{maji2025} es un escenario, no un resultado determinista; y el corpus de 35 art\'iculos limita la fuerza de cualquier generalizaci\'on regional. Si la generaci\'on el\'ectrica es escasa y estresada en los picos de demanda, cada kWh ahorrado por software eficiente es un kWh que no compite con los servicios esenciales, posicionando el software eficiente como amortiguador de demanda en los momentos m\'as cr\'iticos del sistema el\'ectrico. Este argumento eleva el estudio m\'as all\'a del cumplimiento ambiental: lo posiciona como insumo de pol\'itica de resiliencia energ\'etica nacional, un marco ausente en la literatura colombiana mapeada y una contribuci\'on de esta revisi\'on.
 
 \subsection{Brechas identificadas en la investigaci\'on colombiana}
 Emergen cinco brechas consistentes: (1) de pol\'itica, sin pol\'itica p\'ublica que obligue o incentive la sostenibilidad del software, la m\'as cr\'itica, pues la acci\'on voluntaria ser\'a insuficiente~\cite{maji2025}; (2) de est\'andares, sin est\'andares t\'ecnicos ni mecanismos de certificaci\'on, lo que deja invisibles las emisiones de Scope 3 (38\,\%--69\,\% del carbono de un centro de datos~\cite{lin2024}) y el carbono incorporado~\cite{eilam2024}; (3) de formaci\'on, con contenidos casi nulos de sostenibilidad en los programas de ingenier\'ia de software, abordable mediante el roadmap curricular importable~\cite{moreira2024}; (4) de investigaci\'on aplicada, dominada por estudios te\'oricos o casos aislados sin medici\'on longitudinal de impacto; y (5) de infraestructura, con pocos art\'iculos que aborden la optimizaci\'on espec\'ifica colombiana y sin inventario p\'ublico de la huella energ\'etica de los centros de datos del pa\'is, pese a los trade-offs documentados~\cite{gnibga2024,torres2026}.
@@ -279,7 +302,7 @@ Se proponen siete recomendaciones con factores de \'exito: (1) una pol\'itica na
 
 Las l\'ineas de investigaci\'on futuras incluyen estudios longitudinales de impacto, modelos de difusi\'on hacia las PYMES tecnol\'ogicas colombianas, an\'alisis de la intensidad de carbono de la nube colombiana, herramientas de medici\'on adaptadas de bajo costo, pol\'iticas de econom\'ia circular para hardware y software, estudios de percepciones de desarrolladores, y la modelaci\'on de la interacci\'on entre demanda computacional y disponibilidad hidroel\'ectrica bajo escenarios El Ni\~no para cuantificar el valor de resiliencia del software eficiente.
 
-\bibliographystyle{IEEEtran}
+\bibliographystyle{plain}
 \nocite{botero2026,ibarra2023,vergallo2024,piedrahita2022}
 \bibliography{gsw-colombia}
 
