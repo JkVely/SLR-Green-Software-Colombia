@@ -1,3 +1,20 @@
 .obsidian/
 .vscode/
 .DS_Store
+
+# Artefactos de compilación LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+compile*.log

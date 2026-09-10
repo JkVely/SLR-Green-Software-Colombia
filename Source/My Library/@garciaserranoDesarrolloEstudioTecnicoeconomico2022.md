@@ -11,6 +11,11 @@ creators:
 publication: ""
 date: 2022-01-06T20:28:10Z
 year: 2022
+tema_asunto: "Eficiencia Energética, Centros de Datos TIER II, Estudio Técnico-Económico, Energía Fotovoltaica"
+escenario_aplicacion: "centro de datos TIER II en Colombia"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Estudio técnico-económico con categorización de consumo por subsistema y análisis de tecnologías"
 url: http:__hdl.handle.net_11349_28134
 doi: ""
 tags: []
@@ -26,5 +31,10 @@ decision: incluido
 
 ## Attachments
 - [García Serrano y Alfonso Rativa - 2022 - Desarrollo de estudio técnico-económico para mejorar la eficiencia energética aplicada a centros de.pdf]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=9E58MC2N_
+
+## Notas clave
+- Estudio técnico-económico para mejorar eficiencia energética en centro de datos TIER II en Colombia.
+- Propone categorización del consumo eléctrico por subsistema, análisis de tecnologías y recomendaciones que incluyen migración tecnológica e implementación de energía fotovoltaica.
+- Relevancia para el SLR: caso colombiano real de infraestructura Green Cloud con enfoque técnico-económico.
 
 ## Notes

@@ -11,6 +11,11 @@ creators:
 publication: ""
 date: "2009"
 year: 2009
+tema_asunto: "Sustainable IT Services, Green Computing, Gestión de Energía, Virtualización"
+escenario_aplicacion: "servicios IT en organizaciones"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión de literatura y propuesta de principios"
 url: https:__www.scopus.com_inward_record.uri?eid=2-s2.0-70450213380&doi=10.1109%2fPICMET.2009.5261969&partnerID=40&md5=65bfab2e12768c662e1c84b3f7899345
 doi: 10.1109_PICMET.2009.5261969
 tags:

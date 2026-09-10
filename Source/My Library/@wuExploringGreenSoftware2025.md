@@ -10,6 +10,11 @@ creators:
 publication: Sustainable Development
 date: 2025-10-29
 year: 2025
+tema_asunto: "Green Software, Bibliometría, Gestión Sostenible, Turismo"
+escenario_aplicacion: "gestión sostenible y turismo"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Análisis bibliométrico híbrido Web of Science 1991-2024"
 anio: 2025
 pais: Global
 region: LAC
@@ -38,5 +43,11 @@ decision: incluido
 ## Attachments
 - [sd.html](obsidian://zotflow?type=open-attachment&libraryID=20202832&key=IM3VQSQ7)
 - [Wu et al. - 2026 - Exploring Green Software for Management Tourism as an Emerging Research Field.pdf](obsidian://zotflow?type=open-attachment&libraryID=20202832&key=KHRX9AAH)
+
+## Notas clave
+- Bibliometría híbrida sobre Green Software para gestión con foco en turismo como campo emergente.
+- Análisis Web of Science 1991-2024 muestra cuerpo literario creciente pero fragmentado; turismo aparece marginalmente con oportunidades.
+- Contribuye con mapa temático e identificación de gaps para integrar tecnología con prácticas de gestión sostenible.
+- Relevancia: perspectiva de gestión y aplicación sectorial del green software.
 
 ## Notes

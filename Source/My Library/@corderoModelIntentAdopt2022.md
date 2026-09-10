@@ -11,6 +11,11 @@ creators:
 publication: IEEE Access
 date: "2022"
 year: 2022
+tema_asunto: "Green IT, Adopción de Tecnología, Sostenibilidad Ambiental, Modelo de Adopción"
+escenario_aplicacion: "organizaciones (América Latina y el Caribe)"
+institucion_principal: "Universidad Católica de Cuenca"
+ciudad: "Cuenca"
+metodologia: "Modelo de ecuaciones estructurales (PLS-SEM)"
 anio: 2022
 pais: Global
 region: LAC

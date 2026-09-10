@@ -12,6 +12,11 @@ creators:
 publication: IEEE Latin America Transactions
 date: "2020"
 year: 2020
+tema_asunto: "Sistemas Embebidos, IoT, Green Computing, Edge Computing, Cloud Computing"
+escenario_aplicacion: "industria y academia (América Latina)"
+institucion_principal: "Universidad Nacional de Mar del Plata"
+ciudad: "Mar del Plata"
+metodologia: "Revisión de literatura"
 url: https:__www.scopus.com_pages_publications_85084442364?origin=resultslist
 doi: 10.1109_TLA.2020.9085271
 tags:

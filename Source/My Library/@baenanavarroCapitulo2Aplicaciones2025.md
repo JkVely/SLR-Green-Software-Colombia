@@ -12,6 +12,11 @@ creators:
 publication: Universidad Cooperativa de Colombia, Facultad de Ingenierías, Ingeniería de Sistemas, Montería
 date: "2025"
 year: 2025
+tema_asunto: "IoT, Cloud Computing, Monitoreo Ambiental, Análisis de Datos, Salud Pública"
+escenario_aplicacion: "monitoreo ambiental y salud pública"
+institucion_principal: "Universidad Cooperativa de Colombia"
+ciudad: "Montería"
+metodologia: "Revisión sistemática"
 url: https:__hdl.handle.net_20.500.12494_59316
 doi: ""
 tags:

@@ -13,6 +13,11 @@ creators:
 publication: ""
 date:
 year: 2023
+tema_asunto: "Sostenibilidad, Desarrollo Sostenible, Medición de la Sostenibilidad"
+escenario_aplicacion: "empresa"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión bibliométrica (meta-análisis)"
 url: ""
 doi: ""
 tags:

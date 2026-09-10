@@ -12,6 +12,11 @@ creators:
 publication: ""
 date: "2014"
 year: 2014
+tema_asunto: "Green IT, Green Computing, Eficiencia Energética, Centros de Datos"
+escenario_aplicacion: "organizaciones (empresas)"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión de literatura"
 url: ""
 doi: ""
 tags: []

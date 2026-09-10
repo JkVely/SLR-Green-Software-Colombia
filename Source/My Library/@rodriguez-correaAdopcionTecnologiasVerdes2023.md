@@ -14,6 +14,11 @@ creators:
 publication: Revista Técnica de la Facultad de Ingeniería de la Universidad del Zulia
 date: 2023-01-01
 year: 2023
+tema_asunto: "Adopción de Tecnologías Verdes, Sector Industrial, Factores de Adopción"
+escenario_aplicacion: "sector industrial en economías emergentes"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión sistemática PRISMA de 123 documentos"
 url: https:__research.ebsco.com_plink_ab2c0683-836f-30af-9857-7a35c359d10f
 doi: 10.22209_rt.v46a08
 tags:

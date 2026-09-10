@@ -14,6 +14,11 @@ creators:
 publication: Institute of Electrical and Electronics Engineers Inc.
 date: "2017"
 year: 2017
+tema_asunto: "Free-cooling, Data Centers, Eficiencia Energética, Análisis Termodinámico, Climatología"
+escenario_aplicacion: "data centers en Chile"
+institucion_principal: "No disponible"
+ciudad: "Chacalluta, Quinta Normal, Carlos Ibáñez"
+metodologia: "Análisis termodinámico y mediciones meteorológicas en 29 estaciones durante tres años"
 url: https:__www.scopus.com_pages_publications_85034434281?origin=resultslist
 doi: 10.1109_ITHERM.2017.7992588
 tags:

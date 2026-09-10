@@ -13,6 +13,11 @@ creators:
 publication: Advances in Building Energy Research
 date: "2022"
 year: 2022
+tema_asunto: "CFD, Aire Acondicionado, Centros de Datos Tier 2, Eficiencia Energética"
+escenario_aplicacion: "centro de datos Tier 2 Universidad de los Andes"
+institucion_principal: "Universidad de los Andes"
+ciudad: "Bogotá"
+metodologia: "Mediciones in situ y modelado CFD con dos escenarios operativos"
 anio: 2022
 pais: Colombia
 region: LAC

@@ -10,6 +10,11 @@ creators:
 publication: Packt Publishing Ltd
 date: 2024-07-26
 year: 2024
+tema_asunto: "Green Software Engineering, Sostenibilidad de Software, Métricas de emisiones, Arquitectura sostenible"
+escenario_aplicacion: "desarrollo de software global"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Libro práctico con ejemplos reales y marco de entrega sostenible"
 url: ""
 doi: ""
 tags:
@@ -25,5 +30,11 @@ decision: incluido
 
 ## Attachments
 - [Google Books Link]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=9H5E88VH_
+
+## Notas clave
+- Libro práctico de Green Software Engineering por miembro de Green Software Foundation con 20+ años de experiencia.
+- Enfoque en estrategias para desarrollar soluciones digitales energéticamente eficientes, medir impacto ambiental y patrones de diseño sostenible.
+- Integra principios green en ciclo de vida Agile, ética tecnológica y estándares de reporte de emisiones.
+- Relevancia: referencia actualizada de buenas prácticas y métricas para el SLR.
 
 ## Notes

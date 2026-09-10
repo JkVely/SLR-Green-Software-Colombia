@@ -16,6 +16,11 @@ creators:
 publication: IEEE Transactions on Green Communications and Networking
 date: "2026"
 year: 2026
+tema_asunto: "Cloud Computing, Observabilidad de Energía, Monitoreo de Potencia, Contenedores, Green Computing"
+escenario_aplicacion: "cloud (entornos cloud-native)"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Marco de validación de precisión (evaluación experimental)"
 url: https:__ieeexplore.ieee.org_abstract_document_11371310
 doi: 10.1109_TGCN.2026.3660816
 tags:

@@ -28,4 +28,9 @@ fuente: Google Scholar
 ## Attachments
 - [Trejos y Alzate - 2016 - Juego en la nube un estado del arte..pdf]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=IQR8R24P_
 
+## Notas clave
+- Estado del arte sobre cloud gaming: servidores proveen potencia de procesamiento y gráficos para ejecución remota sin requerir hardware local.
+- Enfatiza reducción de costos de hardware y acceso universal con conexión a internet, con foco en latencia.
+- Relevancia limitada para SLR Green: no aborda eficiencia energética ni sostenibilidad; decisión PRISMA excluido.
+
 ## Notes

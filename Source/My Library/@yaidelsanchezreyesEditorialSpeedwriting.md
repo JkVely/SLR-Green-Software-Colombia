@@ -8,6 +8,11 @@ creators:
 publication: "Memorias 2da. Convención Científica Internacional Speedwriting 2023"
 date: "2023-11"
 year: 2023
+tema_asunto: "Green Software Engineering, Principios y Mejores Prácticas, Green Software Foundation"
+escenario_aplicacion: "ingeniería de software en Colombia"
+institucion_principal: "EducaAmbienteWeb, Quindío"
+ciudad: "Armenia, Quindío"
+metodologia: "Informe ejecutivo con revisión de principios y estándares"
 anio: 2023
 pais: Colombia
 region: LAC

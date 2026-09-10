@@ -11,6 +11,11 @@ creators:
 publication: Ciencia e Ingeniería Neogranadina
 date: 2014-12-01
 year: 2014
+tema_asunto: "VANET, Green ITS, Redes Vehiculares, Sostenibilidad Ambiental"
+escenario_aplicacion: "transporte y carreteras colombianas"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión sistemática y descripción de modelo de flujo vehicular"
 url: https:__revistas.umng.edu.co_index.php_rcin_article_view_396
 doi: 10.18359_rcin.396
 tags:

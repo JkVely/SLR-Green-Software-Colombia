@@ -14,6 +14,11 @@ creators:
 publication: Ingeniería e Investigación
 date: 2022-08-26
 year: 2022
+tema_asunto: "Virtualización, Taxonomía, Cloud Computing, Infraestructura"
+escenario_aplicacion: "infraestructura cloud y academia"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión bibliográfica y propuesta de taxonomía"
 url: https:__revistas.unal.edu.co_index.php_ingeinv_article_view_97363
 doi: 10.15446_ing.investig.97363
 tags:

@@ -10,6 +10,11 @@ creators:
 publication:
 date: "2021"
 year: 2021
+tema_asunto: "Plataforma Distribuida, Microservicios, Contenedores, Dispositivos Móviles, Green Computing"
+escenario_aplicacion: "cómputo intensivo con recursos ociosos móviles"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Desarrollo de plataforma y evaluación experimental con transcoding de video"
 url: http:__sedici.unlp.edu.ar_handle_10915_122360
 doi: 10.35537_10915_122360
 tags: []
@@ -31,5 +36,12 @@ decision: incluido
 
 ## Attachments
 - [Petrocelli - 2021 - Plataforma colaborativa, distribuida, escalable y de bajo costo basada en microservicios, contenedor.pdf]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=3D7PDZPM_
+
+## Notas clave
+- Tesis sobre plataforma distribuida colaborativa basada en microservicios, contenedores, dispositivos móviles y servicios en la Nube para cómputo intensivo.
+- Propone reutilizar capacidades ociosas de dispositivos móviles con procesadores ARM por su eficiencia energética intrínseca.
+- Arquitectura con Kubernetes, microservicios y prácticas DevOps para uso eficiente de infraestructura, gastos y energía.
+- Validación con transcoding de video muestra mejoras de rendimiento, escalabilidad y eficiencia energética.
+- Relevancia: caso LAC de Green DevOps y aprovechamiento de recursos ociosos para sostenibilidad.
 
 ## Notes

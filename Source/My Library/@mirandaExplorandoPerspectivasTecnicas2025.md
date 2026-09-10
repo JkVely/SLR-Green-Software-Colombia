@@ -11,6 +11,11 @@ creators:
 publication: Revista Ambiental Agua, Aire y Suelo
 date: 2025-02-25
 year: 2025
+tema_asunto: "Green Software, Optimización Energética, Huella de Carbono, Prácticas Sostenibles"
+escenario_aplicacion: "desarrollo de software y TIC"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión sistemática de literatura reciente"
 url: https:__ojs.unipamplona.edu.co_aaas_article_view_3706
 doi: 10.24054_raaas.v16i1.3706
 tags:
@@ -33,5 +38,12 @@ decision: incluido
 
 ## Attachments
 - [Miranda y Torres - 2025 - Explorando perspectivas técnicas, metodológicas y organizativas recientes sobre prácticas de green s.pdf]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=YNP7Z58D_
+
+## Notas clave
+- Revisión sistemática sobre prácticas de green software y su potencial para minimizar huella de carbono en TIC.
+- Destaca adopción de técnicas de optimización energética como RMVRVM y tuning eficiente de LLM, y desarrollo de métricas para cuantificar impacto.
+- Observa falta de adopción unificada de estándares y enfoques sostenibles a nivel organizacional.
+- Concluye que integración temprana de eficiencia energética y responsabilidad social en el ciclo de vida es crucial y que la educación de practicantes es fundamental.
+- Relevancia: evidencia colombiana reciente sobre brechas organizacionales y educativas.
 
 ## Notes

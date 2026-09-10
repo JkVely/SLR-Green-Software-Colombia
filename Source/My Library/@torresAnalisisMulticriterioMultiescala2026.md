@@ -12,6 +12,11 @@ creators:
 publication: Revista Ambiental Agua, Aire y Suelo
 date: 2026-06-01
 year: 2026
+tema_asunto: "Ubicación Sostenible de Centros de Datos, Análisis Multicriterio, Sostenibilidad Territorial"
+escenario_aplicacion: "ubicación de centros de datos en 10 ciudades colombianas"
+institucion_principal: "No disponible"
+ciudad: "Bogotá, Medellín, Barranquilla"
+metodologia: "Análisis multicriterio multiescala con índice de aptitud y pruebas de sensibilidad"
 url: https:__ojs.unipamplona.edu.co_aaas_article_view_4519
 doi: 10.24054_raaas.v17i1.4519
 tags:
@@ -36,5 +41,12 @@ decision: incluido
 
 ## Attachments
 - [Torres et al. - 2026 - Análisis multicriterio y multiescala para la ubicación sostenible de centros de datos en Colombia.pdf]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=I4S5H6MX_
+
+## Notas clave
+- Marco de evaluación multicriterio para ubicación sostenible de centros de datos en 10 ciudades colombianas en tres escalas 0.5-2 MW, 2-20 MW, >20 MW.
+- Cinco dimensiones: soporte energético, aptitud climática, conectividad digital, riesgo territorial y escala urbana-potencial de mercado.
+- Índice Data Center Siting Suitability Index con agregación ponderada y pruebas de sensibilidad.
+- Resultados: Bogotá y Medellín desempeño alto consistente; Barranquilla mejora en gran escala.
+- Relevancia: evidencia colombiana de sostenibilidad territorial y energética para infraestructura digital.
 
 ## Notes

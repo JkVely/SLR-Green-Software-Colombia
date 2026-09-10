@@ -10,6 +10,11 @@ creators:
 publication: IEEE Latin America Transactions
 date: 2023-09
 year: 2023
+tema_asunto: "Green Computing, Transición Energética, Green Algorithms, Energía Sostenible"
+escenario_aplicacion: "industria IT global"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Survey de 74 artículos"
 anio: 2023
 pais: Brasil
 region: LAC

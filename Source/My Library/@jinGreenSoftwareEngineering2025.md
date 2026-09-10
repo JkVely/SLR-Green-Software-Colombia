@@ -12,6 +12,11 @@ creators:
 publication: Journal of Data Analysis and Information Processing
 date: 2025-07-28
 year: 2025
+tema_asunto: "Green Software Engineering, Diseño Energéticamente Eficiente, Cloud Infrastructure, Virtualización"
+escenario_aplicacion: "infraestructura cloud"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Revisión de estrategias y evaluación de efectividad de tecnologías de ahorro energético"
 url: https:__www.scirp.net_journal_paperinformation?paperid=144329
 doi: 10.4236_jdaip.2025.133014
 tags: []
@@ -27,5 +32,11 @@ decision: incluido
 
 ## Attachments
 - [Jin et al. - 2025 - Green Software Engineering A Study on Energy-Efficient Design and Deployment in Cloud Infrastructur.pdf]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=MZXAF65W_
+
+## Notas clave
+- Revisión de estrategias de diseño y despliegue energéticamente eficiente en infraestructura cloud.
+- Tecnologías analizadas: virtualización, asignación dinámica de recursos y scheduling energy-aware.
+- Discute desafíos de implementación y direcciones futuras para cloud computing sostenible.
+- Relevancia: referencia técnica global sobre Green Software Engineering en cloud, útil para contraste Colombia vs mundo.
 
 ## Notes

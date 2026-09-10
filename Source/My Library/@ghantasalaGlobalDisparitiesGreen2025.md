@@ -8,6 +8,11 @@ creators:
 publication: ""
 date: 2025-12
 year: 2025
+tema_asunto: "Green Computing, Políticas de Sostenibilidad, Educación Superior, Adopción de Políticas, Machine Learning"
+escenario_aplicacion: "instituciones de educación superior a nivel global"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Encuesta en 6 regiones con pipeline de machine learning y evaluación MAE, nDCG, Brier Score, MCC"
 anio: 2025
 pais: Global
 region: Global

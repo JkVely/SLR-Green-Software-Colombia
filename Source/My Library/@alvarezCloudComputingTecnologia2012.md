@@ -12,6 +12,11 @@ creators:
 publication: Saber, ciencia y libertad
 date: "2012"
 year: 2012
+tema_asunto: "Cloud Computing, Tecnología Verde, Responsabilidad Social Empresarial, Green IT"
+escenario_aplicacion: "empresa"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "No especificado"
 url: https:__www.redalyc.org_articulo.oa?id=736980914010
 doi: ""
 tags:

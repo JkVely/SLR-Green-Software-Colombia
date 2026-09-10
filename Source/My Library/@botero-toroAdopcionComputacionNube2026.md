@@ -9,6 +9,11 @@ creators:
 publication: Texto Livre
 date: "2026"
 year: 2026
+tema_asunto: "Computación en la Nube, Adopción de Tecnología"
+escenario_aplicacion: "empresa y educación"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "Análisis bibliométrico"
 anio: 2026
 pais: Colombia
 region: LAC

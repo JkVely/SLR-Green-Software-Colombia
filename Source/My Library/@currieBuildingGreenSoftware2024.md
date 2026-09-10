@@ -9,6 +9,11 @@ creators:
 publication: Reilly Media, Inc._
 date: 2024-03-08
 year: 2024
+tema_asunto: "Ingeniería de Software Verde, Desarrollo Sostenible, Operaciones, Cloud Computing"
+escenario_aplicacion: "desarrollo y operaciones de software"
+institucion_principal: "No disponible"
+ciudad: ""
+metodologia: "No especificado"
 anio: 2024
 pais: Global
 region: LAC
@@ -37,5 +42,10 @@ decision: incluido
 
 ## Attachments
 - [Google Books Link]_obsidian:__zotflow?type=open-attachment&libraryID=20202832&key=K6VMKF2X_
+
+## Notas clave
+- Libro de referencia sobre Ingeniería de Software Verde con enfoque práctico para desarrollo y operaciones sostenibles.
+- Cubre transición energética de grids nacionales, arquitectura sostenible, determinación de partes del sistema a cambiar y extensión de vida útil de hardware.
+- Relevancia: base conceptual global para Green Software Engineering; útil como marco de buenas prácticas y para justificar recomendaciones de diseño sostenible.
 
 ## Notes

@@ -17,6 +17,11 @@ creators:
 publication: Springer Science and Business Media Deutschland GmbH
 date: "2022"
 year: 2022
+tema_asunto: "Green Energy, HPC Data Centers, Energía Solar, Costo de Procesamiento"
+escenario_aplicacion: "centros de datos HPC en Latinoamérica"
+institucion_principal: "Universidad de Guadalajara"
+ciudad: "Tonalá, Jalisco"
+metodologia: "Modelo de proyección de costo HPC basado en CAPEX/OPEX y simulación de uso de energía renovable"
 url: https:__www.scopus.com_pages_publications_85128948793?origin=resultslist
 doi: 10.1007_978-3-031-04209-6_7
 tags:

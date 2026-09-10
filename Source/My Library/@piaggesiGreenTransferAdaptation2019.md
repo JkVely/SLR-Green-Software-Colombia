@@ -9,6 +9,11 @@ creators:
 publication: Academic Conferences Limited
 date: "2019"
 year: 2019
+tema_asunto: "Green ICT, Transferencia Tecnológica, Cooperación Sur-Sur, Gobierno Digital"
+escenario_aplicacion: "industrias colombianas y gobierno digital"
+institucion_principal: "Ministerio de Ambiente y Desarrollo Sostenible de Colombia, KOICA"
+ciudad: ""
+metodologia: "Propuesta de programa de transferencia y adaptación"
 anio: 2019
 pais: Colombia
 region: LAC

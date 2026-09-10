@@ -15,6 +15,11 @@ creators:
 publication: ""
 date: 2019-10
 year: 2019
+tema_asunto: "Green Computing, Energía Solar, Mini-servidor, Educación Rural"
+escenario_aplicacion: "escuelas rurales sin internet en Perú"
+institucion_principal: "No disponible"
+ciudad: "Abancay, Apurímac"
+metodologia: "Implementación piloto y medición de consumo energético"
 url: https:__ieeexplore.ieee.org_abstract_document_8995035
 doi: 10.1109_LACLO49268.2019.00053
 tags:
