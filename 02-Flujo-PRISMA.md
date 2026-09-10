@@ -8,21 +8,21 @@ Cuadro de contadores PRISMA 2020. **Actualizado automáticamente** por `scripts/
 | **2. Duplicados** (eliminados) | `7` |
 | **3. Después cribado** (título y abstract) | `128` |
 | 3a. Excluidos en cribado | `92` |
-| **4. Después elegibilidad** (texto completo evaluado contra criterios) | `36` |
+| **4. Después elegibilidad** (texto completo evaluado contra criterios) | `35` |
 | 4a. Excluidos en elegibilidad | `0` |
-| **5. Incluidos** (estudios finales incluidos en la revisión) | `36` |
+| **5. Incluidos** (estudios finales incluidos en la revisión) | `35` |
 
 > **Actualización automática:** Este archivo se genera con `scripts/update_prisma.py`
 > basándose en los papers que tienen `decision: incluido` (o, en su defecto, `pais`, `region` y `enfoque` en su frontmatter).
 > 
 > **Total en directorio:** 54 archivos en Source/My Library/
-> - Papers incluidos: 36
-> - Papers excluidos (faltan campos o decisión explícita): 18
+> - Papers incluidos: 35
+> - Papers excluidos (faltan campos o decisión explícita): 19
 > - Libros/otros excluidos: 0
 
 ---
 
-## Papers incluidos (36)
+## Papers incluidos (35)
 
 | # | Archivo | Título | Año | País | Región | Enfoque | Base |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -61,12 +61,11 @@ Cuadro de contadores PRISMA 2020. **Actualizado automáticamente** por `scripts/
 | 33 | @yaidelsanchezreyesEditorialSpeedwriting | Informe Ejecutivo: Principios y Mejores Prácticas en la Inge... | 2023 | Colombia | LAC | policy | Google Scholar |
 | 34 | @zhangBilevelPlanningModel2026 | A bi-level planning model of integrated energy capacity conf... | 2026 | China | China | technical | Scopus |
 | 35 | @zhangGreenComputingGeneral2026 | Toward Green Computing: General Carbon Intensity Forecasting... | 2026 | Global | Global | technical | ACM |
-| 36 | @zhangIntegrationMultimodalFusion2026 | Integration of multi-modal fusion and edge computing in smar... | 2026 | China | China | technical | Scopus |
 
 
 ---
 
-## Papers excluidos (18)
+## Papers excluidos (19)
 
 Estos papers están en el directorio pero les faltan campos en el frontmatter (`pais`, `region`, o `enfoque`):
 
@@ -88,6 +87,7 @@ Estos papers están en el directorio pero les faltan campos en el frontmatter (`
 - @saraivaBringingGreenSoftware2021 (decisión explícita)
 - @siddikEnvironmentalFootprintData2021
 - @trejosJuegoNubeEstado2016 (decisión explícita)
+- @zhangIntegrationMultimodalFusion2026 (decisión explícita)
 
 ---
 
