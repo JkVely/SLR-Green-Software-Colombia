@@ -2,6 +2,9 @@
 citationKey: ngInfluenceNinoSouthern2017
 title: Influence of El Niño Southern Oscillation on global hydropower production
 itemType: journalArticle
+pais: Global
+region: Global
+enfoque: technical
 creators:
   - Jia Yi Ng
   - Sean W D Turner

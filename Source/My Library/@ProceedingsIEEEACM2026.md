@@ -2,6 +2,9 @@
 citationKey: ProceedingsIEEEACM2026
 title: Proceedings of the IEEE/ACM 10th International Workshop on Green and Sustainable Software
 itemType: book
+pais: Global
+region: Global
+enfoque: technical
 creators: []
 publication: Association for Computing Machinery
 date: Marzo 2026

@@ -2,6 +2,9 @@
 citationKey: majiDataCentersCarbon2025
 title: "Data Centers Carbon Emissions at Crossroads: An Empirical Study"
 itemType: journalArticle
+pais: Global
+region: Global
+enfoque: technical
 creators:
   - Diptyaroop Maji
   - Walid A. Hanafy

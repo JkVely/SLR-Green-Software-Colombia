@@ -2,6 +2,9 @@
 citationKey: siddikEnvironmentalFootprintData2021
 title: The environmental footprint of data centers in the United States
 itemType: journalArticle
+pais: United States
+region: United States
+enfoque: technical
 creators:
   - Md Abu Bakar Siddik
   - Arman Shehabi

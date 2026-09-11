@@ -2,6 +2,9 @@
 citationKey: latifNinoSouthernOscillation2009
 title: El Niño/Southern Oscillation response to global warming
 itemType: journalArticle
+pais: Global
+region: Global
+enfoque: technical
 creators:
   - M. Latif
   - N. S. Keenlyside

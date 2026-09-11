@@ -1,7 +1,10 @@
 ---
 citationKey: NinoGlobalWarming2016
-title: El Niño and Global Warming—What’s the Connection? – State of the Planet
+title: El Niño and Global Warming—What's the Connection? – State of the Planet
 itemType: blogPost
+pais: Global
+region: Global
+enfoque: technical
 creators: []
 publication:
 date: 2016-02-02

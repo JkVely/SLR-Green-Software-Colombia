@@ -2,6 +2,9 @@
 citationKey: karnauskasThreeStudiesPoint2025
 title: Three Studies Point to El Niño as Key to 2023 Record Global Heat
 itemType: blogPost
+pais: Global
+region: Global
+enfoque: technical
 creators:
   - Kristopher B. Karnauskas
 publication:

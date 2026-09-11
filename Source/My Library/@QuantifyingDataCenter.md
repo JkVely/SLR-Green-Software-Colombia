@@ -2,6 +2,9 @@
 citationKey: QuantifyingDataCenter
 title: Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts | Schneider Electric
 itemType: webpage
+pais: Global
+region: Global
+enfoque: technical
 creators: []
 publication: ""
 date:
