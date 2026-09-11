@@ -16,6 +16,7 @@
 ![68](https://img.shields.io/badge/base-Scopus%20%2B%20Google%20Scholar%20%2B%20IEEE-9ece6a?style=for-the-badge&logo=bookstack&logoColor=fff)
 ![colombia](https://img.shields.io/badge/colombia-Comparativo-73daca?style=for-the-badge&logo=earth&logoColor=fff)
 ![licencia](https://img.shields.io/badge/licencia-CC%20BY%204.0-9ece6a?style=for-the-badge&logo=creativecommons&logoColor=fff)
+[![DOI](https://zenodo.org/badge/1352509218.svg)](https://zenodo.org/badge/latestdoi/1352509218)
 
 *El software sostenible no es una opción: es requisito de arquitectura y de agenda.*
 
