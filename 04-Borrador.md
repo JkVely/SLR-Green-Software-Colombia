@@ -19,7 +19,7 @@
 - Matriz de extracción (tabla generada con Dataview en 03-Matriz.md)
 - Descripción de estudios incluidos por región y categoría green
 - Tabla comparativa: Colombia vs Europa vs China vs LatAm/Mercosur
-- Hallazgos principales (síntesis de los `## Notas clave` de los 35 papers de `Source/My Library/`)
+- Hallazgos principales (síntesis de los `## Notas clave` de los 44 papers de `Source/My Library/`)
 
 ### Discusión
 - Interpretation of results
@@ -38,11 +38,11 @@
 
 # Resumen
 
-La industria de las tecnologías de la información representa entre el 3 % y el 8 % de la demanda energética mundial proyectada para 2030, y los centros de datos por sí solos consumen el 1.8 % de la electricidad de Estados Unidos y generan cerca del 0.5 % de sus emisiones de gases de efecto invernadero, con proyecciones que anticipan un crecimiento de hasta 4.2 veces en sus emisiones globales para 2030. Estas cifras consolidan a la Ingeniería de Software Verde como requisito de arquitectura y de política pública. En Colombia, este imperativo adquiere un matiz adicional: la matriz eléctrica nacional es mayoritariamente hidroeléctrica y estructuralmente vulnerable a los ciclos de El Niño–La Niña, que alteran la generación de más de un tercio de los embalses del mundo, por lo que la eficiencia energética del software deja de ser un tema ambiental para convertirse en un asunto de seguridad energética. Sin embargo, la producción de conocimiento sobre Green Software Engineering en Colombia y Latinoamérica permanece dispersa, y las brechas entre la evidencia global y la realidad local no han sido mapeadas de forma sistemática. Esta Revisión Sistemática de Literatura (SLR), siguiendo PRISMA 2020 con fase de mapeo sistemático Kitchenham/Petersen, sintetiza 35 papers indexados en Scopus, Google Scholar e IEEE Xplore para responder: ¿cuál es el estado actual de Green Cloud, Green DevOps y Green Software Engineering en Colombia comparado con Europa, China y Latinoamérica? La tesis del trabajo sostiene que Colombia posee capacidades técnicas aisladas y demostrables (eficiencia en HPC/Grid, asignación energy-aware de VMs, modelos de madurez Green IT, ubicación multicriterio de datacenters), pero carece de la política pública, los estándares, la formación universitaria y la investigación aplicada longitudinal que permitan escalarlas. Los hallazgos evidencian cinco brechas críticas (políticas públicas, estándares técnicos, formación universitaria, investigación aplicada e infraestructura) y proponen siete recomendaciones con factores de éxito definidos para el contexto colombiano.
+La industria de las tecnologías de la información representa entre el 3 % y el 8 % de la demanda energética mundial proyectada para 2030, y los centros de datos por sí solos consumen el 1.8 % de la electricidad de Estados Unidos y generan cerca del 0.5 % de sus emisiones de gases de efecto invernadero, con proyecciones que anticipan un crecimiento de hasta 4.2 veces en sus emisiones globales para 2030. Estas cifras consolidan a la Ingeniería de Software Verde como requisito de arquitectura y de política pública. En Colombia, este imperativo adquiere un matiz adicional: la matriz eléctrica nacional es mayoritariamente hidroeléctrica y estructuralmente vulnerable a los ciclos de El Niño–La Niña, que alteran la generación de más de un tercio de los embalses del mundo, por lo que la eficiencia energética del software deja de ser un tema ambiental para convertirse en un asunto de seguridad energética. Sin embargo, la producción de conocimiento sobre Green Software Engineering en Colombia y Latinoamérica permanece dispersa, y las brechas entre la evidencia global y la realidad local no han sido mapeadas de forma sistemática. Esta Revisión Sistemática de Literatura (SLR), siguiendo PRISMA 2020 con fase de mapeo sistemático Kitchenham/Petersen, sintetiza 44 papers indexados en Scopus, Google Scholar e IEEE Xplore para responder: ¿cuál es el estado actual de Green Cloud, Green DevOps y Green Software Engineering en Colombia comparado con Europa, China y Latinoamérica? La tesis del trabajo sostiene que Colombia posee capacidades técnicas aisladas y demostrables (eficiencia en HPC/Grid, asignación energy-aware de VMs, modelos de madurez Green IT, ubicación multicriterio de datacenters), pero carece de la política pública, los estándares, la formación universitaria y la investigación aplicada longitudinal que permitan escalarlas. Los hallazgos evidencian cinco brechas críticas (políticas públicas, estándares técnicos, formación universitaria, investigación aplicada e infraestructura) y proponen siete recomendaciones con factores de éxito definidos para el contexto colombiano.
 
 # Abstract
 
-The information technology industry accounts for between 3 % and 8 % of the projected global energy demand by 2030, and data centers alone consume 1.8 % of U.S. electricity and emit nearly 0.5 % of its greenhouse gases, with projections anticipating up to a 4.2 times growth in global data center emissions by 2030. These figures consolidate Green Software Engineering as both an architectural requirement and a public policy concern. In Colombia, this imperative gains an additional nuance: the national electricity matrix is predominantly hydroelectric and structurally vulnerable to El Niño–La Niña cycles, which disrupt generation in more than one-third of the world's reservoirs; therefore, software energy efficiency ceases to be merely an environmental issue and becomes a matter of energy security. However, knowledge production on Green Software Engineering in Colombia and Latin America remains scattered, and the gaps between global evidence and local reality have not been systematically mapped. This Systematic Literature Review (SLR), following PRISMA 2020 with a systematic mapping phase (Kitchenham/Petersen), synthesizes 35 papers indexed in Scopus, Google Scholar, and IEEE Xplore to answer: what is the current state of Green Cloud, Green DevOps, and Green Software Engineering in Colombia compared to Europe, China, and Latin America? The thesis of this work holds that Colombia possesses isolated yet demonstrable technical capabilities (HPC/Grid efficiency, energy-aware VM allocation, Green IT maturity models, multicriteria data center siting) but lacks the public policy, standards, university training, and longitudinal applied research needed to scale them. The findings reveal five critical gaps (public policies, technical standards, university training, applied research, and infrastructure) and propose seven recommendations with success factors defined for the Colombian context.
+The information technology industry accounts for between 3 % and 8 % of the projected global energy demand by 2030, and data centers alone consume 1.8 % of U.S. electricity and emit nearly 0.5 % of its greenhouse gases, with projections anticipating up to a 4.2 times growth in global data center emissions by 2030. These figures consolidate Green Software Engineering as both an architectural requirement and a public policy concern. In Colombia, this imperative gains an additional nuance: the national electricity matrix is predominantly hydroelectric and structurally vulnerable to El Niño–La Niña cycles, which disrupt generation in more than one-third of the world's reservoirs; therefore, software energy efficiency ceases to be merely an environmental issue and becomes a matter of energy security. However, knowledge production on Green Software Engineering in Colombia and Latin America remains scattered, and the gaps between global evidence and local reality have not been systematically mapped. This Systematic Literature Review (SLR), following PRISMA 2020 with a systematic mapping phase (Kitchenham/Petersen), synthesizes 44 papers indexed in Scopus, Google Scholar, and IEEE Xplore to answer: what is the current state of Green Cloud, Green DevOps, and Green Software Engineering in Colombia compared to Europe, China, and Latin America? The thesis of this work holds that Colombia possesses isolated yet demonstrable technical capabilities (HPC/Grid efficiency, energy-aware VM allocation, Green IT maturity models, multicriteria data center siting) but lacks the public policy, standards, university training, and longitudinal applied research needed to scale them. The findings reveal five critical gaps (public policies, technical standards, university training, applied research, and infrastructure) and propose seven recommendations with success factors defined for the Colombian context.
 
 # Palabras clave
 
@@ -70,7 +70,16 @@ Este artículo presenta una **Revisión Sistemática de Literatura (SLR)** sigui
 3. Identificar brechas entre la producción global y la realidad colombiana.
 4. Proporcionar insumos para la definición de políticas y líneas de investigación futuras en el contexto nacional.
 
+| Preguntas de Investigación | Descripción | Subsección |
+|---|---|---|
+| RQ1: ¿Cómo ha evolucionado la producción científica sobre Green Software Engineering, Green Cloud y Green DevOps en el periodo 2011–2026? | Mapeo temporal y geografía de la producción. | 4.1 Evolución temporal |
+| RQ2: ¿Qué tipologías de investigación dominan en Colombia, Latinoamérica y el mundo? | Distribución por clasificación Wieringa y enfoque. | 4.2 Tipología de investigación |
+| RQ3: ¿Qué criterios de calidad se observan en los estudios incluidos? | Evaluación de calidad Kitchenham y distribución de bandas. | 4.3 Calidad metodológica |
+| RQ4: ¿Cuáles son las brechas de política, formación y transferencia tecnológica en Colombia frente a referentes internacionales? | Análisis de gaps y limitaciones contextuales. | 4.4 Brechas y limitaciones |
+
 ---
+
+
 
 # Metodología
 
@@ -81,17 +90,17 @@ La SLR siguió el protocolo **PRISMA 2020** con las siguientes fases:
 | **1. Identificados**        | 135    | Registros localizados en Scopus + Google Scholar + IEEE Xplore                                                                   |
 | **2. Duplicados**           | 7      | @demiccoLiteratureReviewEmbedded2019 y @demiccoLiteratureReviewEmbedded2020 (mismos autores/título; se conservó la versión 2020) |
 | **3. Después cribado**      | 128    | Filtrado por título y abstract contra criterios de inclusión (135-7)                                                            |
-| 3a. Excluidos en cribado    | 93     | No cumplen criterios de inclusión (128-35)                                                                                     |
-| **4. Después elegibilidad** | 35     | Evaluación de texto completo contra criterios de inclusión/exclusión                                                             |
-| 4a. Excluidos en elegibilidad| 0      | No cumplen criterios a texto completo (35-35)                                                                                  |
-| **5. Incluidos**            | 35     | Estudios finales para síntesis                                                                                                   |
+| 3a. Excluidos en cribado    | 74     | No cumplen criterios de inclusión (128-54)                                                                                     |
+| **4. Después elegibilidad** | 54     | Evaluación de texto completo contra criterios de inclusión/exclusión                                                             |
+| 4a. Excluidos en elegibilidad| 10     | No cumplen criterios a texto completo (54-44)                                                                                  |
+| **5. Incluidos**            | 44     | Estudios finales para síntesis |
 
 ### Criterios de inclusión
 - **Temas:** Green Cloud, Green DevOps, Green Software Engineering, sostenibilidad en TI, eficiencia energética de infraestructura computacional.
 - **Geografía:** Papers con datos o discusión sobre Colombia (Latinoamérica/Mercosur como contexto comparativo).
 - **Idioma:** Inglés o español con resumen técnico válido.
 - **Fuentes:** Scopus + Google Scholar + IEEE Xplore + ACM Digital Library (primarias).
-- **Suplemento de contexto climático-energético:** se incorporan a la discusión fuentes específicas sobre ENSO, huella de datacenters y beneficios de la nube (Ng et al. 2017; Latif & Keenlyside 2009; CREA 2026; Siddik et al. 2021; Maji et al. 2025; Eilam et al. 2024; Microsoft/WSP; Schneider Electric/Lin; Gnibga et al. 2024) como evidencia contextual, diferenciada de los 35 estudios mapeados.
+- **Suplemento de contexto climático-energético:** se incorporan a la discusión fuentes específicas sobre ENSO, huella de datacenters y beneficios de la nube (Ng et al. 2017; Latif & Keenlyside 2009; CREA 2026; Siddik et al. 2021; Maji et al. 2025; Eilam et al. 2024; Microsoft/WSP; Schneider Electric/Lin; Gnibga et al. 2024) como evidencia contextual, diferenciada de los 44 estudios mapeados.
 
 ### Búsqueda de evidencia:
 - **Ronda 1 (Scopus, corte 2026-08-25):** 9 registros importados a Zotero.
@@ -110,10 +119,10 @@ Este híbrido permite mantener la rigurosidad de reporte PRISMA y la capacidad d
 graph TD
     A[<b>Identificación</b><br/>Registros localizados en Scopus, Google Scholar y IEEE Xplore<br/>n = 135] --> B[Registros duplicados removidos<br/>n = 7]
     A --> C[<b>Cribado</b><br/>Registros cribados por título y abstract<br/>n = 128]
-    C --> D[Registros excluidos por no cumplir criterios<br/>n = 93]
-    C --> E[Estudios evaluados a texto completo para elegibilidad<br/>n = 35]
-    E --> F[Estudios de texto completo excluidos<br/>n = 0]
-    E --> G[<b>Incluidos</b><br/>Estudios finales incluidos en la síntesis<br/>n = 35]
+    C --> D[Registros excluidos por no cumplir criterios<br/>n = 74]
+    C --> E[Estudios evaluados a texto completo para elegibilidad<br/>n = 54]
+    E --> F[Estudios de texto completo excluidos<br/>n = 10]
+    E --> G[<b>Incluidos</b><br/>Estudios finales incluidos en la síntesis<br/>n = 44]
 ```
 
 ---
@@ -122,13 +131,15 @@ graph TD
 
 ### Matriz de extracción
 
-La tabla maestra de extracción, generada automáticamente con Dataview sobre la carpeta `Source/My Library/`, contempla los 35 papers finales con los siguientes campos: título, año, país, región, enfoque (technical/policy/education/management), tema_asunto, escenario_aplicacion, institucion_principal, ciudad, metodologia, base-datos. La tabla permite filtrar y comparar hallazgos entre regiones y categorías y soporta el esquema de clasificación del mapping Kitchenham/Petersen.
+La tabla maestra de extracción, generada automáticamente con Dataview sobre la carpeta `Source/My Library/`, contempla los 44 papers finales con los siguientes campos: título, año, país, región, enfoque (technical/policy/education/management), tema_asunto, escenario_aplicacion, institucion_principal, ciudad, metodologia, base-datos. La tabla permite filtrar y comparar hallazgos entre regiones y categorías y soporta el esquema de clasificación del mapping Kitchenham/Petersen.
+
+La evolución temporal de la producción se presenta en la Figura B, que muestra el crecimiento sostenido desde 2009 hasta 2026 con un pico en 2025-2026. La Figura A sintetiza la distribución por cluster temático y tipo Wieringa, así como por región, evidenciando la concentración de estudios de Evaluación en métricas/eficiencia y la ausencia de propuestas de política en Colombia.
 
 ### Síntesis de hallazgos por eje temático
 
 #### Eje 1: Aspectos técnicos y métricas de eficiencia
 
-Los 35 papers coinciden en que las métricas operativas son la puerta de entrada para la adopción de prácticas verdes. El **índice SCI (_Software Carbon Intensity_)** de la Green Software Foundation se posiciona como el estándar más citado para medir emisiones por unidad funcional (por consulta API, por transacción, por usuario activo) (Fontanarrosa, 2024; Jin et al., 2025). La métrica **PUE (_Power Usage Effectiveness_)** sigue siendo el referente para evaluar eficiencia de centros de datos, donde un valor cercano a **1.0** indica máxima eficiencia, frente a valores de **2.0** o más en infraestructuras sin optimización (Harmon & Auseklis, 2009; Díaz et al., 2017).
+Los 44 papers coinciden en que las métricas operativas son la puerta de entrada para la adopción de prácticas verdes. El **índice SCI (_Software Carbon Intensity_)** de la Green Software Foundation se posiciona como el estándar más citado para medir emisiones por unidad funcional (por consulta API, por transacción, por usuario activo) (Fontanarrosa, 2024; Jin et al., 2025). La métrica **PUE (_Power Usage Effectiveness_)** sigue siendo el referente para evaluar eficiencia de centros de datos, donde un valor cercano a **1.0** indica máxima eficiencia, frente a valores de **2.0** o más en infraestructuras sin optimización (Harmon & Auseklis, 2009; Díaz et al., 2017).
 
 La nueva evidencia contextual amplía el marco métrico en tres dimensiones:
 
@@ -169,7 +180,7 @@ Los papers incluyen varios casos de aplicación relevantes, aunque con alcance l
 El paper **Wu et al. (2025)**, *Exploring Green Software for Management: Tourism as an Emerging Research Field* (Sustainable Development, Wiley), emplea un enfoque híbrido (bibliométric + SLR) sobre Web of Science (1991-2024) y confirma que la tourism aparece "marginalmente" en green software pero ofrece "oportunidades prometedoras para futuras exploraciones". El mapa temático del paper refuerza la tourism como "field with potential for inquiry, highlighting its increasing exposure to sustainability challenges". Este paper contribuye al SLR al:
 1. Identificar gaps en la integración de tecnología con prácticas sostenibles de gestión.
 2. Proporcionar una visión global de tendencias de publicación, autores líderes y clusters temáticos.
-3. **Aplicación a Colombia:** La tourism es un sector económico estratégico en Colombia (ecoturismo eje Cafetero, Cartagena, Leticia). La intersección **Green Software + Turismo en Colombia** permanece como una área inexplorada en los 35 papers incluidos, lo que representa una oportunidad de investigación para el grupo GLUD.
+3. **Aplicación a Colombia:** La tourism es un sector económico estratégico en Colombia (ecoturismo eje Cafetero, Cartagena, Leticia). La intersección **Green Software + Turismo en Colombia** permanece como una área inexplorada en los 44 papers incluidos, lo que representa una oportunidad de investigación para el grupo GLUD.
 
 Hallazgos transversales al turismo y green software:
 - **Infraestructura hotelera:** Optimización de PUE en hoteles y centros de datos de reservas.
@@ -196,7 +207,7 @@ Hallazgos transversales al turismo y green software:
 
 ### Interpretation of results
 
-La síntesis de los 35 papers revela un patrón claro: **la investigación técnica sobre Green Software existe y acumula métricas y herramientas operativas**, pero **la infraestructura de política, estándares y formación que permita la adopción a escala no está presente en Colombia** (Bossa-Benavidez et al., 2023). Esto genera un escenario de "brecha de conocimiento y aplicación" donde se producen avances técnicos aislados que no se traducen en cambios sistémicos.
+La síntesis de los 44 papers revela un patrón claro: **la investigación técnica sobre Green Software existe y acumula métricas y herramientas operativas**, pero **la infraestructura de política, estándares y formación que permita la adopción a escala no está presente en Colombia** (Bossa-Benavidez et al., 2023). Esto genera un escenario de "brecha de conocimiento y aplicación" donde se producen avances técnicos aislados que no se traducen en cambios sistémicos.
 
 La tesis del trabajo se sostiene con evidencia de ambos lados del contraste:
 - **Lado técnico (lo que existe):** métricas maduras (PUE, SCI), resultados cuantificados colombianos (30 % de ahorro con energy-aware VM allocation en Uniandes; modelo de madurez ISO/IEC 33000 en Univalle; análisis de eficiencia HPC/Grid en UIS; marco multicriterio de ubicación de datacenters), herramientas opensource validadas (CloudCarbonFootprint, GREENER) y evidencia global de que la nube reduce emisiones 72–98 % (Microsoft/WSP).
@@ -283,6 +294,7 @@ La tesis del trabajo —Colombia tiene capacidades técnicas demostrables pero n
 5. **Políticas de economía circular aplicada al hardware y software** (prolongación de ciclo de vida, actualizaciones sostenibles, descarte responsable de RAEE).
 6. **Estudio de percepciones y barreras** desde la perspectiva de desarrolladores y equipos de TI en Colombia sobre qué los impediría adoptar prácticas de Green Software en su trabajo diario.
 7. **Cuenca hidroeléctrica y software verde:** Modelar la interacción entre demanda computacional y disponibilidad de generación hidroeléctrica bajo escenarios El Niño, para cuantificar el valor de resiliencia del software eficiente (línea derivada de Ng et al., 2017 y CREA, 2026).
+8. **Snowballing futuro:** Ampliar el corpus mediante búsqueda hacia adelante y hacia atrás a partir de las referencias de los 44 estudios incluidos, con el fin de incorporar literatura emergente sobre políticas de Green Software en América Latina y estudios de validación empírica en contextos de matriz hidroeléctrica.
 
 #### Limitaciones del estudio
 
@@ -293,6 +305,7 @@ La tesis del trabajo —Colombia tiene capacidades técnicas demostrables pero n
 5. **Temporalidad:** La búsqueda se cerró en **agosto de 2026**. Papers posteriores a esa fecha no fueron considerados y podrían actualizar algunos hallazgos o añadir nuevas evidencias sobre el estado del arte en Green Software Engineering, en particular sobre la evolución de las políticas europeas y chinas.
 6. **Profundidad analítica:** La revisión se focalizó en el alcance y las brechas generales; no realizó un meta-análisis cuantitativo ni un análisis detallado de metodologías de medición o técnicas de optimización específicas. Los hallazgos son cualitativos y de síntesis, no de efecto cuantificado.
 7. **Evidencia contextual climático-energética:** Las fuentes de ENSO y huella de datacenters (Ng et al., 2017; CREA, 2026; Siddik et al., 2021; Maji et al., 2025) se incorporan como evidencia contextual complementaria, no como parte del corpus PRISMA de 31 papers. Su selección fue dirigida y no sistemática; futuras revisiones deberían formalizar la búsqueda climático-energética.
+8. **Rúbrica de calidad mecánica:** La evaluación de calidad Kitchenham se aplicó con una rúbrica mecánica basada en metadatos del frontmatter (metodología declarada, presencia de métricas, actualidad). Esto supone que la información del frontmatter refleja fielmente la calidad del estudio y no sustituye una lectura crítica profunda de cada paper, por lo que las bandas high/medium/low deben interpretarse como indicadores orientativos y no como juicios de calidad definitivos.
 
 ---
 

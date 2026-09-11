@@ -7,22 +7,22 @@ Cuadro de contadores PRISMA 2020. **Actualizado automáticamente** por `scripts/
 | **1. Identificados** (registros localizados en todas las fuentes) | `135` |
 | **2. Duplicados** (eliminados) | `7` |
 | **3. Después cribado** (título y abstract) | `128` |
-| 3a. Excluidos en cribado | `92` |
-| **4. Después elegibilidad** (texto completo evaluado contra criterios) | `35` |
-| 4a. Excluidos en elegibilidad | `0` |
-| **5. Incluidos** (estudios finales incluidos en la revisión) | `35` |
+| 3a. Excluidos en cribado | `74` |
+| **4. Después elegibilidad** (texto completo evaluado contra criterios) | `54` |
+| 4a. Excluidos en elegibilidad | `10` |
+| **5. Incluidos** (estudios finales incluidos en la revisión) | `44` |
 
 > **Actualización automática:** Este archivo se genera con `scripts/update_prisma.py`
 > basándose en los papers que tienen `decision: incluido` (o, en su defecto, `pais`, `region` y `enfoque` en su frontmatter).
 > 
 > **Total en directorio:** 54 archivos en Source/My Library/
-> - Papers incluidos: 35
-> - Papers excluidos (faltan campos o decisión explícita): 19
+> - Papers incluidos: 44
+> - Papers excluidos (faltan campos o decisión explícita): 10
 > - Libros/otros excluidos: 0
 
 ---
 
-## Papers incluidos (35)
+## Papers incluidos (44)
 
 | # | Archivo | Título | Año | País | Región | Enfoque | Base |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,29 +43,38 @@ Cuadro de contadores PRISMA 2020. **Actualizado automáticamente** por `scripts/
 | 15 | @harmonSustainableItServices2009 | Sustainable it services: Assessing the impact of green compu... | 2009 | USA | Global | management | N/A |
 | 16 | @hernndezEnergyEfficiencyScalable2011 | Energy Efficiency on Scalable Computing Architectures | 2011 | Colombia | LAC | technical | N/A |
 | 17 | @jinGreenSoftwareEngineering2025 | Green Software Engineering: A Study on Energy-Efficient Desi... | 2025 | China | China | technical | N/A |
-| 18 | @lozoyaarandiaGreenEnergyHPC2022 | Green Energy HPC Data Centers to Improve Processing Cost Eff... | 2022 | Mexico | LAC | technical | N/A |
-| 19 | @mirandaExplorandoPerspectivasTecnicas2025 | Explorando perspectivas técnicas, metodológicas y organizati... | 2025 | Colombia | Colombia | technical | N/A |
-| 20 | @nazareGreenComputingEnergy2023a | Green Computing for Energy Transition: A Survey | 2023 | Brasil | LAC | technical | IEEE Xplore (acceso institucional) |
-| 21 | @palominoGreenComputingICT2019 | Green Computing and ICT Integration in the Classroom in Rura... | 2019 | Peru | LAC | education | N/A |
-| 22 | @paton-romeroApplicationISOIEC2019 | Application of ISO/IEC 33000 to Green IT: A Case Study | 2019 | Colombia | LAC | management | N/A |
-| 23 | @petrocelliPlataformaColaborativaDistribuida2021 | Plataforma colaborativa, distribuida, escalable y de bajo co... | 2021 | Argentina | LAC | technical | N/A |
-| 24 | @piaggesiGreenTransferAdaptation2019 | Green transfer & adaptation program: A korean-colombian digi... | 2019 | Colombia | LAC | policy | Scopus |
-| 25 | @picoCFDModellingAir2022 | CFD modelling of the air conditioning system for a Tier 2 Da... | 2022 | Colombia | LAC | technical | Scopus |
-| 26 | @rodriguez-correaAdopcionTecnologiasVerdes2023 | Adopción de Tecnologías Verdes en el Sector Industrial: una ... | 2023 | Venezuela | LAC | management | N/A |
-| 27 | @rodriguezSurveyVirtualizationTechnologies2022 | A Survey of Virtualization Technologies: Towards a New Taxon... | 2022 | Colombia | Colombia | technical | N/A |
-| 28 | @sarastiAplicacionesParaRedes2014 | Aplicaciones para redes VANET enfocada en la sostenibilidad ... | 2014 | Colombia | Colombia | technical | N/A |
-| 29 | @torresAnalisisMulticriterioMultiescala2026 | Análisis multicriterio y multiescala para la ubicación soste... | 2026 | Colombia | Colombia | management | N/A |
-| 30 | @wangHowCanNational2026 | How can the national green data center pilots improve enterp... | 2026 | China | China | policy | Scopus |
-| 31 | @wangNonlinearImpactIndustrial2026 | The non-linear impact of industrial agglomeration on green t... | 2026 | China | China | management | Scopus |
-| 32 | @wuExploringGreenSoftware2025 | Exploring Green Software for Management: Tourism as an Emerg... | 2025 | Global | LAC | management | Web of Science |
-| 33 | @yaidelsanchezreyesEditorialSpeedwriting | Informe Ejecutivo: Principios y Mejores Prácticas en la Inge... | 2023 | Colombia | LAC | policy | Google Scholar |
-| 34 | @zhangBilevelPlanningModel2026 | A bi-level planning model of integrated energy capacity conf... | 2026 | China | China | technical | Scopus |
-| 35 | @zhangGreenComputingGeneral2026 | Toward Green Computing: General Carbon Intensity Forecasting... | 2026 | Global | Global | technical | ACM |
+| 18 | @karnauskasThreeStudiesPoint2025 | Three Studies Point to El Niño as Key to 2023 Record Global ... | 2025 | Global | Global | technical | N/A |
+| 19 | @latifNinoSouthernOscillation2009 | El Niño/Southern Oscillation response to global warming | 2009 | Global | Global | technical | N/A |
+| 20 | @lozoyaarandiaGreenEnergyHPC2022 | Green Energy HPC Data Centers to Improve Processing Cost Eff... | 2022 | Mexico | LAC | technical | N/A |
+| 21 | @majiDataCentersCarbon2025 | Data Centers Carbon Emissions at Crossroads: An Empirical St... | 2025 | Global | Global | technical | N/A |
+| 22 | @mirandaExplorandoPerspectivasTecnicas2025 | Explorando perspectivas técnicas, metodológicas y organizati... | 2025 | Colombia | Colombia | technical | N/A |
+| 23 | @nazareGreenComputingEnergy2023a | Green Computing for Energy Transition: A Survey | 2023 | Brasil | LAC | technical | IEEE Xplore (acceso institucional) |
+| 24 | @ngInfluenceNinoSouthern2017 | Influence of El Niño Southern Oscillation on global hydropow... | 2017 | Global | Global | technical | N/A |
+| 25 | @NinoGlobalWarming2016 | El Niño and Global Warming—What's the Connection? – State of... | 2016 | Global | Global | technical | N/A |
+| 26 | @palominoGreenComputingICT2019 | Green Computing and ICT Integration in the Classroom in Rura... | 2019 | Peru | LAC | education | N/A |
+| 27 | @paton-romeroApplicationISOIEC2019 | Application of ISO/IEC 33000 to Green IT: A Case Study | 2019 | Colombia | LAC | management | N/A |
+| 28 | @petrocelliPlataformaColaborativaDistribuida2021 | Plataforma colaborativa, distribuida, escalable y de bajo co... | 2021 | Argentina | LAC | technical | N/A |
+| 29 | @piaggesiGreenTransferAdaptation2019 | Green transfer & adaptation program: A korean-colombian digi... | 2019 | Colombia | LAC | policy | Scopus |
+| 30 | @picoCFDModellingAir2022 | CFD modelling of the air conditioning system for a Tier 2 Da... | 2022 | Colombia | LAC | technical | Scopus |
+| 31 | @ProceedingsIEEEACM2026 | Proceedings of the IEEE/ACM 10th International Workshop on G... | 2026 | Global | Global | technical | N/A |
+| 32 | @QuantifyingDataCenter | Quantifying Data Center Scope 3 GHG Emissions to Prioritize ... | ? | Global | Global | technical | N/A |
+| 33 | @rodriguez-correaAdopcionTecnologiasVerdes2023 | Adopción de Tecnologías Verdes en el Sector Industrial: una ... | 2023 | Venezuela | LAC | management | N/A |
+| 34 | @rodriguezSurveyVirtualizationTechnologies2022 | A Survey of Virtualization Technologies: Towards a New Taxon... | 2022 | Colombia | Colombia | technical | N/A |
+| 35 | @sarastiAplicacionesParaRedes2014 | Aplicaciones para redes VANET enfocada en la sostenibilidad ... | 2014 | Colombia | Colombia | technical | N/A |
+| 36 | @siddikEnvironmentalFootprintData2021 | The environmental footprint of data centers in the United St... | 2021 | United States | United States | technical | N/A |
+| 37 | @torresAnalisisMulticriterioMultiescala2026 | Análisis multicriterio y multiescala para la ubicación soste... | 2026 | Colombia | Colombia | management | N/A |
+| 38 | @wangHowCanNational2026 | How can the national green data center pilots improve enterp... | 2026 | China | China | policy | Scopus |
+| 39 | @wangNonlinearImpactIndustrial2026 | The non-linear impact of industrial agglomeration on green t... | 2026 | China | China | management | Scopus |
+| 40 | @wuExploringGreenSoftware2025 | Exploring Green Software for Management: Tourism as an Emerg... | 2025 | Global | LAC | management | Web of Science |
+| 41 | @yaidelsanchezreyesEditorialSpeedwriting | Informe Ejecutivo: Principios y Mejores Prácticas en la Inge... | 2023 | Colombia | LAC | policy | Google Scholar |
+| 42 | @zhangBilevelPlanningModel2026 | A bi-level planning model of integrated energy capacity conf... | 2026 | China | China | technical | Scopus |
+| 43 | @zhangGreenComputingGeneral2026 | Toward Green Computing: General Carbon Intensity Forecasting... | 2026 | Global | Global | technical | ACM |
+| 44 | @zhangIntegrationMultimodalFusion2026 | Integration of multi-modal fusion and edge computing in smar... | 2026 | China | China | technical | Scopus |
 
 
 ---
 
-## Papers excluidos (19)
+## Papers excluidos (10)
 
 Estos papers están en el directorio pero les faltan campos en el frontmatter (`pais`, `region`, o `enfoque`):
 
@@ -75,19 +84,10 @@ Estos papers están en el directorio pero les faltan campos en el frontmatter (`
 - @creaEnergySystemsWorld2026 (decisión explícita)
 - @eilamReducingDatacenterCompute2024 (decisión explícita)
 - @gnibgaFlexCoolDCDatacenterCooling2024 (decisión explícita)
-- @karnauskasThreeStudiesPoint2025
 - @korontanisRoleEnergyConsumption2025 (decisión explícita)
 - @lago2ndInternationalWorkshop2013 (decisión explícita)
-- @latifNinoSouthernOscillation2009
-- @majiDataCentersCarbon2025
-- @ngInfluenceNinoSouthern2017
-- @NinoGlobalWarming2016
-- @ProceedingsIEEEACM2026
-- @QuantifyingDataCenter
 - @saraivaBringingGreenSoftware2021 (decisión explícita)
-- @siddikEnvironmentalFootprintData2021
 - @trejosJuegoNubeEstado2016 (decisión explícita)
-- @zhangIntegrationMultimodalFusion2026 (decisión explícita)
 
 ---
 
@@ -115,4 +115,4 @@ Notas de la ronda:
 
 ---
 
-*Última actualización: 2026-09-09 21:49*
+*Última actualización: 2026-09-11 14:24*
