@@ -8,11 +8,11 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7aa2f7:bb9af7&height=120&section=header&text=SLR%20Green%20Software&fontSize=28&fontColor=fff&animation=twinkling" width="100%"/>
 
 <!-- TYPING -->
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=7AA2F7&center=true&vCenter=true&width=560&lines=Software+sostenible+para+un+TI+colombiano+con+futuro;Mapeando+brechas+Colombia+vs+Mundo;PRISMA+2020+%7C+Scopus+%2B+Google+Scholar+%2B+IEEE;36+papers+incluidos+%7C+2009-2026)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=7AA2F7&center=true&vCenter=true&width=560&lines=Software+sostenible+para+un+TI+colombiano+con+futuro;Mapeando+brechas+Colombia+vs+Mundo;PRISMA+2020+%7C+Scopus+%2B+Google+Scholar+%2B+IEEE;44+estudios+incluidos+%7C+2009-2026)
 
 <!-- BADGES -->
 ![metodologia](https://img.shields.io/badge/metodologia-PRISMA%202020-7aa2f7?style=for-the-badge&logo=bookstack&logoColor=fff)
-![estado](https://img.shields.io/badge/estado-En%20progreso-f7768e?style=for-the-badge&logo=git&logoColor=fff)
+![estado](https://img.shields.io/badge/estado-SLR%20completa%20%C2%B7%20entrevistas%20en%20curso-f7768e?style=for-the-badge&logo=git&logoColor=fff)
 ![68](https://img.shields.io/badge/base-Scopus%20%2B%20Google%20Scholar%20%2B%20IEEE-9ece6a?style=for-the-badge&logo=bookstack&logoColor=fff)
 ![colombia](https://img.shields.io/badge/colombia-Comparativo-73daca?style=for-the-badge&logo=earth&logoColor=fff)
 
@@ -23,7 +23,7 @@
 ---
 
 > **Resumen**
-> Revisión sistemática de literatura sobre **Green Cloud, Green DevOps y Green Software Engineering** en Colombia, comparado con Europa, China y Latinoamérica. Metodología **PRISMA 2020**, 135 registros identificados, 36 incluidos para síntesis. El hallazgo central: la capacidad técnica local existe, pero falta el tejido de políticas, estándares y formación que la vuelva sistémica.
+> Revisión sistemática de literatura sobre **Green Cloud, Green DevOps y Green Software Engineering** en Colombia, comparado con Europa, China y Latinoamérica. Metodología **PRISMA 2020**, 135 registros identificados, 54 evaluados a texto completo y 44 estudios incluidos para la síntesis. El hallazgo central: la capacidad técnica local existe, pero falta el tejido de políticas, estándares y formación que la vuelva sistémica. La fase SLR está completa; el estudio continúa con **entrevistas a empresas del sector** para validar los hallazgos en terreno.
 
 ---
 
@@ -48,13 +48,13 @@
 > **Metodología**
 > Diseño SLR con protocolo PRISMA 2020. Búsqueda en Scopus, Google Scholar e IEEE Xplore (acceso institucional). Cierre de búsqueda: agosto 2026. Idioma: inglés y español.
 
-## Flujo PRISMA (n = 36)
+## Flujo PRISMA (n = 44)
 
 1. **Identificados** — 135 registros localizados en todas las fuentes.
 2. **Duplicados** — 7 registros removidos por duplicación.
-3. **Después de cribado** — 128 registros pasan el filtro de título y abstract (92 excluidos).
-4. **Después de elegibilidad** — 36 estudios evaluados a texto completo (0 excluidos).
-5. **Incluidos** — 36 estudios finales para la síntesis.
+3. **Después de cribado** — 128 registros pasan el filtro de título y abstract (74 excluidos).
+4. **Después de elegibilidad** — 54 estudios evaluados a texto completo (10 excluidos).
+5. **Incluidos** — 44 estudios finales para la síntesis.
 
 > **Nota:** El flujo se documenta como lista numerada por legibilidad. Los contadores se generan de forma automática con `scripts/update_prisma.py`.
 
@@ -121,18 +121,20 @@ AND ("Colombia" OR "Latin America")
 ```
 /
 ├── README.md                    Este archivo
-├── gsw-colombia.tex             Artículo IEEEtran (conference)
-├── gsw-colombia.bib             BibTeX con las 48 referencias del artículo
-├── latex/
-│   ├── IEEEtran.cls             Clase IEEEtran
-│   └── gsw-colombia.pdf         PDF compilado
+├── design_document.md           Diseño: RQ, rúbrica de calidad, layout de apéndices
 ├── 00-Protocolo.md              Pregunta, objetivo, alcance
 ├── 01-Criterios.md              Criterios de inclusión/exclusión + queries
 ├── 02-Flujo-PRISMA.md           Contadores PRISMA (auto-generado)
-├── 03-Matriz.md                 Tabla Dataview (auto-generada)
-├── 04-Borrador.md               Artículo: Intro, Método, Resultados, Discusión
+├── 03-Matriz.md                 Matriz Dataview de 44 estudios (auto-generada)
+├── 04-Borrador.md               Borrador: Intro, Método, Resultados, Discusión
+├── 05-Enlaces-Externos.md       Enlaces y fuentes externas
+├── 06-Encuesta-ACOLDC.md        Encuesta ACOLDC
 ├── Reunion 1-09.md              Notas de reunión del 1 de septiembre
-├── referencias.bib              BibTeX (Zotero + Better BibTeX)
+├── latex/
+│   ├── gsw-colombia.tex         Artículo IEEEtran (conference)
+│   ├── gsw-colombia.bib         BibTeX con 69 referencias
+│   ├── gsw-colombia.pdf         PDF compilado
+│   └── IEEEtran.cls             Clase IEEEtran
 ├── scripts/
 │   └── update_prisma.py         Automatización de contadores PRISMA
 └── Source/
@@ -205,7 +207,7 @@ enfoque: policy     # o technical, education, management
 
 **Protocolo fuente:** [Sánchez Reyes (2023)](https://sol.sbc.org.br/index.php/sbsi/article/view/41319) - "Principios y Mejores Prácticas en la Ingeniería de Software Verde".
 
-**Base de evidencia:** 36 papers incluidos, período 2009-2026.
+**Base de evidencia:** 44 papers incluidos, período 2009-2026.
 
 ---
 

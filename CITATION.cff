@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si utilizas este repositorio o su artículo, cítalo de la siguiente forma."
+title: "Green Software Engineering en Colombia: revisión sistemática de literatura (SLR) PRISMA 2020"
+abstract: "Revisión sistemática de literatura sobre Green Cloud, Green DevOps y Green Software Engineering en Colombia, comparado con Europa, China y Latinoamérica (corpus de 44 estudios, 2009-2026). El estudio continúa con una fase de entrevistas a empresas del sector para validar los hallazgos."
+authors:
+  - family-names: "Quintero Rubiano"
+    given-names: "Juan Carlos"
+    orcid: "https://orcid.org/0009-0000-7465-2560"
+    email: "jkquinteror@gmail.com"
+keywords:
+  - "green software engineering"
+  - "green cloud"
+  - "green devops"
+  - "PRISMA 2020"
+  - "revisión sistemática"
+  - "Colombia"
+date-released: "2026-09-11"
+url: "https://github.com/JkVely/SLR-Green-Software-Colombia"
