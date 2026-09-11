@@ -113,14 +113,14 @@ def generate_prisma_table(included, excluded, books):
     """Genera la tabla PRISMA actualizada"""
     total_included = len(included)
     
-    # Etapas PRISMA 2020 (arimética autoconsistente)
+    # Etapas PRISMA 2020 (aritmética autoconsistente)
     identified = 135          # Scopus + Google Scholar + IEEE Xplore
     duplicates = 7            # Duplicados removidos
     after_screening = identified - duplicates   # 128 cribados por título/abstract
-    excluded_screening = 92   # 128 - 36 = 92 excluidos en cribado
-    after_eligibility = 36    # Estudios evaluados a texto completo
-    excluded_fulltext = 36 - total_included     # Excluidos en elegibilidad
-    final_included = total_included              # Estudios finales incluidos
+    after_eligibility = total_included + len(excluded)   # Evaluados a texto completo
+    excluded_screening = after_screening - after_eligibility   # Excluidos en cribado
+    excluded_fulltext = len(excluded)          # Excluidos en elegibilidad
+    final_included = total_included            # Estudios finales incluidos
     
     # Generar lista de papers incluidos
     papers_list = ""
@@ -253,7 +253,7 @@ def update_file(filepath, content):
     """Actualiza un archivo"""
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
-    print(f"✓ Actualizado {filepath.name}")
+    print(f" Actualizado {filepath.name}")
 
 def main():
     print("=" * 60)
@@ -263,27 +263,27 @@ def main():
     
     # Verificar que existe el directorio
     if not SOURCE_DIR.exists():
-        print(f"✗ No se encontró el directorio: {SOURCE_DIR}")
+        print(f" No se encontró el directorio: {SOURCE_DIR}")
         return
     
     # Contar papers
     included, excluded, books = count_prisma_sources()
     
-    print(f"📊 Resultados:")
+    print("Resultados:")
     print(f"   Papers incluidos: {len(included)}")
     print(f"   Papers excluidos: {len(excluded)}")
     print(f"   Libros/otros: {len(books)}")
     print()
     
     # Mostrar papers incluidos
-    print("✅ Papers incluidos en la SLR:")
+    print("OK Papers incluidos en la SLR:")
     for p in included:
         print(f"   • {p['file'].replace('.md', '')} ({p['year']}) - {p['pais']}, {p['region']}")
     print()
     
     # Mostrar papers excluidos (faltan campos)
     if excluded:
-        print("⚠️  Papers sin campos completos (faltan pais/region/enfoque):")
+        print("WARNING  Papers sin campos completos (faltan pais/region/enfoque):")
         for e in excluded:
             print(f"   • {e.replace('.md', '')}")
         print()
@@ -305,7 +305,7 @@ def main():
     
     print()
     print("=" * 60)
-    print("  ¡Listo! Archivos actualizados correctamente.")
+    print("  !Listo! Archivos actualizados correctamente.")
     print("=" * 60)
 
 if __name__ == "__main__":
