@@ -104,7 +104,7 @@ enfoque: policy # o technical, education, management
 | @zhangIntegrationMultimodalFusion2026.md | Evaluation | high | 8.0 |
 
 ### Anexo de datos para figuras
-**Figura B - Tendencia publicaciones por año 2011-2026**
+**Datos de figura - Tendencia publicaciones por año 2009-2026**
 | year | count |
 |---|---|
 | 2009 | 2 |
@@ -123,7 +123,7 @@ enfoque: policy # o technical, education, management
 | 2025 | 7 |
 | 2026 | 9 |
 
-**Figura A - Distribución por cluster × tipo Wieringa**
+**Tabla cruzada - Distribución por cluster × tipo Wieringa**
 Clusters definidos a partir de tema_asunto: Métricas/Eficiencia, Política/Estándares, Educación/Formación, Centros de Datos/Optimización, Gestión Sostenible.
 
 | cluster | Evaluation | Solution proposal | Philosophical | Opinion | Experience | Validation |
@@ -134,7 +134,7 @@ Clusters definidos a partir de tema_asunto: Métricas/Eficiencia, Política/Est�
 | Centros de Datos/Optimización | 4 | 0 | 0 | 0 | 0 | 0 |
 | Gestión Sostenible | 0 | 1 | 4 | 4 | 0 | 0 |
 
-**Figura A - Región × tipo Wieringa**
+**Tabla cruzada - Región × tipo Wieringa**
 | region | Evaluation | Solution proposal | Philosophical | Opinion | Experience | Validation |
 |---|---|---|---|---|---|---|
 | Colombia | 4 | 1 | 4 | 1 | 0 | 0 |

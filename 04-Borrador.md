@@ -133,7 +133,7 @@ graph TD
 
 La tabla maestra de extracción, generada automáticamente con Dataview sobre la carpeta `Source/My Library/`, contempla los 44 papers finales con los siguientes campos: título, año, país, región, enfoque (technical/policy/education/management), tema_asunto, escenario_aplicacion, institucion_principal, ciudad, metodologia, base-datos. La tabla permite filtrar y comparar hallazgos entre regiones y categorías y soporta el esquema de clasificación del mapping Kitchenham/Petersen.
 
-La evolución temporal de la producción se presenta en la Figura B, que muestra el crecimiento sostenido desde 2009 hasta 2026 con un pico en 2025-2026. La Figura A sintetiza la distribución por cluster temático y tipo Wieringa, así como por región, evidenciando la concentración de estudios de Evaluación en métricas/eficiencia y la ausencia de propuestas de política en Colombia.
+La evolución temporal de la producción se presenta en la figura de tendencias, que muestra el crecimiento sostenido desde 2009 hasta 2026 con un pico en 2026. La distribución por cluster temático y tipo de investigación, así como por región, se sintetiza en las tablas cruzadas de la matriz, que evidencian la concentración de estudios de Evaluación en métricas/eficiencia y la ausencia de propuestas de política en Colombia.
 
 ### Síntesis de hallazgos por eje temático
 
