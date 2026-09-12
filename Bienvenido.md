@@ -1,44 +1,40 @@
-# repositorio-slr-prisma
+# SLR Green Software Engineering en Colombia — Guía del repositorio
 
-Vault dedicado a la revisión sistemática (SLR) usando metodología PRISMA, sobre el estado actual de políticas y desarrollos en Green Cloud, Green DevOps y Green Software Engineering, con enfoque comparativo Colombia vs mundo.
+Este repositorio contiene la documentación y los artefactos de la Revisión Sistemática de Literatura (SLR) sobre Green Cloud, Green DevOps y Green Software Engineering, con enfoque comparativo Colombia frente a Europa, China y América Latina.
 
-## Flujo de trabajo (4 pasos)
+La revisión sigue la metodología **PRISMA 2020** con fase de mapeo sistemático (Kitchenham & Charters 2007; Petersen et al. 2015). El corpus final está conformado por **44 estudios** (2009–2026) extraídos de Scopus, Google Scholar e IEEE Xplore.
 
-1. **Leer paper** → Crear nota en `Fuentes/` usando la plantilla (`_Plantilla-fuente.md`). Editar SOLO ese archivo: metadatos, país, enfoque green, hallazgos, decisión PRISMA (`incluido`/`excluido`).
-2. **Aplicar PRISMA** → La decisión vive en cada nota de `Fuentes/`. En `02-Flujo-PRISMA.md` solo se llevan los conteos de las 4 etapas (identificados → cribados → elegibles → incluidos), actualizados al cerrar cada ronda de búsqueda.
-3. **Extraer ideas** → `03-Matriz.md` se genera automáticamente con Dataview leyendo todas las notas de `Fuentes/`. No es necesario editar la tabla a mano — al cambiar una nota, la matriz se actualiza sola.
-4. **Escribir artículo** → `04-Borrador.md` contiene el borrador en markdown. Al pasar a LaTeX, se usan los citekey del frontmatter y el archivo `referencias.bib` (gestionado por Zotero + Better BibTeX).
-
-## Estructura de carpetas
+## Estructura
 
 ```
-/Fuentes/
-  └── _Plantilla-fuente.md     ← plantilla (no borrar ni renombrar)
-  └── P01-apellido2024.md      ← UNA nota por paper leído
-  └── P02-gonzalez2023.md
-  └── ...                      ← tantas como papers incluya
-
 /
-├── 00-Protocolo.md            Pregunta de investigación, objetivo, alcance (Colombia vs mundo)
-├── 01-Criterios.md            Inclusión/exclusión + queries por base (IEEE/Scopus/ACM/Scholar)
-├── 02-Flujo-PRISMA.md         Contadores de las 4 etapas PRISMA 2020
-├── 03-Matriz.md               Tabla automática (Dataview)
-├── 04-Borrador.md             Artículo en md: Intro, Método, Resultados, Discusión, Conclusión
-└── referencias.bib            BibTeX acumulado (Zotero + Better BibTeX, auto-sincronizado)
+├── README.md                    Resumen del proyecto, estado y DOI
+├── CITATION.cff                 Ficha de cita del repositorio (GitHub + Zenodo)
+├── LICENSE                      Licencia CC-BY-4.0
+├── design_document.md           Diseño metodológico de la revisión
+├── 00-Protocolo.md              Pregunta de investigación, objetivo y alcance
+├── 01-Criterios.md              Criterios de inclusión/exclusión y consultas
+├── 02-Flujo-PRISMA.md           Contadores PRISMA 2020 (generado por script)
+├── 03-Matriz.md                 Matriz de extracción de datos
+├── 04-Borrador.md               Borrador del artículo
+├── 05-Enlaces-Externos.md       Fuentes externas de contexto
+├── 06-Encuesta-ACOLDC.md        Encuesta a empresas (ACOLDC)
+├── Reunion 1-09.md              Registro de reunión del proyecto
+├── latex/                       Artículo IEEEtran (fuente, bibliografía, PDF)
+├── scripts/
+│   └── update_prisma.py         Actualiza contadores PRISMA y matriz
+└── Source/My Library/           Metadatos y notas por estudio (frontmatter)
 ```
 
-## Plugins recomendados (ya están instalados)
+## Flujo de trabajo
 
-- **Templates** (core, activado) — para instanciar la plantilla de fuente.
-- **Dataview** — genera la matriz automáticamente a partir de las notas de `Fuentes/`.
-- **Zotero Integration** + **Better BibTeX** (Zotero desktop) — gestiona `referencias.bib` y los citekey; el `.bib` se auto-exporta al vault.
-- **obsidian-pandoc** — opcional: convierte `04-Borrador.md` a `.tex` si algún día quieres evitar el copy-paste.
+1. Cada estudio se registra en `Source/My Library/` con sus metadatos (año, país, región, enfoque, decisión) en el frontmatter.
+2. La decisión de inclusión o exclusión PRISMA se registra en el campo `decision`.
+3. El script `scripts/update_prisma.py` genera los contadores del flujo PRISMA (`02-Flujo-PRISMA.md`) y la matriz de extracción (`03-Matriz.md`).
+4. El artículo se redacta en LaTeX (`latex/gsw-colombia.tex`), con el borrador en markdown como referencia (`04-Borrador.md`).
 
-## Cómo empezar
+## Cómo citar
 
-1. Fíjate en `00-Protocolo.md` y `01-Criterios.md` para definir tu pregunta y criterios de búsqueda.
-2. Revise la plantilla `_Plantilla-fuente.md` — ese es el único archivo que tocarás por cada paper.
-3. Cuando leas un paper, crea una nueva nota desde la plantilla en `Fuentes/` y llénala: resumen + decisión PRISMA.
-4. Deja que Dataview arme la matriz y vayas actualizando los contadores en `02-Flujo-PRISMA.md`.
-
-Todo está pensado para que cada paper toque **UN solo archivo** y el resto se genere solo. Sin redundancia, para que puedas sacar ideas rápidas y pasar al artículo en LaTeX.
+- Pares clave y DOI: consultar `CITATION.cff`.
+- DOI del repositorio (Zenodo): `10.5281/zenodo.22716253` — https://doi.org/10.5281/zenodo.22716253
+- Licencia: CC-BY-4.0 (uso libre con atribución).
