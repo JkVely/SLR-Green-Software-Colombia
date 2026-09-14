@@ -383,12 +383,20 @@ Las l\'ineas de investigaci\'on futuras incluyen estudios longitudinales de impa
 \clearpage
 \appendices
 \section{Estrategia de b\'usqueda por base de datos}
-\textbf{Scopus:} \texttt{TITLE-ABS-KEY(("green cloud" OR "green computing" OR "sustainable cloud" OR "green software engineering" OR "green devops") AND (Colombia OR "Latin America")) AND PUBYEAR > 2010}. Notas: frases "" aproximadas, \{\} exactas, precedencia OR>AND, comodines * ?. Base $\ge$3.
-\textbf{IEEE Xplore:} expansi\'on triple por t\'ermino \texttt{"Document Title":"..." OR "Abstract":"..." OR "Index Terms":"..."} + \texttt{AND ("All Metadata":Colombia OR "All Metadata":"Latin America")}; a\~no v\'ia faceta \texttt{\&ranges=2011\_2026\_Year}; l\'imite $\sim$15 t\'erminos/consulta.
-\textbf{Google Scholar:} cadena corta \texttt{"green cloud" OR "green computing" OR "green software" Colombia}; cobertura plena \texttt{("green cloud" OR "green computing" OR "sustainable cloud" OR "green software engineering" OR "green devops") (Colombia OR "Latin America")}; AND impl\'icito, OR en may\'usculas; a\~no v\'ia rango as\_ylo=2011, as\_yhi=2026; reproducibilidad limitada.
-\textbf{ACM DL:} \texttt{(Title:(...) OR Abstract:(...) OR Keyword:(...)) AND AllField:(Colombia OR "Latin America")} con los 5 t\'erminos; a\~no \texttt{\&AfterYear=2011\&BeforeYear=2026}; booleanos en may\'usculas, comod\'in *; alcance DL (expand=dl). Nota honesta: en ACM el geofiltro no devolvi\'o estudios con afiliaci\'on colombiana.
-\textbf{Tabla de equivalencias:} TITLE-ABS-KEY $\approx$ Document Title/Abstract/Index Terms (IEEE), Title/Abstract/Keyword (ACM); comillas "" en todas; comod\'in *; filtro a\~no por PUBYEAR/faceta/rango.
+Se detallan las cadenas de b\'usqueda aplicadas en cada base y las restricciones de a\~no y operadores utilizadas para garantizar reproducibilidad.
+
+\textbf{Scopus.} \texttt{TITLE-ABS-KEY((``green cloud'' OR ``green computing'' OR ``sustainable cloud'' OR ``green software engineering'' OR ``green devops'') AND (Colombia OR ``Latin America'')) AND PUBYEAR > 2010}. Notas: comillas \texttt{""} para frases aproximadas, \{\} para coincidencia exacta; precedencia OR $>$ AND; comodines * y ?. Cobertura m\'inima en tres bases.
+
+\textbf{IEEE Xplore.} Expansi\'on triple por t\'ermino en t\'itulo, resumen e \'{i}ndices: \texttt{``Document Title'':``...'' OR ``Abstract'':``...'' OR ``Index Terms'':``...''} AND \texttt{``All Metadata'':Colombia OR ``All Metadata'':``Latin America''}. A\~no por faceta \texttt{\&ranges=2011\_2026\_Year}. L\'imite aproximado de 15 t\'erminos por consulta.
+
+\textbf{Google Scholar.} Cadena corta: \texttt{``green cloud'' OR ``green computing'' OR ``green software'' Colombia}. Cadena de cobertura plena: \texttt{(``green cloud'' OR ``green computing'' OR ``sustainable cloud'' OR ``green software engineering'' OR ``green devops'') (Colombia OR ``Latin America'')}. AND impl\'icito, OR en may\'usculas; rango de a\~no as\_ylo=2011, as\_yhi=2026. Reproducibilidad limitada por el motor.
+
+\textbf{ACM Digital Library.} \texttt{(Title:(...) OR Abstract:(...) OR Keyword:(...)) AND AllField:(Colombia OR ``Latin America'')} con los cinco t\'erminos. A\~no \texttt{\&AfterYear=2011\&BeforeYear=2026}; booleanos en may\'usculas, comod\'in *. Alcance expand=dl. Nota: el filtro geogr\'afico no devolvi\'o estudios con afiliaci\'on colombiana en la ventana revisada.
+
+\textbf{Equivalencias de campos.} TITLE-ABS-KEY $\approx$ Document Title/Abstract/Index Terms en IEEE Xplore y Title/Abstract/Keyword en ACM. Uso consistente de comillas y comod\'in *. Filtro de a\~no por PUBYEAR, faceta o rango seg\'un base.
 \section{Checklist PRISMA 2020}
+La Tabla~\ref{tab:prisma-check} resume la conformidad del estudio con los 27 ítems de PRISMA 2020. Los ítems marcados como Parcial se justifican en Metodología y Limitaciones.
+
 \begin{table}[htbp]
 \centering
 \footnotesize
@@ -450,7 +458,30 @@ Las l\'ineas de investigaci\'on futuras incluyen estudios longitudinales de impa
 Los 10 estudios excluidos a texto completo fueron Abuhabib et al.\ (2026), Barua et al.\ (2022), el white paper corporativo \emph{The Carbon Benefits of Cloud Computing} (s.~f.), CREA (2026), Eilam et al.\ (2024), Gnibga et al.\ (2024), Korontanis et al.\ (2025), Lago et al.\ (2013), Saraiva et al.\ (2021) y Trejos y Alzate (2016). Ocho de ellos no cumplieron los criterios de inclusi\'on; Lago et al.\ (2013) qued\'o fuera de alcance por ser el acta de un workshop no revisado por pares, y Trejos y Alzate (2016) fue excluido por tem\'atica, al estudiar el estado del arte del \emph{cloud gaming} (entretenimiento en la nube), sin v\'inculo con la eficiencia energ\'etica ni con la sostenibilidad del software, pese a su origen colombiano.
 
 \section{R\'ubrica de calidad}
-Tabla de 8 criterios C1--C8 adaptada de Kitchenham con puntuaci\'on 0/0.5/1 desde frontmatter: pregunta clara, dise\~no apropiado, validez de evidencia, completitud, adecuaci\'on tipo fuente, contexto geogr\'afico, coherencia metodol\'ogica, actualidad. Bandas: Alta 7--8, Media 4--6, Baja 0--3. Permite reproducir puntuaci\'on sin re-lectura completa.
+La evaluaci\'on de calidad se realiza con 8 criterios C1--C8 adaptados de Kitchenham, puntuados 0/0.5/1 a partir del frontmatter. La Tabla~\ref{tab:rubrica} detalla cada criterio. Bandas: Alta 7--8, Media 4--6, Baja 0--3.
+
+\begin{table}[H]
+\centering
+\caption{Criterios de calidad de la r\'ubrica}
+\label{tab:rubrica}
+\footnotesize
+\begin{tabular}{@{}R{0.8cm}R{5.5cm}@{}}
+\toprule
+\textbf{Criterio} & \textbf{Descripci\'on} \\
+\midrule
+C1 & Pregunta de investigaci\'on clara y alineada con el alcance del estudio \\
+C2 & Dise\~no metodol\'ogico apropiado para la pregunta \\
+C3 & Validez de la evidencia reportada y trazabilidad de datos \\
+C4 & Completitud del reporte de m\'etodo y resultados \\
+C5 & Adecuaci\'on del tipo de fuente al tema propuesto \\
+C6 & Contexto geogr\'afico relevante para Colombia/LAC \\
+C7 & Coherencia metodol\'ogica entre objetivo y an\'alisis \\
+C8 & Actualidad del estudio respecto al estado del arte \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La puntuaci\'on se reproduce sin re-lectura completa.
 
 \section{Snowballing}
 Procedimiento Wohlin et al.~\cite{wohlin2014}: start set $\rightarrow$ backward $\rightarrow$ forward $\rightarrow$ cribado con mismos criterios $\rightarrow$ parar en saturaci\'on $\rightarrow$ trazabilidad. Iteraci\'on exploratoria 2026-09-11 (Semantic Scholar/OpenAlex/Crossref, sin acceso institucional): semillas~\cite{hernandez2011,diaz2013,paton2019,bossa2023,siddik2021,maji2025,moreira2024}; candidatos C1-C10 documentados como revisi\'on pendiente a texto completo con prioridad C1-C6 — trabajo futuro expl\'icito.
