@@ -208,12 +208,16 @@ ymin=0, ymax=25,
 ylabel={Estudios},
 xlabel={Regi\'on},
 legend style={at={(0.5,-0.28)},anchor=north,legend columns=2,font=\scriptsize},
-legend entries={T\'ecnico,Pol\'itica,Gesti\'on,Educaci\'on}
+legend entries={T\'ecnico (25),Pol\'itica (8),Gesti\'on (10),Educaci\'on (1)}
 ]
 \addplot coordinates {(Colombia,6) (LAC,11) (Global,4) (China,4)};
 \addplot coordinates {(Colombia,1) (LAC,5) (Global,1) (China,1)};
 \addplot coordinates {(Colombia,4) (LAC,4) (Global,1) (China,1)};
 \addplot coordinates {(Colombia,0) (LAC,1) (Global,0) (China,0)};
+\node[above,font=\scriptsize] at (axis cs:Colombia,11.5) {11};
+\node[above,font=\scriptsize] at (axis cs:LAC,22.5) {21};
+\node[above,font=\scriptsize] at (axis cs:Global,7.5) {6};
+\node[above,font=\scriptsize] at (axis cs:China,7.5) {6};
 \end{axis}
 \end{tikzpicture}
 \caption{Estudios incluidos por regi\'on y enfoque metodol\'ogico ($n=44$). LAC: Am\'erica Latina y el Caribe.}
