@@ -12,8 +12,8 @@ Ajustes al instrumento de encuesta y próximos pasos del estudio.
 
 ## Acciones pendientes
 - [ ] Definir el listado final de preguntas abiertas de la encuesta.
-- [ ] Registrar los lineamientos de *Ingeniería Solidaria* (normas, plantilla, proceso) en las notas del proyecto.
-- [ ] Actualizar autoría y estructura del artículo.
+- [x] Registrar los lineamientos de *Ingeniería Solidaria* (normas, plantilla, proceso) — ver `07-Revista-IngenieriaSolidaria.md`.
+- [x] Actualizar autoría y estructura del artículo — se agregó a J. J. Bocanegra García como coautor.
 
 ## Notas metodológicas
 - Atlas.ti: análisis de respuestas abiertas; permite categorizar e interpretar el material cualitativo.
