@@ -2,12 +2,12 @@
 
 Tabla maestra de extracción de datos. **Se genera automáticamente con Dataview** — no editar a mano. Cada vez que añades o modificas los frontmatter de las fuentes, puedes refrescar el query para ver los cambios.
 
-> **Nota:** Los campos `anio`, `pais`, `region`, `enfoque`, `decision`, `base-datos` deben estar en el frontmatter de cada archivo de `Source/My Library/` para que aparezcan en la tabla. Los fields `titulo` y `year` vienen definidos en la mayoría de los frontmatter ya. Los campos adicionales se van poblando según se completa el análisis de cada paper.
+> **Nota:** Los campos `anio`, `pais`, `region`, `enfoque`, `decision`, `base-datos` deben estar en el frontmatter de cada archivo de `Source/My Library/` para que aparezcan en la tabla. La regla de inclusión reproduce el flujo PRISMA: se cuentan los papers con `decision: incluido` o, en su defecto, con `pais`, `region` y `enfoque` completos y sin `decision: excluido`. Si el query devuelve menos de 44, faltan campos en el frontmatter.
 
 ```dataview
 TABLE titulo, year, pais, region, enfoque, decision, base-datos
 FROM "Source/My Library"
-WHERE file.name != "_Plantilla-fuente" AND decision = "incluido"
+WHERE file.name != "_Plantilla-fuente" AND (decision = "incluido" OR (decision != "excluido" AND pais AND region AND enfoque))
 SORT year DESC
 ```
 
