@@ -89,12 +89,13 @@
 > - 2 = Hay pilotos o iniciativas aisladas
 > - 3 = Práctica documentada, aplicada en parte de la organización
 > - 4 = Integrada: se mide periódicamente y se mejora
+> - No aplica = La fila no corresponde al contexto de su organización
 
 > *Cómo rellenar la cuadrícula B:*
 > - Lea cada fila como una afirmación sobre su organización.
 > - Elija un solo número de 0 a 4 por fila.
 > - Responda con base en lo que ocurre hoy, no en planes futuros.
-> - Si la afirmación no corresponde a su contexto, use "No aplica" cuando esté disponible.
+> - Si la afirmación no corresponde a su contexto, marque la columna "No aplica".
 
 **B. Compromiso organizacional con la sostenibilidad digital** *(cuadrícula de opción múltiple; una sola pregunta en Forms; filas B1–B6)*
 
@@ -125,6 +126,7 @@ Incluya términos propios, en español o inglés, y si corresponde indique que n
 > - 2 = Hay pilotos o iniciativas aisladas
 > - 3 = Práctica documentada, aplicada en parte de la organización
 > - 4 = Integrada: se mide periódicamente y se mejora
+> - No aplica = La fila no corresponde al contexto de su organización
 
 > *Cómo rellenar la cuadrícula D:*
 > - Cada fila describe una práctica operativa.
@@ -169,6 +171,7 @@ Filas:
 > - 2 = Hay pilotos o iniciativas aisladas
 > - 3 = Práctica documentada, aplicada en parte de la organización
 > - 4 = Integrada: se mide periódicamente y se mejora
+> - No aplica = La fila no corresponde al contexto de su organización
 
 > *Cómo rellenar la cuadrícula E:*
 > - Cada fila describe una práctica de ingeniería.
