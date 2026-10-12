@@ -9,7 +9,7 @@
 
 > **Sostenibilidad digital en empresas de tecnología colombianas**
 >
-> Esta encuesta busca entender cómo las empresas de tecnología en Colombia incorporan la eficiencia energética y la sostenibilidad en su infraestructura y en su software. Forma parte de una investigación académica de la Universidad Distrital Francisco José de Caldas basada en una revisión sistemática de literatura (PRISMA 2020) sobre Green Cloud, Green DevOps y Green Software Engineering.
+> Esta encuesta busca entender cómo las empresas de tecnología en Colombia incorporan la eficiencia energética y la sostenibilidad en su infraestructura y en su software. Forma parte de una investigación académica de la Universidad Distrital Francisco José de Caldas basada en un mapeo sistemático de literatura (PRISMA 2020) sobre Green Cloud, Green DevOps y Green Software Engineering.
 >
 > - No hay respuestas correctas ni incorrectas; esto no es un examen.
 > - Duración estimada: 15 a 20 minutos.
