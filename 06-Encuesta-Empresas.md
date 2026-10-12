@@ -9,16 +9,22 @@
 
 > **Sostenibilidad digital en empresas de tecnología colombianas**
 >
-> Esta encuesta busca entender cómo las empresas de tecnología en Colombia incorporan la eficiencia energética y la sostenibilidad en su infraestructura y en su software. Forma parte de una investigación académica de la Universidad Distrital Francisco José de Caldas basada en un mapeo sistemático de literatura (PRISMA 2020) sobre Green Cloud, Green DevOps y Green Software Engineering.
+> **Bienvenido y gracias por dedicar unos minutos a este estudio.** Su experiencia en el sector tecnológico colombiano es el insumo más valioso de esta investigación.
+>
+> Esta encuesta busca entender cómo las empresas de tecnología en Colombia incorporan (o no) la eficiencia energética y la sostenibilidad en su infraestructura y su software. Forma parte de una investigación académica de la Universidad Distrital Francisco José de Caldas basada en un mapeo sistemático de literatura (PRISMA 2020) sobre Green Cloud, Green DevOps y Green Software Engineering, y sus resultados alimentarán la agenda de investigación y las recomendaciones de política pública del estudio.
 >
 > - No hay respuestas correctas ni incorrectas; esto no es un examen.
 > - Duración estimada: 15 a 20 minutos.
 > - Puede responder "No sé" o "No aplica" en cualquier punto.
 > - Puede saltarse preguntas abiertas que no quiera contestar.
 >
-> **Consentimiento informado:** La participación es voluntaria y las respuestas son confidenciales. Los datos se tratarán conforme a la Ley 1581 de 2012 y el Decreto 1377 de 2013. No se identificará su organización en ningún reporte final; los resultados se reportarán de forma agregada. Al continuar, usted acepta que sus respuestas se usen con fines de investigación académica.
+> **Consentimiento informado:** Esta encuesta es un instrumento de investigación académica aplicado por Juan C. Quintero R. y José Bocanegra, investigadores de la Universidad Distrital Francisco José de Caldas. Su propósito es caracterizar la madurez de sostenibilidad digital de las empresas de tecnología colombianas; los resultados se publicarán únicamente de forma agregada y anónima en un artículo académico de acceso abierto.
 >
-> - [ ] Acepto participar *(obligatorio para continuar)*
+> **Quiénes tienen acceso a sus datos:** Solo el equipo investigador tiene acceso a las respuestas individuales, que se almacenan en la plataforma Formbricks y se tratan conforme a la Ley 1581 de 2012 y el Decreto 1377 de 2013. Ninguna otra persona u organización recibirá datos individuales. No se identificará su organización ni a la persona respondiente en ningún reporte; los resultados siempre se presentarán agregados.
+>
+> **Términos de participación:** La participación es voluntaria y sin compensación; puede abandonar la encuesta en cualquier momento sin consecuencia alguna y puede omitir las preguntas abiertas que prefiera no contestar. Los datos se conservarán únicamente durante el tiempo del análisis y la publicación del estudio, y puede solicitar su corrección o eliminación escribiendo a jcquinteror@udistrital.edu.co. Al marcar la casilla de aceptación y continuar, usted confirma que ha leído esta información y acepta participar bajo estos términos.
+>
+> - [ ] He leído la información anterior y acepto participar de forma voluntaria en esta encuesta *(obligatorio para continuar)*
 
 ---
 
