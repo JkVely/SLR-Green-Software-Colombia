@@ -31,6 +31,7 @@
   "createdBy": null,
   "welcomeCard": {
     "enabled": true,
+    "fileUrl": "https://app.formbricks.com/storage/cmq7aopn050r9we01fyn35h67/public/Banner%2520Green%2520IT--fid--e3d46721-e03d-4b70-a058-8086f08a725f.png",
     "headline": {
       "default": "Sostenibilidad digital en empresas de tecnología colombianas"
     },
@@ -71,13 +72,13 @@
         "default": "Indique la descripción que se acerca más a su organización."
       },
       "subheader": {
-        "default": "Sección A - Perfil de la organización. Primero, unos datos básicos para contextualizar sus respuestas según la unidad que usted conoce, de acuerdo con lo indicado en A5."
+        "default": "Sección A - Perfil de la organización. Primero, unos datos básicos para contextualizar sus respuestas según la unidad organizacional que usted conoce."
       },
       "choices": [
         {
           "id": "a1_1",
           "label": {
-            "default": "Proveedor de cloud, hosting o servicios administrados"
+            "default": "Proveedor de nube (cloud), hosting o servicios administrados"
           }
         },
         {
@@ -95,13 +96,13 @@
         {
           "id": "a1_4",
           "label": {
-            "default": "Consultora de cloud, DevOps, SRE o transformación digital"
+            "default": "Consultora de nube (cloud), desarrollo y operaciones (DevOps), ingeniería de confiabilidad (SRE) o transformación digital"
           }
         },
         {
           "id": "a1_5",
           "label": {
-            "default": "Startup de producto digital / SaaS"
+            "default": "Startup de producto digital / software como servicio (SaaS)"
           }
         },
         {
@@ -236,19 +237,19 @@
         {
           "id": "a4_1",
           "label": {
-            "default": "Dirección ejecutiva / CTO"
+            "default": "Dirección ejecutiva / dirección de tecnología (CTO)"
           }
         },
         {
           "id": "a4_2",
           "label": {
-            "default": "Arquitectura de cloud o de software"
+            "default": "Arquitectura de nube (cloud) o de software"
           }
         },
         {
           "id": "a4_3",
           "label": {
-            "default": "DevOps / SRE / plataformas"
+            "default": "Desarrollo y operaciones (DevOps) / ingeniería de confiabilidad (SRE) / plataformas"
           }
         },
         {
@@ -266,13 +267,13 @@
         {
           "id": "a4_6",
           "label": {
-            "default": "Seguridad, riesgo, compliance o ESG"
+            "default": "Seguridad, riesgo, cumplimiento normativo o criterios ambientales, sociales y de gobernanza (ESG)"
           }
         },
         {
           "id": "a4_7",
           "label": {
-            "default": "FinOps / gestión financiera de cloud"
+            "default": "Gestión financiera de nube (FinOps)"
           }
         },
         {
@@ -374,19 +375,19 @@
         "default": "Compromiso organizacional con la sostenibilidad digital"
       },
       "subheader": {
-        "default": "A continuación se presentan afirmaciones sobre conocimiento y compromiso organizacional. Marque una sola opción por fila según la realidad actual de la unidad que usted conoce (ver A5), no lo que se espera o lo que sería ideal. Cómo rellenar la cuadrícula: lea cada fila como una afirmación sobre su organización, elija un solo número de 0 a 4 por fila y responda con base en lo que ocurre hoy, no en planes futuros; si la afirmación no corresponde a su contexto, marque la columna No aplica. Escala 0-4: 0 = No existe o no conozco. 1 = Conocemos el tema, pero no hay acciones formales. 2 = Hay pilotos o iniciativas aisladas. 3 = Práctica documentada, aplicada en parte de la organización. 4 = Integrada: se mide periódicamente y se mejora. No aplica = La fila no corresponde al contexto de su organización."
+        "default": "A continuación se presentan afirmaciones sobre conocimiento y compromiso organizacional. Marque una sola opción por fila según la realidad actual de la unidad organizacional que usted conoce, no lo que se espera o lo que sería ideal. Cómo rellenar la cuadrícula: lea cada fila como una afirmación sobre su organización, elija un solo número de 0 a 4 por fila y responda con base en lo que ocurre hoy, no en planes futuros; si la afirmación no corresponde a su contexto, marque la columna No aplica. Escala 0-4: 0 = No existe o no se conoce. 1 = Se conoce el tema sin acciones formales. 2 = Existen pilotos o iniciativas aisladas. 3 = Práctica documentada y aplicada parcialmente. 4 = Integrada, se mide periódicamente y se mejora continuamente. No aplica = La fila no corresponde al contexto de su organización."
       },
       "rows": [
         {
           "id": "b_1",
           "label": {
-            "default": "El tema de Green IT / sostenibilidad digital es conocido internamente"
+            "default": "El tema de las tecnologías de la información verdes (Green IT) y de la sostenibilidad digital es conocido internamente"
           }
         },
         {
           "id": "b_2",
           "label": {
-            "default": "Existe una política, meta o indicador escrito sobre el impacto ambiental de TI, cloud o software"
+            "default": "Existe una política, meta o indicador escrito sobre el impacto ambiental de las tecnologías de la información (TI), la nube (cloud) o el software"
           }
         },
         {
@@ -471,7 +472,10 @@
       "id": "b8",
       "type": "openText",
       "headline": {
-        "default": "En sus propias palabras, describa qué entiende su organización por la idea mencionada en B7."
+        "default": "En sus propias palabras, describa qué entiende su organización por la sostenibilidad digital y el consumo energético de la tecnología."
+      },
+      "subheader": {
+        "default": "Si en la pregunta anterior indicó términos propios, aclare aquí qué significan para su organización."
       },
       "longAnswer": true,
       "required": false
@@ -492,7 +496,7 @@
         "default": "Prácticas de infraestructura y nube"
       },
       "subheader": {
-        "default": "Prácticas concretas de infraestructura y nube, con la misma escala 0-4 de la sección anterior. Cómo rellenar la cuadrícula: cada fila describe una práctica operativa; marque un solo valor por fila con base en la realidad actual, no aspiracional, y use No aplica solo si la práctica no es relevante para el modelo de infraestructura indicado en A6. Escala 0-4: 0 = No existe o no conozco. 1 = Conocemos el tema, pero no hay acciones formales. 2 = Hay pilotos o iniciativas aisladas. 3 = Práctica documentada, aplicada en parte de la organización. 4 = Integrada: se mide periódicamente y se mejora. No aplica = La fila no corresponde al contexto de su organización."
+        "default": "Prácticas concretas de infraestructura y nube, con la misma escala 0-4 de la sección anterior. Cómo rellenar la cuadrícula: cada fila describe una práctica operativa; marque un solo valor por fila con base en la realidad actual, no aspiracional, y use No aplica solo si la práctica no es relevante para el modelo de infraestructura de su organización. Escala 0-4: 0 = No existe o no se conoce. 1 = Se conoce el tema sin acciones formales. 2 = Existen pilotos o iniciativas aisladas. 3 = Práctica documentada y aplicada parcialmente. 4 = Integrada, se mide periódicamente y se mejora continuamente. No aplica = La fila no corresponde al contexto de su organización."
       },
       "rows": [
         {
@@ -624,7 +628,10 @@
       "id": "d9",
       "type": "rating",
       "headline": {
-        "default": "Califique cuánto pesa la seguridad energética del país (sequías, racionamientos, variabilidad asociada a El Niño) en la planeación de su infraestructura de TI."
+        "default": "Califique cuánto pesa la seguridad energética del país (sequías, racionamientos, variabilidad asociada a El Niño) en la planeación de su infraestructura de tecnologías de la información (TI)."
+      },
+      "subheader": {
+        "default": "Escala 1-5: 1 = No se considera para nada. 2 = Se considera de manera marginal. 3 = Se considera de manera moderada. 4 = Se considera de manera importante. 5 = Es un eje central de la planeación."
       },
       "scale": "number",
       "range": 5,
@@ -638,18 +645,94 @@
     },
     {
       "id": "d10",
-      "type": "openText",
+      "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Describa una práctica de infraestructura que haya generado mayor ahorro energético o de costos en su organización, y explique brevemente en qué consistió y por qué funcionó."
+        "default": "Indique si su organización ha logrado ahorros energéticos o de costos con alguna práctica de infraestructura relacionada con sostenibilidad digital."
       },
-      "longAnswer": true,
-      "required": false
+      "choices": [
+        {
+          "id": "d10_1",
+          "label": {
+            "default": "Sí"
+          }
+        },
+        {
+          "id": "d10_2",
+          "label": {
+            "default": "No"
+          }
+        },
+        {
+          "id": "d10_3",
+          "label": {
+            "default": "No sé"
+          }
+        }
+      ],
+      "shuffleOption": "none",
+      "required": true
     },
     {
       "id": "d11",
       "type": "openText",
       "headline": {
-        "default": "Describa si ha identificado resistencia interna a alguna práctica de infraestructura relacionada con sostenibilidad digital, y explique brevemente en qué consistió."
+        "default": "Si respondió \"Sí\" en D10, describa la práctica que generó el mayor ahorro: en qué consistió y por qué funcionó."
+      },
+      "subheader": {
+        "default": "Responda solo si marcó \"Sí\" en la pregunta D10."
+      },
+      "longAnswer": true,
+      "required": false
+    },
+    {
+      "id": "d12",
+      "type": "multipleChoiceSingle",
+      "headline": {
+        "default": "Indique si su organización ha identificado resistencia interna a alguna práctica de infraestructura relacionada con sostenibilidad digital."
+      },
+      "choices": [
+        {
+          "id": "d12_1",
+          "label": {
+            "default": "Sí"
+          }
+        },
+        {
+          "id": "d12_2",
+          "label": {
+            "default": "No"
+          }
+        },
+        {
+          "id": "d12_3",
+          "label": {
+            "default": "No sé"
+          }
+        }
+      ],
+      "shuffleOption": "none",
+      "required": true
+    },
+    {
+      "id": "d13",
+      "type": "openText",
+      "headline": {
+        "default": "Si respondió \"Sí\" en D12, describa la resistencia: en qué práctica de infraestructura se presentó, de parte de qué área o rol, y en qué consistió."
+      },
+      "subheader": {
+        "default": "Responda solo si marcó \"Sí\" en la pregunta D12."
+      },
+      "longAnswer": true,
+      "required": false
+    },
+    {
+      "id": "d14",
+      "type": "openText",
+      "headline": {
+        "default": "Si respondió \"Sí\" en D12, indique cómo respondió su organización a esa resistencia y si se resolvió."
+      },
+      "subheader": {
+        "default": "Responda solo si marcó \"Sí\" en la pregunta D12."
       },
       "longAnswer": true,
       "required": false
@@ -661,7 +744,7 @@
         "default": "Prácticas en el desarrollo y la operación del software"
       },
       "subheader": {
-        "default": "Prácticas en el desarrollo y la operación del software, con la misma escala 0-4. Cómo rellenar la cuadrícula: cada fila describe una práctica de ingeniería; responda por la unidad que conoce (ver A5) y elija un solo valor por fila reflejando la situación actual en los últimos 12 meses. Escala 0-4: 0 = No existe o no conozco. 1 = Conocemos el tema, pero no hay acciones formales. 2 = Hay pilotos o iniciativas aisladas. 3 = Práctica documentada, aplicada en parte de la organización. 4 = Integrada: se mide periódicamente y se mejora. No aplica = La fila no corresponde al contexto de su organización."
+        "default": "Prácticas en el desarrollo y la operación del software, con la misma escala 0-4. Cómo rellenar la cuadrícula: cada fila describe una práctica de ingeniería; responda por la unidad organizacional que usted conoce y elija un solo valor por fila reflejando la situación actual en los últimos doce meses. Escala 0-4: 0 = No existe o no se conoce. 1 = Se conoce el tema sin acciones formales. 2 = Existen pilotos o iniciativas aisladas. 3 = Práctica documentada y aplicada parcialmente. 4 = Integrada, se mide periódicamente y se mejora continuamente. No aplica = La fila no corresponde al contexto de su organización."
       },
       "rows": [
         {
@@ -685,7 +768,7 @@
         {
           "id": "e_4",
           "label": {
-            "default": "Los pipelines de CI/CD (integración continua / entrega continua) evitan compilaciones redundantes o ambientes encendidos sin uso"
+            "default": "Las cadenas de integración y entrega continuas (CI/CD) evitan compilaciones redundantes o ambientes encendidos sin uso"
           }
         },
         {
@@ -755,10 +838,10 @@
       "id": "c1",
       "type": "multipleChoiceMulti",
       "headline": {
-        "default": "Seleccione qué mide hoy sobre consumo y emisiones de su infraestructura o servicios."
+        "default": "Indique qué variables relacionadas con el consumo energético y las emisiones de gases de efecto invernadero mide actualmente en su infraestructura o servicios."
       },
       "subheader": {
-        "default": "Sección C - Medición y observabilidad. Cómo miden o no el impacto energético de lo que operan, en los últimos 12 meses."
+        "default": "Sección C - Medición y observabilidad. Cómo miden o no el impacto energético de lo que operan, en los últimos doce meses."
       },
       "choices": [
         {
@@ -770,7 +853,7 @@
         {
           "id": "c1_2",
           "label": {
-            "default": "PUE (Power Usage Effectiveness, eficiencia energética del centro de datos: cuánta energía se pierde en refrigeración y soporte vs. en cómputo)"
+            "default": "Eficiencia en el uso de la energía del centro de datos (PUE): cuánta energía se destina a refrigeración y soporte frente a la de cómputo"
           }
         },
         {
@@ -829,7 +912,7 @@
       "id": "c2",
       "type": "multipleChoiceMulti",
       "headline": {
-        "default": "Seleccione hasta qué nivel puede saber cuánto gasta cada cosa."
+        "default": "Seleccione hasta qué nivel puede conocer el consumo de cada elemento de su infraestructura o servicios."
       },
       "choices": [
         {
@@ -877,7 +960,7 @@
         {
           "id": "c2_8",
           "label": {
-            "default": "Job de datos o IA"
+            "default": "Trabajo de datos o inteligencia artificial (IA)"
           }
         },
         {
@@ -894,13 +977,13 @@
       "id": "c3",
       "type": "multipleChoiceMulti",
       "headline": {
-        "default": "Seleccione con qué herramientas o fuentes miden o estiman esto."
+        "default": "Indique con qué herramientas o fuentes mide o estima el consumo y las emisiones."
       },
       "choices": [
         {
           "id": "c3_1",
           "label": {
-            "default": "BMS o DCIM (Building Management System / Data Center Infrastructure Management, sistemas del centro de datos)"
+            "default": "Sistemas de gestión de edificaciones o de infraestructura de centros de datos (BMS/DCIM)"
           }
         },
         {
@@ -912,7 +995,7 @@
         {
           "id": "c3_3",
           "label": {
-            "default": "Paneles del proveedor de nube"
+            "default": "Paneles del proveedor de nube (cloud)"
           }
         },
         {
@@ -930,19 +1013,19 @@
         {
           "id": "c3_6",
           "label": {
-            "default": "Kepler / eBPF (trazado de uso de energía a nivel de kernel/contenedor)"
+            "default": "Kepler y eBPF (tecnologías de rastreo del uso de energía a nivel del núcleo del sistema y de contenedores)"
           }
         },
         {
           "id": "c3_7",
           "label": {
-            "default": "Cloud Carbon Footprint"
+            "default": "Huella de carbono en la nube (Cloud Carbon Footprint)"
           }
         },
         {
           "id": "c3_8",
           "label": {
-            "default": "Herramienta ESG interna o de terceros"
+            "default": "Herramienta interna o de terceros de criterios ambientales, sociales y de gobernanza (ESG)"
           }
         },
         {
@@ -965,7 +1048,7 @@
       "id": "c4",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Indique con qué frecuencia revisan estos indicadores en los últimos 12 meses."
+        "default": "Indique con qué frecuencia revisan estos indicadores en los últimos doce meses."
       },
       "choices": [
         {
@@ -1062,7 +1145,7 @@
       "id": "c6",
       "type": "multipleChoiceMulti",
       "headline": {
-        "default": "Seleccione qué le dificulta más atribuir energía o carbono a un servicio."
+        "default": "Indique los factores que dificultan atribuir el consumo de energía o las emisiones de carbono a un servicio específico."
       },
       "subheader": {
         "default": "Marque máximo 3."
@@ -1083,7 +1166,7 @@
         {
           "id": "c6_3",
           "label": {
-            "default": "Dependencia de proveedores de nube"
+            "default": "Dependencia de proveedores de nube (cloud)"
           }
         },
         {
@@ -1145,7 +1228,7 @@
       "id": "f1",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Indique si su organización opera o desarrolla cargas de IA, analítica pesada o HPC."
+        "default": "Indique si su organización opera o desarrolla cargas de inteligencia artificial (IA), analítica pesada o cómputo de alto rendimiento (HPC)."
       },
       "subheader": {
         "default": "Sección F - IA y cargas intensivas. Esta sección solo aplica si su organización opera o desarrolla cargas de IA, analítica pesada o HPC. Si respondió 'No' o 'No sé', avance hasta la última sección (Barreras, incentivos y necesidades)."
@@ -1183,13 +1266,13 @@
       "id": "f2",
       "type": "multipleChoiceMulti",
       "headline": {
-        "default": "Seleccione qué tipo de cargas ejecutan."
+        "default": "Seleccione qué tipo de cargas ejecuta su organización."
       },
       "choices": [
         {
           "id": "f2_1",
           "label": {
-            "default": "Entrenamiento de modelos de ML/IA"
+            "default": "Entrenamiento de modelos de aprendizaje automático (ML) o de inteligencia artificial (IA)"
           }
         },
         {
@@ -1219,7 +1302,7 @@
         {
           "id": "f2_6",
           "label": {
-            "default": "HPC (cómputo de alto rendimiento)"
+            "default": "Cómputo de alto rendimiento (HPC)"
           }
         },
         {
@@ -1266,7 +1349,7 @@
         {
           "id": "f3_5",
           "label": {
-            "default": "SaaS de terceros"
+            "default": "Software como servicio (SaaS) de terceros"
           }
         }
       ],
@@ -1324,7 +1407,7 @@
         {
           "id": "f5_1",
           "label": {
-            "default": "Uso de GPU / CPU"
+            "default": "Uso de unidades de procesamiento gráfico (GPU) o centrales (CPU)"
           }
         },
         {
@@ -1407,7 +1490,7 @@
         {
           "id": "f6_7",
           "label": {
-            "default": "Planificación de jobs en horarios específicos"
+            "default": "Planificación de trabajos en horarios específicos"
           }
         },
         {
@@ -1424,7 +1507,10 @@
       "id": "f7",
       "type": "rating",
       "headline": {
-        "default": "Califique qué tan importante les resulta equilibrar rendimiento, costo y consumo energético en la IA."
+        "default": "Califique qué tan importante es para su organización equilibrar el rendimiento, el costo y el consumo energético en sus cargas de inteligencia artificial (IA)."
+      },
+      "subheader": {
+        "default": "Escala 1-5: 1 = No es prioridad. 2 = Es una prioridad baja. 3 = Es una prioridad media. 4 = Es una prioridad alta. 5 = Es una decisión de diseño permanente."
       },
       "scale": "number",
       "range": 5,
@@ -1506,7 +1592,7 @@
         {
           "id": "g1_9",
           "label": {
-            "default": "Es difícil demostrar el retorno (ROI)"
+            "default": "Es difícil demostrar el retorno de la inversión (ROI)"
           }
         },
         {
@@ -1518,7 +1604,7 @@
         {
           "id": "g1_11",
           "label": {
-            "default": "Dependencia de proveedores de nube"
+            "default": "Dependencia de proveedores de nube (cloud)"
           }
         },
         {
@@ -1547,7 +1633,7 @@
       "id": "g2",
       "type": "multipleChoiceMulti",
       "headline": {
-        "default": "Imagine que existen apoyos para sostenibilidad digital: seleccione cuáles les moverían más la aguja."
+        "default": "Imagine que existen apoyos disponibles para la sostenibilidad digital: seleccione cuáles considera de mayor impacto para su organización."
       },
       "subheader": {
         "default": "Marque hasta 3."
@@ -1580,7 +1666,7 @@
         {
           "id": "g2_5",
           "label": {
-            "default": "Herramientas open source"
+            "default": "Herramientas de código abierto (open source)"
           }
         },
         {
@@ -1633,7 +1719,7 @@
       "id": "g3",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Indique cómo reaccionaría su organización si una licitación pública o de un cliente grande pidiera criterios de eficiencia energética o software verde."
+        "default": "Indique cómo reaccionaría su organización si una licitación pública pidiera criterios de eficiencia energética o software verde."
       },
       "choices": [
         {
@@ -1674,61 +1760,37 @@
       "id": "g4",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Seleccione qué tipo de apoyo externo les sería más útil."
+        "default": "Indique cómo reaccionaría su organización si un cliente grande pidiera criterios de eficiencia energética o software verde."
       },
       "choices": [
         {
           "id": "g4_1",
           "label": {
-            "default": "Diagnóstico de madurez"
+            "default": "Podría cumplirlos hoy"
           }
         },
         {
           "id": "g4_2",
           "label": {
-            "default": "Guía de métricas y tableros"
+            "default": "Podría cumplirlos con ajustes menores"
           }
         },
         {
           "id": "g4_3",
           "label": {
-            "default": "Formación técnica del equipo"
+            "default": "Necesitaría apoyo técnico para cumplirlos"
           }
         },
         {
           "id": "g4_4",
           "label": {
-            "default": "Guía de medición de huella en la nube"
+            "default": "No participaría"
           }
         },
         {
           "id": "g4_5",
           "label": {
-            "default": "Casos de uso de IA eficiente"
-          }
-        },
-        {
-          "id": "g4_6",
-          "label": {
-            "default": "Laboratorio piloto con universidad"
-          }
-        },
-        {
-          "id": "g4_7",
-          "label": {
-            "default": "Comunidad de práctica con otras empresas"
-          }
-        },
-        {
-          "id": "g4_8",
-          "label": {
-            "default": "No requerimos apoyo"
-          }
-        },
-        {
-          "id": "g4_9",
-          "label": {
-            "default": "Otro"
+            "default": "No aplica"
           }
         }
       ],
@@ -1739,35 +1801,100 @@
       "id": "g5",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Indique cuánto de lo que respondió puede respaldarse con documentos, tableros o indicadores reales de su organización."
+        "default": "Seleccione qué tipo de apoyo externo les sería más útil."
       },
       "choices": [
         {
           "id": "g5_1",
           "label": {
-            "default": "Todo o casi todo"
+            "default": "Diagnóstico de madurez"
           }
         },
         {
           "id": "g5_2",
           "label": {
-            "default": "Una parte importante"
+            "default": "Guía de métricas y tableros"
           }
         },
         {
           "id": "g5_3",
           "label": {
-            "default": "Poco"
+            "default": "Formación técnica del equipo"
           }
         },
         {
           "id": "g5_4",
           "label": {
-            "default": "Nada"
+            "default": "Guía de medición de huella en la nube (cloud)"
           }
         },
         {
           "id": "g5_5",
+          "label": {
+            "default": "Casos de uso de IA eficiente"
+          }
+        },
+        {
+          "id": "g5_6",
+          "label": {
+            "default": "Laboratorio piloto con universidad"
+          }
+        },
+        {
+          "id": "g5_7",
+          "label": {
+            "default": "Comunidad de práctica con otras empresas"
+          }
+        },
+        {
+          "id": "g5_8",
+          "label": {
+            "default": "No requerimos apoyo"
+          }
+        },
+        {
+          "id": "g5_9",
+          "label": {
+            "default": "Otro"
+          }
+        }
+      ],
+      "shuffleOption": "none",
+      "required": true
+    },
+    {
+      "id": "g6",
+      "type": "multipleChoiceSingle",
+      "headline": {
+        "default": "Indique cuánto de lo que respondió puede respaldarse con documentos, tableros o indicadores reales de su organización."
+      },
+      "choices": [
+        {
+          "id": "g6_1",
+          "label": {
+            "default": "Todo o casi todo"
+          }
+        },
+        {
+          "id": "g6_2",
+          "label": {
+            "default": "Una parte importante"
+          }
+        },
+        {
+          "id": "g6_3",
+          "label": {
+            "default": "Poco"
+          }
+        },
+        {
+          "id": "g6_4",
+          "label": {
+            "default": "Nada"
+          }
+        },
+        {
+          "id": "g6_5",
           "label": {
             "default": "Prefiero no responder"
           }
@@ -1777,7 +1904,7 @@
       "required": true
     },
     {
-      "id": "g6",
+      "id": "g7",
       "type": "openText",
       "headline": {
         "default": "Describa una experiencia concreta de sostenibilidad digital que hayan vivido, ya sea positiva o negativa."
@@ -1786,7 +1913,7 @@
       "required": false
     },
     {
-      "id": "g7",
+      "id": "g8",
       "type": "openText",
       "headline": {
         "default": "Indique qué debería priorizar Colombia para acelerar el Green IT y el software verde."
