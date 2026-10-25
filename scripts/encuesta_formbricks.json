@@ -1246,9 +1246,41 @@
     },
     {
       "id": "c7",
+      "type": "multipleChoiceSingle",
+      "headline": {
+        "default": "Indique si la falta de datos o herramientas les ha impedido tomar decisiones sobre el consumo de energía o las emisiones de carbono de sus servicios."
+      },
+      "choices": [
+        {
+          "id": "c7_1",
+          "label": {
+            "default": "Sí"
+          }
+        },
+        {
+          "id": "c7_2",
+          "label": {
+            "default": "No"
+          }
+        },
+        {
+          "id": "c7_3",
+          "label": {
+            "default": "No sé"
+          }
+        }
+      ],
+      "shuffleOption": "none",
+      "required": true
+    },
+    {
+      "id": "c8",
       "type": "openText",
       "headline": {
-        "default": "Describa un caso en el que la falta de datos o herramientas le impidió actuar sobre la huella de algún servicio."
+        "default": "Si respondió \"Sí\", describa el caso: qué datos o herramientas faltaban, qué acción querían tomar y qué ocurrió."
+      },
+      "subheader": {
+        "default": "Responda solo si marcó \"Sí\" en la pregunta anterior; si no, omita esta pregunta."
       },
       "longAnswer": true,
       "required": false

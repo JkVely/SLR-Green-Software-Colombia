@@ -302,7 +302,13 @@ Filas:
 - No hay una necesidad de negocio clara
 - Otro: ______
 
-**C7. Describa un caso en el que la falta de datos o herramientas le impidió actuar sobre la huella de algún servicio.** *(párrafo)*
+**C7. Indique si la falta de datos o herramientas les ha impedido tomar decisiones sobre el consumo de energía o las emisiones de carbono de sus servicios.** *(opción múltiple)*
+- Sí
+- No
+- No sé
+
+**C8. Si respondió "Sí", describa el caso: qué datos o herramientas faltaban, qué acción querían tomar y qué ocurrió.** *(párrafo)*
+*Texto de ayuda: "Responda solo si marcó "Sí" en la pregunta anterior; si no, omita esta pregunta."*
 
 ---
 
