@@ -296,7 +296,7 @@
       "id": "a5",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Indique en nombre de quién responde."
+        "default": "Indique en nombre de quién responde esta encuesta."
       },
       "choices": [
         {
@@ -325,7 +325,7 @@
       "id": "a6",
       "type": "multipleChoiceSingle",
       "headline": {
-        "default": "Indique el modelo principal de infraestructura de su organización."
+        "default": "Indique el modelo de infraestructura principal que emplea su organización."
       },
       "choices": [
         {
@@ -475,16 +475,45 @@
         "default": "En sus propias palabras, describa qué entiende su organización por la sostenibilidad digital y el consumo energético de la tecnología."
       },
       "subheader": {
-        "default": "Si en la pregunta anterior indicó términos propios, aclare aquí qué significan para su organización."
+        "default": "Si su organización utiliza términos propios, aclare aquí qué significan. Si no, describa su comprensión general."
       },
       "longAnswer": true,
       "required": false
     },
     {
+      "id": "limitaciones",
+      "type": "multipleChoiceSingle",
+      "headline": {
+        "default": "Indique si su organización enfrenta limitaciones para una adopción más amplia de políticas de sostenibilidad digital."
+      },
+      "choices": [
+        {
+          "id": "lim_1",
+          "label": {
+            "default": "Sí"
+          }
+        },
+        {
+          "id": "lim_2",
+          "label": {
+            "default": "No"
+          }
+        },
+        {
+          "id": "lim_3",
+          "label": {
+            "default": "No sé"
+          }
+        }
+      ],
+      "shuffleOption": "none",
+      "required": true
+    },
+    {
       "id": "b9",
       "type": "openText",
       "headline": {
-        "default": "Describa qué factores considera que limitan hoy una adopción más amplia de estas prácticas en su organización."
+        "default": "Describa los factores que, según su experiencia, limitan una adopción más amplia de la sostenibilidad digital en su organización."
       },
       "longAnswer": true,
       "required": false
@@ -676,63 +705,22 @@
       "id": "d11",
       "type": "openText",
       "headline": {
-        "default": "Si respondió \"Sí\" en D10, describa la práctica que generó el mayor ahorro: en qué consistió y por qué funcionó."
+        "default": "Describa la práctica de infraestructura de su organización que haya generado el mayor ahorro energético o de costos y en qué consistió."
       },
       "subheader": {
-        "default": "Responda solo si marcó \"Sí\" en la pregunta D10."
+        "default": "Responda solo si obtuvo ahorros; si no, omita esta pregunta."
       },
       "longAnswer": true,
       "required": false
     },
     {
       "id": "d12",
-      "type": "multipleChoiceSingle",
-      "headline": {
-        "default": "Indique si su organización ha identificado resistencia interna a alguna práctica de infraestructura relacionada con sostenibilidad digital."
-      },
-      "choices": [
-        {
-          "id": "d12_1",
-          "label": {
-            "default": "Sí"
-          }
-        },
-        {
-          "id": "d12_2",
-          "label": {
-            "default": "No"
-          }
-        },
-        {
-          "id": "d12_3",
-          "label": {
-            "default": "No sé"
-          }
-        }
-      ],
-      "shuffleOption": "none",
-      "required": true
-    },
-    {
-      "id": "d13",
       "type": "openText",
       "headline": {
-        "default": "Si respondió \"Sí\" en D12, describa la resistencia: en qué práctica de infraestructura se presentó, de parte de qué área o rol, y en qué consistió."
+        "default": "Explique por qué esa práctica funcionó: qué factores la hicieron exitosa."
       },
       "subheader": {
-        "default": "Responda solo si marcó \"Sí\" en la pregunta D12."
-      },
-      "longAnswer": true,
-      "required": false
-    },
-    {
-      "id": "d14",
-      "type": "openText",
-      "headline": {
-        "default": "Si respondió \"Sí\" en D12, indique cómo respondió su organización a esa resistencia y si se resolvió."
-      },
-      "subheader": {
-        "default": "Responda solo si marcó \"Sí\" en la pregunta D12."
+        "default": "Responda solo si describió una práctica en la pregunta anterior; si no, omita esta pregunta."
       },
       "longAnswer": true,
       "required": false
@@ -1748,47 +1736,6 @@
         },
         {
           "id": "g3_5",
-          "label": {
-            "default": "No aplica"
-          }
-        }
-      ],
-      "shuffleOption": "none",
-      "required": true
-    },
-    {
-      "id": "g4",
-      "type": "multipleChoiceSingle",
-      "headline": {
-        "default": "Indique cómo reaccionaría su organización si un cliente grande pidiera criterios de eficiencia energética o software verde."
-      },
-      "choices": [
-        {
-          "id": "g4_1",
-          "label": {
-            "default": "Podría cumplirlos hoy"
-          }
-        },
-        {
-          "id": "g4_2",
-          "label": {
-            "default": "Podría cumplirlos con ajustes menores"
-          }
-        },
-        {
-          "id": "g4_3",
-          "label": {
-            "default": "Necesitaría apoyo técnico para cumplirlos"
-          }
-        },
-        {
-          "id": "g4_4",
-          "label": {
-            "default": "No participaría"
-          }
-        },
-        {
-          "id": "g4_5",
           "label": {
             "default": "No aplica"
           }

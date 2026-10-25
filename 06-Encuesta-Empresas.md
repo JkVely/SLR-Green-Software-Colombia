@@ -70,12 +70,12 @@
 - Académico o investigación
 - Otro: ______
 
-**A5. Indique en nombre de quién responde.** *(opción múltiple)*
+**A5. Indique en nombre de quién responde esta encuesta.** *(opción múltiple)*
 - Mi equipo o área
 - Toda la organización
 - No estoy seguro(a)
 
-**A6. Indique el modelo principal de infraestructura de su organización.** *(opción múltiple / lista desplegable)*
+**A6. Indique el modelo de infraestructura principal que emplea su organización.** *(opción múltiple / lista desplegable)*
 - Principalmente servidores propios (on-premise)
 - Principalmente nube pública
 - Híbrido (propios + nube)
@@ -119,7 +119,12 @@ Incluya términos propios, en español o inglés, y si corresponde indique que n
 **B8. En sus propias palabras, describa qué entiende su organización por la sostenibilidad digital y el consumo energético de la tecnología.** *(párrafo)* **[abierta de oro para el codebook]**
 *Texto de ayuda: "Si en la pregunta anterior indicó términos propios, aclare aquí qué significan para su organización."*
 
-**B9. Describa qué factores considera que limitan hoy una adopción más amplia de estas prácticas en su organización.** *(párrafo)*
+**B9. Indique si su organización enfrenta limitaciones para una adopción más amplia de políticas de sostenibilidad digital.** *(opción múltiple)*
+- Sí
+- No
+- No sé
+
+**B10. Describa los factores que, según su experiencia, limitan una adopción más amplia de la sostenibilidad digital en su organización.** *(párrafo)*
 
 ---
 
@@ -170,8 +175,11 @@ Filas:
 - No
 - No sé
 
-**D11. Si respondió "Sí" en D10, describa la práctica que generó el mayor ahorro: en qué consistió y por qué funcionó.** *(párrafo)* **[abierta de oro para el codebook]**
-*Texto de ayuda: "Responda solo si marcó 'Sí' en la pregunta D10."*
+**D11. Describa la práctica de infraestructura de su organización que haya generado el mayor ahorro energético o de costos y en qué consistió.** *(párrafo)* **[abierta de oro para el codebook]**
+*Texto de ayuda: "Responda solo si obtuvo ahorros; si no, omita esta pregunta."*
+
+**D12. Explique por qué esa práctica funcionó: qué factores la hicieron exitosa.** *(párrafo)*
+*Texto de ayuda: "Responda solo si describió una práctica en la pregunta anterior; si no, omita esta pregunta."*
 
 **D12. Indique si su organización ha identificado resistencia interna a alguna práctica de infraestructura relacionada con sostenibilidad digital.** *(opción múltiple)*
 - Sí
@@ -442,8 +450,8 @@ Filas:
 | Sección | Alimenta | Dimensión medida |
 |---|---|---|
 | A | RQ1 (contexto) | Perfil del respondiente |
-| B | RQ2, RQ3 + brecha política/estándares/formación | Compromiso organizacional (escala 0–4 anclada) |
-| D | RQ2, RQ3 + brecha infraestructura | Prácticas operativas (0–4) + señal ENSO (D9) + carbon-aware (D8) + señales de ahorro y resistencia (D10, D12) |
+| B | RQ2, RQ3 + brecha política/estándares/formación | Compromiso organizacional (escala 0–4 anclada) + señal de limitaciones percibidas (B9) |
+| D | RQ2, RQ3 + brecha infraestructura | Prácticas operativas (0–4) + señal ENSO (D9) + carbon-aware (D8) + señal de ahorros logrados (D10, D11) |
 | E | RQ3 + brecha formación/estándares | Prácticas de ingeniería (0–4) |
 | C | RQ3 + brecha investigación aplicada/infraestructura | Capacidad de medición y atribución |
 | F | RQ1, RQ3 | Madurez en workloads intensivos (IA) |
@@ -461,4 +469,4 @@ Filas:
 
 ### Abiertas priorizadas para el codebook de Taguette
 
-Ejes temáticos (derivados de las brechas del artículo): **(1) definición/delimitación del Green IT interno, (2) barreras y resistencias, (3) prácticas e infraestructura, (4) política pública y agenda nacional.** Las cuatro abiertas de oro (B8, D11, F8, G8) se codifican primero; B7 (términos) se usa como fuente para el codebook sin marcarla de oro; D13 y D14 (resistencias) y las demás abiertas se codifican en segunda pasada.
+Ejes temáticos (derivados de las brechas del artículo): **(1) definición/delimitación del Green IT interno, (2) barreras y resistencias, (3) prácticas e infraestructura, (4) política pública y agenda nacional.** Las cuatro abiertas de oro (B8, D11, F8, G8) se codifican primero; B7 (términos) se usa como fuente para el codebook sin marcarla de oro; las demás abiertas (incluida B10, factores) se codifican en segunda pasada.
