@@ -156,7 +156,8 @@ Filas:
 6. Se usa virtualización, contenedores u orquestación para aprovechar mejor la infraestructura
 7. Se compra o usa energía renovable (acuerdos directos de compra, certificados de energía limpia, microrredes)
 
-**D8. Indique si han considerado mover cargas de trabajo a horarios o regiones donde hay más energía renovable disponible (computación consciente del carbono, carbon-aware).** *(opción múltiple)*
+**D8. Indique si su organización ha considerado mover cargas de trabajo de cómputo a momentos o regiones donde la electricidad proviene en mayor proporción de fuentes renovables.** *(opción múltiple)*
+*Texto de ayuda: "La red eléctrica cambia a lo largo del día y del territorio: en algunos momentos y zonas la electricidad se genera con más fuentes renovables que en otros. Mover tareas flexibles de cómputo a esos momentos o regiones reduce emisiones sin afectar el resultado. Esta práctica se conoce como computación consciente del carbono (carbon-aware)."*
 - Sí, ya lo hacemos en producción
 - Sí, como piloto o prueba
 - Lo hemos discutido, pero no lo hemos implementado
@@ -221,7 +222,14 @@ Filas:
 5. Se aplican prácticas de eficiencia de datos: retención, compresión, deduplicación, caché
 6. Se considera el impacto de dependencias, librerías, modelos de IA o servicios externos que se usan
 
-**E7. Indique qué aspectos le resultan más difíciles para incorporar eficiencia energética al diseñar software.** *(párrafo)*
+**E7. Indique si les ha resultado difícil incorporar análisis o métricas de eficiencia energética al diseño de software.** *(opción múltiple)*
+- Sí
+- No
+- No lo hemos intentado
+- No sé
+
+**E8. Describa los aspectos que más les han dificultado incorporar análisis o métricas de eficiencia energética en el diseño de software.** *(párrafo)*
+*Texto de ayuda: "Responda solo si les ha resultado difícil; si no, omita esta pregunta."*
 
 ---
 
