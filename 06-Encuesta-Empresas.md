@@ -1,48 +1,56 @@
-# Encuesta para mapeo de empresas en Green IT / Green Software
+# Sostenibilidad digital en empresas de tecnología colombianas
 
-**Objetivo:** medir madurez cuantitativa y obtener insumos cualitativos para análisis temático con Taguette.
-**Formato:** Google Forms. **Tiempo estimado:** 15–20 minutos. **Perfil de respuesta:** perfiles técnicos o gerenciales de empresas de tecnología (dirección de tecnología [CTO], arquitectura, desarrollo y operaciones [DevOps] o ingeniería de confiabilidad [SRE], infraestructura, desarrollo, criterios ambientales, sociales y de gobernanza [ESG], gestión financiera de nube [FinOps], academia).
+> Versión exportada de Formbricks (estado: borrador). Fecha de exportación: 11 de noviembre de 2026.
 
----
+## Tarjeta de bienvenida
 
-## Portada del formulario (texto inicial)
+**Sostenibilidad digital en empresas de tecnología colombianas**
 
-> **Sostenibilidad digital en empresas de tecnología colombianas**
->
-> **Bienvenido y gracias por dedicar unos minutos a este estudio.** Su experiencia en el sector tecnológico colombiano es el insumo más valioso de esta investigación.
->
-> Esta encuesta busca entender cómo las empresas de tecnología en Colombia incorporan (o no) la eficiencia energética y la sostenibilidad en su infraestructura y su software. Forma parte de una investigación académica de la Universidad Distrital Francisco José de Caldas basada en un mapeo sistemático de literatura (PRISMA 2020) sobre Green Cloud, Green DevOps y Green Software Engineering, y sus resultados alimentarán la agenda de investigación y las recomendaciones de política pública del estudio.
->
-> - No hay respuestas correctas ni incorrectas; esto no es un examen.
-> - Duración estimada: 15 a 20 minutos.
-> - Puede responder "No sé" o "No aplica" en cualquier punto.
-> - Puede saltarse preguntas abiertas que no quiera contestar.
->
-> **Consentimiento informado:** Esta encuesta es un instrumento de investigación académica aplicado por Juan C. Quintero R. y José Bocanegra, investigadores de la Universidad Distrital Francisco José de Caldas. Su propósito es caracterizar la madurez de sostenibilidad digital de las empresas de tecnología colombianas; los resultados se publicarán únicamente de forma agregada y anónima en un artículo académico de acceso abierto.
->
-> **Quiénes tienen acceso a sus datos:** Solo el equipo investigador tiene acceso a las respuestas individuales, que se almacenan en la plataforma Formbricks y se tratan conforme a la Ley 1581 de 2012 y el Decreto 1377 de 2013. Ninguna otra persona u organización recibirá datos individuales. No se identificará su organización ni a la persona respondiente en ningún reporte; los resultados siempre se presentarán agregados.
->
-> **Términos de participación:** La participación es voluntaria y sin compensación; puede abandonar la encuesta en cualquier momento sin consecuencia alguna y puede omitir las preguntas abiertas que prefiera no contestar. Los datos se conservarán únicamente durante el tiempo del análisis y la publicación del estudio, y puede solicitar su corrección o eliminación escribiendo a jcquinteror@udistrital.edu.co. Al marcar la casilla de aceptación y continuar, usted confirma que ha leído esta información y acepta participar bajo estos términos.
->
-> - [ ] He leído la información anterior y acepto participar de forma voluntaria en esta encuesta *(obligatorio para continuar)*
+Bienvenido a este estudio y gracias por dedicar unos minutos a él: su experiencia en el sector tecnológico colombiano es el insumo más valioso de esta investigación.
 
----
+Esta encuesta busca entender cómo las empresas de tecnología en Colombia incorporan (o no) la eficiencia energética y la sostenibilidad en su infraestructura y en su software. Forma parte de una investigación académica de la Universidad Distrital Francisco José de Caldas.
 
-## Sección A — Perfil de la organización
+El estudio se basa en un mapeo sistemático de literatura (PRISMA 2020) sobre Green Cloud, Green DevOps y Green Software Engineering, y sus resultados alimentarán la agenda de investigación y las recomendaciones de política pública.
 
-> *Intro en Forms:* "Primero, unos datos básicos para contextualizar sus respuestas según la unidad organizacional que usted conoce."
+No hay respuestas correctas ni incorrectas; esto no es un examen. 
 
-**A1. Indique la descripción que se acerca más a su organización.** *(opción múltiple / lista desplegable)*
+La duración estimada es de 15 a 20 minutos.
+
+Puede responder "No sé" o "No aplica" en cualquier punto, y saltarse las preguntas abiertas que no quiera contestar.
+
+## Preguntas
+
+### 1. **Consentimiento informado.**
+
+*Esta encuesta es un instrumento de investigación académica aplicado por Juan C. Quintero R. y José Bocanegra, investigadores de la Universidad Distrital Francisco José de Caldas. Su propósito es caracterizar la madurez de sostenibilidad digital de las empresas de tecnología colombianas; los resultados se publicarán únicamente de forma agregada y anónima en un artículo académico de acceso abierto.
+
+**Quiénes tienen acceso a sus datos.** Solo el equipo investigador tiene acceso a las respuestas individuales, que se almacenan en la plataforma Formbricks y se tratan conforme a la Ley 1581 de 2012 y el Decreto 1377 de 2013. Ninguna otra persona u organización recibirá datos individuales. No se identificará su organización ni a la persona respondiente en ningún reporte; los resultados siempre se presentarán agregados.
+
+**Términos de participación.** La participación es voluntaria y sin compensación; puede abandonar la encuesta en cualquier momento sin consecuencia alguna y puede omitir las preguntas abiertas que prefiera no contestar. Los datos se conservarán únicamente durante el tiempo del análisis y la publicación del estudio, y puede solicitar su corrección o eliminación escribiendo a jcquinteror@udistrital.edu.co. Al marcar la casilla de aceptación y continuar, usted confirma que ha leído esta información y acepta participar bajo estos términos.*
+
+**Tipo:** Consentimiento (Obligatoria)
+
+- He leído la información anterior y acepto participar de forma voluntaria en esta encuesta.
+
+### 2. Indique la descripción que se acerca más a su organización.
+
+*Perfil de la organización. Primero, unos datos básicos para contextualizar sus respuestas según la unidad organizacional que usted conoce.*
+
+**Tipo:** Selección única (Obligatoria)
+
 - Proveedor de nube (cloud), hosting o servicios administrados
 - Operador o proveedor de centro de datos
 - Empresa de desarrollo de software / fábrica de software
-- Consultora de cloud, DevOps, SRE o transformación digital
+- Consultora de nube (cloud), desarrollo y operaciones (DevOps), ingeniería de confiabilidad (SRE) o transformación digital
 - Startup de producto digital / software como servicio (SaaS)
 - Organización usuaria de tecnología con infraestructura propia o híbrida
 - Universidad, centro de investigación u organización sin ánimo de lucro
-- Otro: ______
+- Otro
 
-**A2. Seleccione el tamaño de su organización en Colombia.** *(opción múltiple / lista desplegable)*
+### 3. Seleccione el tamaño de su organización en Colombia.
+
+**Tipo:** Selección única (Obligatoria)
+
 - 1–10 personas
 - 11–50
 - 51–200
@@ -50,17 +58,23 @@
 - Más de 500
 - Prefiero no responder
 
-**A3. Indique desde dónde opera principalmente.** *(casillas de verificación)*
+### 4. Indique desde dónde opera principalmente.
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Bogotá y región
 - Medellín / Valle de Aburrá
 - Cali / Valle del Cauca
 - Barranquilla, Cartagena o Caribe
 - Eje Cafetero
-- Otra(s): ______
+- Otra(s)
 - Operación distribuida a nivel nacional
 
-**A4. Indique su rol principal.** *(opción múltiple / lista desplegable)*
-- Dirección ejecutiva / director de tecnología (CTO)
+### 5. Indique su rol principal.
+
+**Tipo:** Selección única (Obligatoria)
+
+- Dirección ejecutiva / dirección de tecnología (CTO)
 - Arquitectura de nube (cloud) o de software
 - Desarrollo y operaciones (DevOps) / ingeniería de confiabilidad (SRE) / plataformas
 - Infraestructura / centro de datos
@@ -68,14 +82,20 @@
 - Seguridad, riesgo, cumplimiento normativo o criterios ambientales, sociales y de gobernanza (ESG)
 - Gestión financiera de nube (FinOps)
 - Académico o investigación
-- Otro: ______
+- Otro
 
-**A5. Indique en nombre de quién responde esta encuesta.** *(opción múltiple)*
+### 6. Indique en nombre de quién responde esta encuesta.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Mi equipo o área
 - Toda la organización
 - No estoy seguro(a)
 
-**A6. Indique el modelo de infraestructura principal que emplea su organización.** *(opción múltiple / lista desplegable)*
+### 7. Indique el modelo de infraestructura principal que emplea su organización.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Principalmente servidores propios (on-premise)
 - Principalmente nube pública
 - Híbrido (propios + nube)
@@ -83,161 +103,202 @@
 - Edge / infraestructura distribuida
 - No aplica / No sé
 
----
+### 8. Compromiso organizacional con la sostenibilidad digital
 
-## Sección B — Conocimiento y compromiso
+*A continuación se presentan afirmaciones sobre conocimiento y compromiso organizacional.
 
-> *Intro en Forms:* "A continuación se presentan afirmaciones sobre conocimiento y compromiso organizacional. Marque una sola opción por fila según la realidad actual de la unidad organizacional que usted conoce, no lo que se espera o lo que sería ideal."
->
-> **Escala 0–4 (visible en cabecera):**
-> - 0 = No existe o no conozco
-> - 1 = Conocemos el tema, pero no hay acciones formales
-> - 2 = Hay pilotos o iniciativas aisladas
-> - 3 = Práctica documentada, aplicada en parte de la organización
-> - 4 = Integrada: se mide periódicamente y se mejora
-> - No aplica = La fila no corresponde al contexto de su organización
+Marque una sola opción por fila según la realidad actual de la unidad organizacional que usted conoce, no lo que se espera o lo que sería ideal.
 
-> *Cómo rellenar la cuadrícula B:*
-> - Lea cada fila como una afirmación sobre su organización.
-> - Elija un solo número de 0 a 4 por fila.
-> - Responda con base en lo que ocurre hoy, no en planes futuros.
-> - Si la afirmación no corresponde a su contexto, marque la columna "No aplica".
+Cómo rellenar la cuadrícula: lea cada fila como una afirmación sobre su organización, elija un solo número de 0 a 4 por fila y responda con base en lo que ocurre hoy, no en planes futuros; si la afirmación no corresponde a su contexto, marque la columna No aplica.
 
-**B. Compromiso organizacional con la sostenibilidad digital** *(cuadrícula de opción múltiple; una sola pregunta en Forms; filas B1–B6)*
+Escala 0-4:
 
-Filas:
-1. El tema de las tecnologías de la información verdes (Green IT) y de la sostenibilidad digital es conocido internamente
-2. Existe una política, meta o indicador escrito sobre el impacto ambiental de las tecnologías de la información (TI), la nube (cloud) o el software
-3. Al diseñar arquitectura o comprar tecnología se tiene en cuenta el consumo de energía, las emisiones o el ciclo de vida de los equipos
-4. El personal técnico recibe formación o sensibilización sobre sostenibilidad digital
-5. Hay personas con responsabilidad clara sobre estos temas
-6. La sostenibilidad se tiene en cuenta al contratar proveedores, hacer compras o participar en licitaciones
+0 = No existe o no se conoce
+1 = Se conoce el tema sin acciones formales
+2 = Existen pilotos o iniciativas aisladas
+3 = Práctica documentada y aplicada parcialmente
+4 = Integrada, se mide periódicamente y se mejora continuamente
+No aplica = La fila no corresponde al contexto de su organización*
 
-**B7. Indique qué nombre, etiqueta o término usa su organización para referirse al consumo energético o a la sostenibilidad de la tecnología.** *(párrafo)*
-Incluya términos propios, en español o inglés, y si corresponde indique que no se usa ningún término específico. Esta pregunta sirve para construir el codebook de términos locales.
+**Tipo:** Matriz (Obligatoria)
 
-**B8. En sus propias palabras, describa qué entiende su organización por la sostenibilidad digital y el consumo energético de la tecnología.** *(párrafo)* **[abierta de oro para el codebook]**
-*Texto de ayuda: "Si en la pregunta anterior indicó términos propios, aclare aquí qué significan para su organización."*
+**Filas:**
 
-**B9. Indique si su organización enfrenta limitaciones para una adopción más amplia de políticas de sostenibilidad digital.** *(opción múltiple)*
-- Sí
-- No
-- No sé
+- El tema de las tecnologías de la información verdes (Green IT) y de la sostenibilidad digital es conocido internamente
+- Existe una política, meta o indicador escrito sobre el impacto ambiental de las tecnologías de la información (TI), la nube (cloud) o el software
+- Al diseñar arquitectura o comprar tecnología se tiene en cuenta el consumo de energía, las emisiones o el ciclo de vida de los equipos
+- El personal técnico recibe formación o sensibilización sobre sostenibilidad digital
+- Hay personas con responsabilidad clara sobre estos temas
+- La sostenibilidad se tiene en cuenta al contratar proveedores, hacer compras o participar en licitaciones
 
-**B10. Describa los factores que, según su experiencia, limitan una adopción más amplia de la sostenibilidad digital en su organización.** *(párrafo)*
+**Columnas:** 0 | 1 | 2 | 3 | 4 | No aplica
 
----
+### 9. Indique qué términos utiliza su organización para hablar de la eficiencia energética y la sostenibilidad en el ámbito tecnológico.
 
-## Sección D — Infraestructura y nube
+*Mencione los términos propios o comunes, en español o inglés. Si su organización no usa ningún término específico, escriba: No usa ninguno.*
 
-> *Intro en Forms:* "Prácticas concretas de infraestructura y nube. Misma escala 0–4 de la sección anterior."
->
-> **Escala 0–4 (visible en cabecera):**
-> - 0 = No existe o no conozco
-> - 1 = Conocemos el tema, pero no hay acciones formales
-> - 2 = Hay pilotos o iniciativas aisladas
-> - 3 = Práctica documentada, aplicada en parte de la organización
-> - 4 = Integrada: se mide periódicamente y se mejora
-> - No aplica = La fila no corresponde al contexto de su organización
+**Tipo:** Texto abierto (Opcional)
 
-> *Cómo rellenar la cuadrícula D:*
-> - Cada fila describe una práctica operativa.
-> - Marque un solo valor por fila con base en la realidad actual, no aspiracional.
-> - Use "No aplica" solo si la práctica no es relevante para su modelo de infraestructura indicado en A6.
+Respuesta larga.
 
-**D. Prácticas de infraestructura y nube** *(cuadrícula de opción múltiple; filas D1–D7)*
+### 10. En sus propias palabras, describa qué entiende su organización por la sostenibilidad digital y el consumo energético de la tecnología.
 
-Filas:
-1. Se apagan o consolidan recursos que no se usan (servidores ociosos, ambientes encendidos sin uso)
-2. Se ajusta la capacidad (CPU, memoria, almacenamiento) a la demanda real, sin sobre-dimensionar
-3. Se usa autoescalado o planificación de capacidad para evitar recursos de sobra
-4. Se elige región, proveedor o hardware considerando eficiencia energética o uso de renovables
-5. Se gestiona el fin de vida de los equipos: reutilización, extensión de uso o disposición adecuada de residuos electrónicos (RAEE)
-6. Se usa virtualización, contenedores u orquestación para aprovechar mejor la infraestructura
-7. Se compra o usa energía renovable (acuerdos directos de compra, certificados de energía limpia, microrredes)
+*Si su organización utiliza términos propios, aclare aquí qué significan. Si no, describa su comprensión general.*
 
-**D8. Indique si su organización ha considerado mover cargas de trabajo de cómputo a momentos o regiones donde la electricidad proviene en mayor proporción de fuentes renovables.** *(opción múltiple)*
-*Texto de ayuda: "La red eléctrica cambia a lo largo del día y del territorio: en algunos momentos y zonas la electricidad se genera con más fuentes renovables que en otros. Mover tareas flexibles de cómputo a esos momentos o regiones reduce emisiones sin afectar el resultado. Esta práctica se conoce como computación consciente del carbono (carbon-aware)."*
+**Tipo:** Texto abierto (Opcional)
+
+Respuesta larga.
+
+### 11. Describa los factores que, según su experiencia, limitan una adopción más amplia de la sostenibilidad digital en su organización.
+
+**Tipo:** Texto abierto (Opcional)
+
+Respuesta larga.
+
+### 12. Prácticas de infraestructura y nube
+
+*Prácticas concretas de infraestructura y nube, con la misma escala 0-4 de la sección anterior.
+
+**Cómo rellenar la cuadrícula:** cada fila describe una práctica operativa; marque un solo valor por fila con base en la realidad actual, no aspiracional, y use No aplica solo si la práctica no es relevante para el modelo de infraestructura de su organización.
+
+**Escala 0-4:**
+
+0 = No existe o no se conoce.
+
+1 = Se conoce el tema sin acciones formales.
+
+2 = Existen pilotos o iniciativas aisladas.
+
+3 = Práctica documentada y aplicada parcialmente.
+
+4 = Integrada, se mide periódicamente y se mejora continuamente.
+
+No aplica = La fila no corresponde al contexto de su organización.*
+
+**Tipo:** Matriz (Obligatoria)
+
+**Filas:**
+
+- Se apagan o consolidan recursos que no se usan (servidores ociosos, ambientes encendidos sin uso)
+- Se ajusta la capacidad (CPU, memoria, almacenamiento) a la demanda real, sin sobre-dimensionar
+- Se usa autoescalado o planificación de capacidad para evitar recursos de sobra
+- Se elige región, proveedor o hardware considerando eficiencia energética o uso de renovables
+- Se gestiona el fin de vida de los equipos: reutilización, extensión de uso o disposición adecuada de residuos electrónicos (RAEE)
+- Se usa virtualización, contenedores u orquestación para aprovechar mejor la infraestructura
+- Se compra o usa energía renovable (acuerdos directos de compra, certificados de energía limpia, microrredes)
+
+**Columnas:** 0 | 1 | 2 | 3 | 4 | No aplica
+
+### 13. Indique si su organización ha considerado mover cargas de trabajo de cómputo a momentos o regiones donde la electricidad proviene en mayor proporción de fuentes renovables.
+
+*La red eléctrica cambia a lo largo del día y del territorio: en algunos momentos y zonas la electricidad se genera con más fuentes renovables que en otros. Mover tareas flexibles de cómputo a esos momentos o regiones reduce emisiones sin afectar el resultado. Esta práctica se conoce como computación consciente del carbono (carbon-aware)*
+
+**Tipo:** Selección única (Obligatoria)
+
 - Sí, ya lo hacemos en producción
 - Sí, como piloto o prueba
 - Lo hemos discutido, pero no lo hemos implementado
 - No lo hemos considerado
 - No aplica
 
-**D9. Califique cuánto pesa la seguridad energética del país (sequías, racionamientos, variabilidad asociada a El Niño) en la planeación de su infraestructura de TI.** *(escala lineal 1 a 5)*
-- 1 = No se considera para nada
-- 2 = Se considera de manera marginal
-- 3 = Se considera de manera moderada
-- 4 = Se considera de manera importante
-- 5 = Es un eje central de la planeación
+### 14. Califique cuánto pesa la seguridad energética del país (sequías, racionamientos, variabilidad asociada a El Niño) en la planeación de su infraestructura de tecnologías de la información (TI).
 
-**D10. Indique si su organización ha logrado ahorros energéticos o de costos con alguna práctica de infraestructura relacionada con sostenibilidad digital.** *(opción múltiple)*
+***Escala 1-5:**
+
+1 = No se considera para nada.
+
+2 = Se considera de manera marginal. 
+
+3 = Se considera de manera moderada. 
+
+4 = Se considera de manera importante. 
+
+5 = Es un eje central de la planeación.*
+
+**Tipo:** Escala (Obligatoria)
+
+**Escala numérica 1-5.** De «No se considera para nada» a «Es un eje central de la planeación».
+
+### 15. Indique si su organización ha logrado ahorros energéticos o de costos con alguna práctica de infraestructura relacionada con sostenibilidad digital.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Sí
 - No
 - No sé
 
-**D11. Describa la práctica de infraestructura de su organización que haya generado el mayor ahorro energético o de costos y en qué consistió.** *(párrafo)* **[abierta de oro para el codebook]**
-*Texto de ayuda: "Responda solo si obtuvo ahorros; si no, omita esta pregunta."*
+### 16. Describa la práctica de infraestructura de su organización que haya generado el mayor ahorro energético o de costos y en qué consistió.
 
-**D12. Explique por qué esa práctica funcionó: qué factores la hicieron exitosa.** *(párrafo)*
-*Texto de ayuda: "Responda solo si describió una práctica en la pregunta anterior; si no, omita esta pregunta."*
+*Responda solo si obtuvo ahorros; si no, omita esta pregunta.*
 
-**D12. Indique si su organización ha identificado resistencia interna a alguna práctica de infraestructura relacionada con sostenibilidad digital.** *(opción múltiple)*
-- Sí
-- No
-- No sé
+**Tipo:** Texto abierto (Opcional)
 
-**D13. Si respondió "Sí" en D12, describa la resistencia: en qué práctica de infraestructura se presentó, de parte de qué área o rol, y en qué consistió.** *(párrafo)*
-*Texto de ayuda: "Responda solo si marcó 'Sí' en la pregunta D12."*
+Respuesta larga.
 
-**D14. Si respondió "Sí" en D12, indique cómo respondió su organización a esa resistencia y si se resolvió.** *(párrafo)*
-*Texto de ayuda: "Responda solo si marcó 'Sí' en la pregunta D12."*
+### 17. Explique por qué esa práctica funcionó: qué factores la hicieron exitosa.
 
----
+*Responda solo si describió una práctica en la pregunta anterior; si no, omita esta pregunta.*
 
-## Sección E — Desarrollo de software
+**Tipo:** Texto abierto (Opcional)
 
-> *Intro en Forms:* "Prácticas en el desarrollo y la operación del software. Misma escala 0–4."
->
-> **Escala 0–4 (visible en cabecera):**
-> - 0 = No existe o no conozco
-> - 1 = Conocemos el tema, pero no hay acciones formales
-> - 2 = Hay pilotos o iniciativas aisladas
-> - 3 = Práctica documentada, aplicada en parte de la organización
-> - 4 = Integrada: se mide periódicamente y se mejora
-> - No aplica = La fila no corresponde al contexto de su organización
+Respuesta larga.
 
-> *Cómo rellenar la cuadrícula E:*
-> - Cada fila describe una práctica de ingeniería.
-> - Responda por la unidad organizacional que usted conoce.
-> - Elija un solo valor por fila reflejando la situación actual en los últimos 12 meses.
+### 18. Prácticas en el desarrollo y la operación del software
 
-**E. Prácticas en el desarrollo y la operación del software** *(cuadrícula de opción múltiple; filas E1–E6)*
+*Prácticas en el desarrollo y la operación del software, con la misma escala 0-4.
 
-Filas:
-1. Los requisitos del software incluyen metas de eficiencia, consumo energético o huella de carbono
-2. Se evalúan arquitecturas considerando cómputo, transferencia de datos, caché y almacenamiento
-3. Las pruebas de rendimiento revisan también consumo de energía o emisiones
-4. Las cadenas de integración y entrega continuas (CI/CD) evitan compilaciones redundantes o ambientes encendidos sin uso
-5. Se aplican prácticas de eficiencia de datos: retención, compresión, deduplicación, caché
-6. Se considera el impacto de dependencias, librerías, modelos de IA o servicios externos que se usan
+**Cómo rellenar la cuadrícula:** cada fila describe una práctica de ingeniería; responda por la unidad organizacional que usted conoce y elija un solo valor por fila reflejando la situación actual en los últimos doce meses. 
 
-**E7. Indique si les ha resultado difícil incorporar análisis o métricas de eficiencia energética al diseño de software.** *(opción múltiple)*
-- Sí
+**Escala 0-4: **
+
+0 = No existe o no se conoce. 
+
+1 = Se conoce el tema sin acciones formales. 
+
+2 = Existen pilotos o iniciativas aisladas.
+
+3 = Práctica documentada y aplicada parcialmente. 
+
+4 = Integrada, se mide periódicamente y se mejora continuamente. 
+
+No aplica = La fila no corresponde al contexto de su organización.*
+
+**Tipo:** Matriz (Obligatoria)
+
+**Filas:**
+
+- Los requisitos del software incluyen metas de eficiencia, consumo energético o huella de carbono
+- Se evalúan arquitecturas considerando cómputo, transferencia de datos, caché y almacenamiento
+- Las pruebas de rendimiento revisan también consumo de energía o emisiones
+- Las cadenas de integración y entrega continuas (CI/CD) evitan compilaciones redundantes o ambientes encendidos sin uso
+- Se aplican prácticas de eficiencia de datos: retención, compresión, deduplicación, caché
+- Se considera el impacto de dependencias, librerías, modelos de IA o servicios externos que se usan
+
+**Columnas:** 0 | 1 | 2 | 3 | 4 | No aplica
+
+### 19. Indique si les ha resultado difícil incorporar análisis o métricas de eficiencia energética al diseño de software
+
+**Tipo:** Selección única (Opcional)
+
+- Si
 - No
 - No lo hemos intentado
-- No sé
+- No se
 
-**E8. Describa los aspectos que más les han dificultado incorporar análisis o métricas de eficiencia energética en el diseño de software.** *(párrafo)*
-*Texto de ayuda: "Responda solo si les ha resultado difícil; si no, omita esta pregunta."*
+### 20. Describa los aspectos que más les han dificultado incorporar análisis o métricas de eficiencia energética en el diseño de software.
 
----
+*Responda solo si les ha resultado difícil; si no, omita esta pregunta.*
 
-## Sección C — Medición y observabilidad
+**Tipo:** Texto abierto (Opcional)
 
-> *Intro en Forms:* "Cómo miden o no el impacto energético de lo que operan, en los últimos 12 meses."
+Respuesta larga.
 
-**C1. Indique qué variables relacionadas con el consumo energético y las emisiones de gases de efecto invernadero mide actualmente en su infraestructura o servicios.** *(casillas de verificación)*
+### 21. Indique qué variables relacionadas con el consumo energético y las emisiones de gases de efecto invernadero mide actualmente en su infraestructura o servicios.
+
+*Cómo miden o no el impacto energético de lo que operan, en los últimos doce meses.*
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Consumo eléctrico (kWh)
 - Eficiencia en el uso de la energía del centro de datos (PUE): cuánta energía se destina a refrigeración y soporte frente a la de cómputo
 - Emisiones de carbono (CO₂e)
@@ -246,10 +307,13 @@ Filas:
 - Energía o carbono por servicio, por transacción o por usuario
 - Utilización de servidores o máquinas virtuales
 - Uso de agua
-- Ninguna *(opción exclusiva)*
-- No sé *(opción exclusiva)*
+- Ninguna (marque solo esta)
+- No sé (marque solo esta)
 
-**C2. Seleccione hasta qué nivel puede saber cuánto gasta cada cosa.** *(casillas de verificación)*
+### 22. Seleccione hasta qué nivel puede conocer el consumo de cada elemento de su infraestructura o servicios.
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Instalación o centro de datos completo
 - Servidor individual
 - Máquina virtual
@@ -260,19 +324,25 @@ Filas:
 - Trabajo de datos o inteligencia artificial (IA)
 - No se mide
 
-**C3. Indique con qué herramientas o fuentes mide o estima el consumo y las emisiones.** *(casillas de verificación)*
+### 23. Indique con qué herramientas o fuentes realizan mediciones o estimaciones del consumo y las emisiones.
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Sistemas de gestión de edificaciones o de infraestructura de centros de datos (BMS/DCIM)
 - Facturas de energía o medidores
-- Paneles del proveedor de nube
+- Paneles del proveedor de nube (cloud)
 - Prometheus / Grafana
 - OpenTelemetry
 - Kepler y eBPF (tecnologías de rastreo del uso de energía a nivel del núcleo del sistema y de contenedores)
 - Huella de carbono en la nube (Cloud Carbon Footprint)
 - Herramienta interna o de terceros de criterios ambientales, sociales y de gobernanza (ESG)
 - Hojas de cálculo
-- Otra: ______
+- Otra
 
-**C4. Indique con qué frecuencia revisan estos indicadores en los últimos doce meses.** *(opción múltiple / lista desplegable)*
+### 24. Indique con qué frecuencia han revisado las métricas del consumo en los últimos doce meses.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Nunca
 - Solo cuando hay un proyecto o incidente
 - Una vez al año
@@ -281,105 +351,148 @@ Filas:
 - Semanal o en tiempo casi real
 - No aplica
 
-**C5. Indique si relacionan el impacto ambiental con el valor que entrega el servicio.** *(opción múltiple / lista desplegable)*
+### 25. Indique si relacionan el impacto ambiental con el valor que entrega el servicio.
+
+*Ejemplo: saber cuántas emisiones genera cada transacción, cada usuario activo o cada informe generado, para decidir si el gasto energético se justifica.*
+
+**Tipo:** Selección única (Obligatoria)
+
 - Sí, de forma sistemática
 - Sí, en pilotos
 - No, pero nos interesa
 - No, y no está en nuestros planes
 - No sé
 
-*Texto de ayuda:* "Ejemplo: saber cuántas emisiones genera cada transacción, cada usuario activo o cada informe generado, para decidir si el gasto energético se justifica."
+### 26. Indique los factores que han podido dificultar atribuir el consumo de energía o las emisiones de carbono a un servicio específico.
 
-**C6. Indique los factores que dificultan atribuir el consumo de energía o las emisiones de carbono a un servicio específico.** *(casillas de verificación — texto de ayuda: "Marque máximo 3")*
+*Marque máximo 3.*
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Falta de sensores o medición directa
 - Infraestructura compartida (es difícil separar quién gasta qué)
-- Dependencia de proveedores de nube
+- Dependencia de proveedores de nube (cloud)
 - No hay datos de intensidad de carbono de la red en Colombia
 - Faltan herramientas
 - Costos
 - Falta de tiempo
 - Falta de conocimiento
 - No hay una necesidad de negocio clara
-- Otro: ______
+- Otro
 
-**C7. Indique si la falta de datos o herramientas les ha impedido tomar decisiones sobre el consumo de energía o las emisiones de carbono de sus servicios.** *(opción múltiple)*
+### 27. Indique si la falta de datos o herramientas les ha impedido tomar decisiones sobre el consumo de energía o las emisiones de carbono de sus servicios.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Sí
 - No
 - No sé
 
-**C8. Si respondió "Sí", describa el caso: qué datos o herramientas faltaban, qué acción querían tomar y qué ocurrió.** *(párrafo)*
-*Texto de ayuda: "Responda solo si marcó "Sí" en la pregunta anterior; si no, omita esta pregunta."*
+### 28. Si respondió "Sí", describa el caso: qué datos o herramientas faltaban, qué acción querían tomar y qué ocurrió.
 
----
+*Responda solo si marcó "Sí" en la pregunta anterior; si no, omita esta pregunta.*
 
-## Sección F — IA y cargas intensivas
+**Tipo:** Texto abierto (Opcional)
 
-> *Intro en Forms:* "Esta sección solo aplica si su organización opera o desarrolla cargas de IA, analítica pesada o HPC. Si responde 'No' o 'No sé' en F1, pase a la Sección G."
-> *Configuración en Forms: F1 con salto de sección — "No" o "No sé" llevan a Sección G.*
+Respuesta larga.
 
-**F1. Indique si su organización opera o desarrolla cargas de inteligencia artificial (IA), analítica pesada o cómputo de alto rendimiento (HPC).** *(opción múltiple)*
+### 29. Indique si su organización opera o desarrolla cargas de inteligencia artificial (IA), analítica pesada o cómputo de alto rendimiento (HPC).
+
+*Sección F - IA y cargas intensivas. Esta sección solo aplica si su organización opera o desarrolla cargas de IA, analítica pesada o HPC. Si respondió 'No' o 'No sé', avance hasta la última sección (Barreras, incentivos y necesidades).*
+
+**Tipo:** Selección única (Obligatoria)
+
 - Sí, en producción
 - Sí, en piloto
 - No
 - No sé
 
-**F2. Seleccione qué tipo de cargas ejecuta su organización.** *(casillas de verificación)*
+### 30. Seleccione qué tipo de cargas ejecuta su organización.
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Entrenamiento de modelos de aprendizaje automático (ML) o de inteligencia artificial (IA)
 - Inferencia
-- LLMs (modelos de lenguaje)
-- Analítica / ETL
+- Modelos de lenguaje (LLMs)
+- Extracción, transformación y carga de datos (ETL)
 - Visión por computadora
 - Cómputo de alto rendimiento (HPC)
-- Otro: ______
+- Otro
 
-**F3. Seleccione dónde se ejecutan.** *(casillas de verificación)*
+### 31. Seleccione el entorno dónde se ejecutan dichas cargas.
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Nube pública
 - Servidores propios
 - Híbrido
 - Edge
 - Software como servicio (SaaS) de terceros
 
-**F4. Indique si miden o estiman la energía o el carbono de esas cargas.** *(opción múltiple)*
+### 32. Indique si miden o estiman la energía o el carbono de esas cargas.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Sí, regularmente
 - Sí, como piloto
 - No, pero lo tenemos planeado
 - No
 - No sé
 
-**F5. Si miden, seleccione qué métricas usan para la IA.** *(casillas de verificación)*
+### 33. Si miden, seleccione qué métricas aplican en la Inteligencia Artificial (IA).
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Uso de unidades de procesamiento gráfico (GPU) o centrales (CPU)
 - Consumo eléctrico
 - Energía por entrenamiento o inferencia
 - Energía o carbono por token o por solicitud
 - Costo financiero
-- Ninguna *(opción exclusiva)*
+- Ninguna (marque solo esta)
 
-**F6. Seleccione qué acciones de eficiencia aplican en estas cargas.** *(casillas de verificación)*
+### 34. Seleccione qué acciones de eficiencia aplican en el uso de Inteligencia Artificial (IA).
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Usar modelos más pequeños o locales
 - Cuantización (reducción de precisión numérica)
 - Procesamiento por lotes (batching)
 - Caching
 - Límites de recursos
 - Autoescalado
-- Planificación de jobs en horarios específicos
-- Ninguna *(opción exclusiva)*
+- Planificación de trabajos en horarios específicos
+- Ninguna (marque solo esta)
 
-**F7. Califique qué tan importante es para su organización equilibrar el rendimiento, el costo y el consumo energético en sus cargas de inteligencia artificial (IA).** *(escala lineal 1 a 5)*
-- 1 = No es prioridad
-- 2 = Es una prioridad baja
-- 3 = Es una prioridad media
-- 4 = Es una prioridad alta
-- 5 = Es una decisión de diseño permanente
+### 35. Califique qué tan importante es para su organización equilibrar el rendimiento, el costo y el consumo energético en sus cargas de inteligencia artificial (IA).
 
-**F8. Describa cómo equilibran hoy rendimiento, costo y consumo energético en sus cargas de IA.** *(párrafo)* **[abierta de oro para el codebook]**
+***Escala 1-5:**
 
----
+1 = No es prioridad.
 
-## Sección G — Barreras, incentivos y necesidades
+2 = Es una prioridad baja.
 
-> *Intro en Forms:* "Últimas preguntas sobre lo que falta para avanzar."
+3 = Es una prioridad media.
 
-**G1. Seleccione las principales barreras que hoy les impiden avanzar en sostenibilidad digital.** *(casillas de verificación — texto de ayuda: "Marque hasta 5")*
+4 = Es una prioridad alta.
+
+5 = Es una decisión de diseño permanente.*
+
+**Tipo:** Escala (Obligatoria)
+
+**Escala numérica 1-5.** De «No es prioridad» a «Es una decisión de diseño permanente».
+
+### 36. Describa cómo equilibran hoy rendimiento, costo y consumo energético en sus cargas de Inteligencia Artificial (IA).
+
+**Tipo:** Texto abierto (Opcional)
+
+Respuesta larga.
+
+### 37. Seleccione las principales barreras que hoy les impiden avanzar en sostenibilidad digital.
+
+*Últimas preguntas sobre lo que falta para avanzar. Marque hasta 5.*
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Falta de conocimiento o formación del equipo
 - Falta de tiempo o prioridad
 - Falta de presupuesto
@@ -390,97 +503,84 @@ Filas:
 - No hay demanda de los clientes
 - Es difícil demostrar el retorno de la inversión (ROI)
 - Riesgo para el rendimiento o la seguridad
-- Dependencia de proveedores de nube
+- Dependencia de proveedores de nube (cloud)
 - No hay estándares locales
-- Otra: ______
-- Ninguna *(opción exclusiva)*
+- Otra
+- Ninguna (marque solo esta)
 
-**G2. Imagine que existen apoyos disponibles para la sostenibilidad digital: seleccione cuáles considera de mayor impacto para su organización.** *(casillas de verificación — texto de ayuda: "Marque hasta 3")*
+### 38. Imagine que existen apoyos disponibles para la sostenibilidad digital: seleccione cuáles considera de mayor impacto para su organización.
+
+*Marque hasta 3.*
+
+**Tipo:** Selección múltiple (Obligatoria)
+
 - Ahorro de costos medible
 - Requisitos de clientes o de licitaciones públicas
 - Estándares o guías claras
 - Capacitación técnica
-- Herramientas open source
+- Herramientas de código abierto (open source)
 - Incentivos tributarios
 - Certificaciones verificables
 - Regulación de reporte obligatorio
 - Alianzas entre universidades, empresas y el Estado
 - Acceso a datos abiertos (p. ej., intensidad de carbono de la red)
-- Otro: ______
-- Ninguno / no necesitamos incentivos *(opción exclusiva)*
+- Otro
+- Ninguno / no necesitamos incentivos (marque solo esta)
 
-**G3. Indique cómo reaccionaría su organización si una licitación pública pidiera criterios de eficiencia energética o software verde.** *(opción múltiple)*
+### 39. Indique cómo reaccionaría su organización si una licitación pública pidiera criterios de eficiencia energética o software verde.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Podría cumplirlos hoy
 - Podría cumplirlos con ajustes menores
 - Necesitaría apoyo técnico para cumplirlos
 - No participaría
 - No aplica
 
-**G4. Indique cómo reaccionaría su organización si un cliente grande pidiera criterios de eficiencia energética o software verde.** *(opción múltiple)*
-- Podría cumplirlos hoy
-- Podría cumplirlos con ajustes menores
-- Necesitaría apoyo técnico para cumplirlos
-- No participaría
-- No aplica
+### 40. Seleccione qué tipo de apoyo externo les sería más útil.
 
-**G5. Seleccione qué tipo de apoyo externo les sería más útil.** *(opción múltiple / lista desplegable)*
+**Tipo:** Selección única (Obligatoria)
+
 - Diagnóstico de madurez
 - Guía de métricas y tableros
 - Formación técnica del equipo
-- Guía de medición de huella en la nube
+- Guía de medición de huella en la nube (cloud)
 - Casos de uso de IA eficiente
 - Laboratorio piloto con universidad
 - Comunidad de práctica con otras empresas
 - No requerimos apoyo
-- Otro: ______
+- Otro
 
-**G6. Indique cuánto de lo que respondió puede respaldarse con documentos, tableros o indicadores reales de su organización.** *(opción múltiple)*
+### 41. Indique cuánto de lo que respondió en esta encuesta puede se encuentra documentado en documentos, tableros o indicadores reales de su organización.
+
+**Tipo:** Selección única (Obligatoria)
+
 - Todo o casi todo
 - Una parte importante
 - Poco
 - Nada
 - Prefiero no responder
 
-**G7. Describa una experiencia concreta de sostenibilidad digital que hayan vivido, ya sea positiva o negativa.** *(párrafo)*
+### 42. Describa una experiencia concreta de sostenibilidad digital que hayan vivido, ya sea positiva o negativa.
 
-**G8. Indique qué debería priorizar Colombia para acelerar el Green IT y el software verde.** *(párrafo)* **[abierta de oro para el codebook]**
+**Tipo:** Texto abierto (Opcional)
 
----
+Respuesta larga.
 
-## Cierre del formulario
+### 43. Indique qué debería priorizar Colombia para acelerar las Tecnologías de la Información Verdes (Green IT) y el software verde (Green Software).
 
-> **Gracias por su tiempo.**
->
-> Si quiere recibir el informe con los resultados agregados del estudio cuando esté listo, o si está dispuesto(a) a una conversación de seguimiento breve, déjenos su correo corporativo (opcional): ______
->
-> Los resultados se publicarán de forma agregada y anónima como parte de una investigación académica de la Universidad Distrital Francisco José de Caldas.
+**Tipo:** Texto abierto (Opcional)
 
----
+Respuesta larga.
 
-## Notas para la investigadora (esta sección no va en el formulario)
+### 44. Si quiere recibir el informe con los resultados agregados del estudio cuando esté listo, o una conversación de seguimiento breve, deje su correo corporativo (opcional).
 
-### Mapeo sección → investigación
+**Tipo:** Texto abierto (Opcional)
 
-| Sección | Alimenta | Dimensión medida |
-|---|---|---|
-| A | RQ1 (contexto) | Perfil del respondiente |
-| B | RQ2, RQ3 + brecha política/estándares/formación | Compromiso organizacional (escala 0–4 anclada) + señal de limitaciones percibidas (B9) |
-| D | RQ2, RQ3 + brecha infraestructura | Prácticas operativas (0–4) + señal ENSO (D9) + carbon-aware (D8) + señal de ahorros logrados (D10, D11) |
-| E | RQ3 + brecha formación/estándares | Prácticas de ingeniería (0–4) |
-| C | RQ3 + brecha investigación aplicada/infraestructura | Capacidad de medición y atribución |
-| F | RQ1, RQ3 | Madurez en workloads intensivos (IA) |
-| G | RQ2, RQ4 | Barreras, incentivos, disposición ante requisitos verdes (G3, G4) |
+Respuesta corta.
 
-### Escala de madurez (anclajes por punto, se muestran una vez por sección en Forms)
+## Pantalla final
 
-0 = No existe o no conozco · 1 = Conocemos el tema sin acciones formales · 2 = Pilotos o iniciativas aisladas · 3 = Práctica documentada parcial · 4 = Integrada, medida y con mejora continua.
+**Gracias por su tiempo.**
 
-### Limitaciones conocidas del instrumento (declarar en el informe)
-
-1. **Auto-selección:** quienes responden una encuesta de sostenibilidad digital tienden a sobre-representar madurez; los promedios se leen como techo, no como piso.
-2. **Auto-reporte:** G5 (filtro de evidencia documental) permite ponderar la confianza de las respuestas al reportar resultados.
-3. **Cobertura geográfica:** el plan de contactos debe forzar diversidad fuera de Bogotá para no sesgar a la capital.
-
-### Abiertas priorizadas para el codebook de Taguette
-
-Ejes temáticos (derivados de las brechas del artículo): **(1) definición/delimitación del Green IT interno, (2) barreras y resistencias, (3) prácticas e infraestructura, (4) política pública y agenda nacional.** Las cuatro abiertas de oro (B8, D11, F8, G8) se codifican primero; B7 (términos) se usa como fuente para el codebook sin marcarla de oro; las demás abiertas (incluida B10, factores) se codifican en segunda pasada.
+Los resultados se publicarán de forma agregada y anónima como parte de una investigación académica de la Universidad Distrital Francisco José de Caldas. Si dejó su correo, le enviaremos el informe cuando esté listo.
